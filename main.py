@@ -4,7 +4,7 @@ from src.pdf_processor import process_pdf
 
 BASE_DIR = "Meus_pdfs"
 
-def process_all_folders(base_dir=BASE_DIR, cfg_nome="MINHA_CFG"):
+def process_all_folders(base_dir=BASE_DIR):
     """
     Vasculha todas as subpastas dentro de base_dir,
     processa os PDFs e salva resultados.json em cada subpasta.
@@ -14,10 +14,10 @@ def process_all_folders(base_dir=BASE_DIR, cfg_nome="MINHA_CFG"):
         if root == base_dir:
             for subpasta in dirs:
                 subpath = os.path.join(base_dir, subpasta)
-                process_one_subfolder(subpath, subpasta, cfg_nome)
+                process_one_subfolder(subpath, subpasta)
 
 
-def process_one_subfolder(subpath, subpasta, cfg_nome):
+def process_one_subfolder(subpath, subpasta):
     """
     Processa os PDFs de uma única subpasta e salva o JSON dentro dela.
     """
@@ -25,7 +25,7 @@ def process_one_subfolder(subpath, subpasta, cfg_nome):
     for fname in os.listdir(subpath):
         if fname.lower().endswith(".pdf"):
             pdf_path = os.path.join(subpath, fname)
-            dados = process_pdf(pdf_path, cfg_nome)
+            dados = process_pdf(pdf_path)
             # Marca a subpasta, não a pasta raiz
             for d in dados:
                 d["pasta"] = subpasta
