@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  pdf_processor:
+    build: .
+    container_name: pdf_processor
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
