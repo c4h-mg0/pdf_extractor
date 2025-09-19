@@ -78,18 +78,21 @@ def normalize_records(records: list) -> list:
     return normalized
 
 
+# src/data_cleaner.py
+from datetime import datetime
 
-def deduplicate_records(records: list, log_path="fix.txt") -> list:
+def deduplicate_records(records: list, log_path="fix.txt", stats: dict = None) -> list:
     """
-    Remove duplicatas com base nas regras definidas:
-    - codigo_srp + exame/especialidade
-    - fallback para nome ou local/data/hora se necessário
-    Mantém o registro com timestamp mais recente.
-    Salva log dos removidos com campos em branco.
+    Deduplica registros:
+      - Remove duplicatas com base em codigo_srp + exame/especialidade (ou fallback).
+      - Mantém o mais recente.
+    Logging:
+      - === RESUMO POR PASTA ===: nº de PDFs e nº de documentos extraídos por pasta.
+      - === DUPLICADOS REMOVIDOS ===: registros descartados por duplicidade.
+      - === CAMPOS VAZIOS (NÃO REMOVIDOS) ===: registros com algum campo "".
     """
 
     def build_key(r):
-        """Cria chave para comparação, com fallback."""
         codigo = r.get("codigo_srp") or r.get("nome") or ""
         exame_espec = r.get("exame") or r.get("especialidade")
         if not exame_espec:
@@ -97,15 +100,14 @@ def deduplicate_records(records: list, log_path="fix.txt") -> list:
         return f"{codigo}|{exame_espec}"
 
     def parse_time(t):
-        """Converte timestamp para datetime para comparação."""
         try:
             return datetime.fromisoformat(t)
         except Exception:
             return datetime.min
 
-    # Dicionário para manter o melhor registro
     best_records = {}
-    removed = []
+    duplicados = []
+    com_vazios = []
 
     for r in records:
         key = build_key(r)
@@ -117,18 +119,41 @@ def deduplicate_records(records: list, log_path="fix.txt") -> list:
             existing = best_records[key]
             existing_time = parse_time(existing.get("time_scan", ""))
 
-            # Mantém o mais recente
             if current_time > existing_time:
-                removed.append(existing)
+                duplicados.append(existing)
                 best_records[key] = r
             else:
-                removed.append(r)
+                duplicados.append(r)
 
-    # Log dos removidos com campos em branco
-    if removed:
-        with open(log_path, "w", encoding="utf-8") as f:
-            for r in removed:
-                if any(v == "" for v in r.values()):
-                    f.write(str(r) + "\n")
+    # Detecta registros com campos vazios (mas não remove)
+    for r in best_records.values():
+        if any(v == "" for v in r.values()):
+            com_vazios.append(r)
+
+    # Escreve o log
+    with open(log_path, "w", encoding="utf-8") as f:
+        # Resumo
+        if stats:
+            f.write("=== RESUMO POR PASTA ===\n")
+            for pasta, dados in stats.items():
+                f.write(f"{pasta}: {dados['pdfs']} arquivos PDF, {dados['docs']} documentos extraídos\n")
+            f.write("\n")
+
+        # Duplicados
+        f.write(f"=== DUPLICADOS REMOVIDOS (total: {len(duplicados)}) ===\n")
+        if duplicados:
+            for r in duplicados:
+                f.write(str(r) + "\n")
+        else:
+            f.write("(nenhum)\n")
+        f.write("\n")
+
+        # Vazios
+        f.write(f"=== CAMPOS VAZIOS (NÃO REMOVIDOS) (total: {len(com_vazios)}) ===\n")
+        if com_vazios:
+            for r in com_vazios:
+                f.write(str(r) + "\n")
+        else:
+            f.write("(nenhum)\n")
 
     return list(best_records.values())

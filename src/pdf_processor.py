@@ -29,12 +29,12 @@ def extract_segments(texto_total):
         yield match.group(1), texto_total[seg_start:seg_end]
 
 
-def process_pdf(pdf_path, log_path="fix.txt"):
+def process_pdf(pdf_path):
     """
     Processa um PDF e retorna lista de dicionários:
       1. OCR e extração de campos
       2. Normalização (minúsculo, sem acento, datas/hora unificadas)
-      3. Remoção de duplicatas com log
+      (não remove duplicatas aqui)
     """
     folder_name, file_name, time_scan = get_file_metadata(pdf_path)
     texto_total = run_ocr(pdf_path)
@@ -51,10 +51,7 @@ def process_pdf(pdf_path, log_path="fix.txt"):
         }
         raw_results.append(result)
 
-    # 1 - Normalização de dados (minúsculo, sem acento, datas unificadas)
+    # Apenas normaliza, sem deduplicar aqui
     normalized = normalize_records(raw_results)
+    return normalized
 
-    # 2 - Remoção de duplicatas com log dos registros descartados
-    final_results = deduplicate_records(normalized, log_path=log_path)
-
-    return final_results

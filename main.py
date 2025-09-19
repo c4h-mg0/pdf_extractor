@@ -1,41 +1,57 @@
 import os
 import json
 from src.pdf_processor import process_pdf
+from src.data_cleaner import deduplicate_records
 
 BASE_DIR = "meus_pdfs"
 
 def process_all_folders(base_dir=BASE_DIR):
-    """
-    Vasculha todas as subpastas dentro de base_dir,
-    processa os PDFs e salva resultados.json em cada subpasta.
-    """
+    all_records = []
+    stats = {}
+
     for root, dirs, files in os.walk(base_dir):
-        # Apenas entrar em subpastas diretas (ignora a raiz)
         if root == base_dir:
             for subpasta in dirs:
                 subpath = os.path.join(base_dir, subpasta)
-                process_one_subfolder(subpath, subpasta)
+                records, n_pdfs = process_one_subfolder(subpath, subpasta)
+                all_records.extend(records)
+                stats[subpasta] = {
+                    "pdfs": n_pdfs,
+                    "docs": len(records)
+                }
+
+    # Deduplicação global com log e stats
+    final_records = deduplicate_records(
+        all_records,
+        log_path=os.path.join(base_dir, "fix.txt"),
+        stats=stats
+    )
+
+    out_path = os.path.join(base_dir, "firestore.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(final_records, f, ensure_ascii=False, indent=2)
+    print(f"[OK] Arquivo consolidado salvo em {out_path}")
 
 
 def process_one_subfolder(subpath, subpasta):
-    """
-    Processa os PDFs de uma única subpasta e salva o JSON dentro dela.
-    """
     resultados = []
+    n_pdfs = 0
     for fname in os.listdir(subpath):
         if fname.lower().endswith(".pdf"):
+            n_pdfs += 1
             pdf_path = os.path.join(subpath, fname)
             dados = process_pdf(pdf_path)
-            # Marca a subpasta, não a pasta raiz
-            for d in dados:
-                resultados.extend(dados)
+            resultados.extend(dados)
 
-    # Salva JSON dentro da própria subpasta
     if resultados:
         out_path = os.path.join(subpath, "resultados.json")
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(resultados, f, ensure_ascii=False, indent=2)
         print(f"[OK] Extração salva em {out_path}")
+
+    return resultados, n_pdfs
+
+
 
 
 if __name__ == "__main__":
