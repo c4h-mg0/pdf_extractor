@@ -2,7 +2,7 @@ import os
 import json
 from src.pdf_processor import process_pdf
 
-BASE_DIR = "Meus_pdfs"
+BASE_DIR = "meus_pdfs"
 
 def process_all_folders(base_dir=BASE_DIR):
     """
