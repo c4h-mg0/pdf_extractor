@@ -1,6 +1,6 @@
 import re
 
-# Regex pré-compilados
+# Regex pré-compilados existentes
 regex_codigo = re.compile(r"C[oó]digo[:\s]*([0-9]+)", re.I)
 regex_nome = re.compile(r"Nome[\s:：;]*([^\n\r]+)", re.I)
 regex_exame = [
@@ -20,6 +20,11 @@ regex_tel_block = re.compile(r"Telefone:(.*?)(?=Prontu[aá]rio[:\s]|$)", re.I | 
 regex_tel = re.compile(r"\(\d{2}\)\s*\d{4,5}-\d{4}")
 regex_chegada = re.compile(r"CHEGAR[^\d]*?([0-2]?\d:[0-5]\d)", re.I)
 regex_local = re.compile(r"Local[:\s]*(.+)", re.I)
+
+# Novos regex
+regex_cns = re.compile(r"Cns[:\s]*([\d,\s]+)", re.I)
+regex_hora_atend = re.compile(r"Hor[áa]rio[:\s]*([0-2]?\d:[0-5]\d)", re.I)
+regex_profissional = re.compile(r"Profissional[:\s]*([^\n\r]+)", re.I)
 
 
 def extract_fields(seg):
@@ -56,7 +61,22 @@ def extract_fields(seg):
     horachegada = (regex_chegada.search(seg) or ["", ""])[1] if regex_chegada.search(seg) else ""
     local = (regex_local.search(seg) or ["", ""])[1].strip() if regex_local.search(seg) else ""
 
-    return {
+    # -------- NOVOS CAMPOS ----------
+    cns = ""
+    m_cns = regex_cns.search(seg)
+    if m_cns:
+        # Normaliza: troca vírgula por espaço, remove duplicados
+        cns = " ".join(re.split(r"[,\s]+", m_cns.group(1).strip()))
+
+    hora_atendimento = (regex_hora_atend.search(seg) or ["", ""])[1] if regex_hora_atend.search(seg) else ""
+
+    profissional = ""
+    m_prof = regex_profissional.search(seg)
+    if m_prof:
+        profissional = m_prof.group(1).strip()
+
+    # Monta dict base
+    result = {
         "nome": nome,
         exame_tipo: exameRaw,
         "dataAtendimento": dataAtendimento,
@@ -65,6 +85,16 @@ def extract_fields(seg):
         "local": local,
         "telefone": telefones_str
     }
+
+    # Adiciona só se encontrar
+    if cns:
+        result["cns"] = cns
+    if hora_atendimento:
+        result["hora_atendimento"] = hora_atendimento
+    if profissional:
+        result["profissional"] = profissional
+
+    return result
 
 
 def extract_codes(texto):

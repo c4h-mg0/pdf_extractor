@@ -16,7 +16,7 @@ def save_ocr_text(pdf_path, ocr_text):
         f.write(ocr_text)
     return ocr_path
 
-
+    
 # -------------------------
 # Função principal: OCR robusto com pré-processamento
 # -------------------------
