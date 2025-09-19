@@ -28,8 +28,7 @@ def process_one_subfolder(subpath, subpasta):
             dados = process_pdf(pdf_path)
             # Marca a subpasta, não a pasta raiz
             for d in dados:
-                d["pasta"] = subpasta
-            resultados.extend(dados)
+                resultados.extend(dados)
 
     # Salva JSON dentro da própria subpasta
     if resultados:
