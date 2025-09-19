@@ -1,10 +1,11 @@
 # ocr_utils.py
+import os
 import subprocess
 from pdf2image import convert_from_path
 from PIL import Image, ImageOps
 
 # -------------------------
-# Função utilitária para salvar OCR em arquivo (opcional, debug)
+# Função utilitária para salvar OCR em arquivo
 # -------------------------
 def save_ocr_text(pdf_path, ocr_text):
     """
@@ -19,43 +20,38 @@ def save_ocr_text(pdf_path, ocr_text):
 # -------------------------
 # Função principal: OCR robusto com pré-processamento
 # -------------------------
-def pdf_to_text_preprocessed(pdf_path, dpi=400, lang="por", save_ocr_path=None, save_images=False):
+def pdf_to_text_preprocessed(pdf_path, dpi=400, lang="por", save_ocr_path=None):
     """
     Processa todas as páginas do PDF com pré-processamento:
     - escala de cinza
     - contraste automático
     - binarização leve
     Retorna o texto OCR concatenado.
-
-    save_ocr_path: se fornecido, salva OCR final em arquivo (opcional)
-    save_images: se True, salva imagens pré-processadas e páginas (para debug)
+    save_ocr_path: se fornecido, salva OCR final em arquivo.
     """
     texto_total = []
     pages = convert_from_path(pdf_path, dpi=dpi)
 
     for page_num, page in enumerate(pages):
-        # Salvar página como PNG (opcional, debug)
-        # img_path = pdf_path.replace(".pdf", f"_page{page_num + 1}.png")
-        # page.save(img_path, "PNG")
+        # Salvar página como PNG
+        img_path = pdf_path.replace(".pdf", f"_page{page_num + 1}.png")
+        page.save(img_path, "PNG")
 
         # Pré-processamento
-        img = page.convert("L")  # escala de cinza
+        img = Image.open(img_path)
+        img = img.convert("L")  # escala de cinza
         img = ImageOps.autocontrast(img, cutoff=1)
         img = img.point(lambda x: 0 if x < 150 else 255)  # binarização leve
 
-        # Salvar imagem pré-processada (opcional, debug)
-        # if save_images:
-        #     pre_img_path = pdf_path.replace(".pdf", f"_page{page_num + 1}_pre.png")
-        #     img.save(pre_img_path)
-        #     print(f"Imagem pré-processada salva: {pre_img_path}")
+        pre_img_path = img_path.replace(".png", "_pre.png")
+        img.save(pre_img_path)
+        print(f"Imagem pré-processada salva: {pre_img_path}")
 
         # OCR via subprocess
-        # Para evitar criar arquivos desnecessários, podemos usar tesseract direto em memória
-        output_file = f"/tmp/temp_ocr_page{page_num + 1}"  # temporário
-        img.save(f"{output_file}.png")  # tesseract precisa de arquivo
+        output_file = img_path.replace(".png", "")
         cmd = [
             "tesseract",
-            f"{output_file}.png",
+            pre_img_path,
             output_file,
             "-l", lang,
             "--psm", "3",
@@ -72,10 +68,10 @@ def pdf_to_text_preprocessed(pdf_path, dpi=400, lang="por", save_ocr_path=None, 
     # Concatenar todas as páginas
     texto_final = "\n".join(texto_total)
 
-    # Salvar OCR final (opcional)
+    # Salvar OCR final se pedido
     if save_ocr_path:
         with open(save_ocr_path, "w", encoding="utf-8") as f:
             f.write(texto_final)
-        # print(f"OCR final salvo em: {save_ocr_path}")
+        print(f"OCR final salvo em: {save_ocr_path}")
 
     return texto_final

@@ -1,6 +1,7 @@
+# pdf_processor.py
 import os
 import datetime
-from src.ocr_utils import pdf_to_text_preprocessed
+from src.ocr_utils import pdf_to_text_preprocessed, save_ocr_text
 from src.regex_extractors import extract_fields, extract_codes
 
 def process_pdf(pdf_path):
@@ -9,12 +10,8 @@ def process_pdf(pdf_path):
     time_scan = datetime.datetime.fromtimestamp(os.path.getmtime(pdf_path)).isoformat()
 
     # OCR robusto com pré-processamento, todas as páginas
-    # Não salva arquivos intermediários, apenas retorna o texto
-    texto_total = pdf_to_text_preprocessed(
-        pdf_path,
-        save_ocr_path=None,  # Não salva OCR em arquivo
-        save_images=False    # Não salva imagens pré-processadas
-    )
+    ocr_txt_path = pdf_path.replace(".pdf", ".ocr.txt")
+    texto_total = pdf_to_text_preprocessed(pdf_path, save_ocr_path=ocr_txt_path)
 
     # Extrair códigos e campos
     results = []
