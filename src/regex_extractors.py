@@ -1,3 +1,5 @@
+# regex_extractors.py
+
 import re
 
 # Regex pré-compilados existentes
@@ -79,7 +81,11 @@ def extract_fields(seg):
     cns = ""
     m_cns = regex_cns.search(seg)
     if m_cns:
-        cns = " ".join(re.split(r"[,\s]+", m_cns.group(1).strip()))
+        raw_parts = re.split(r"[,\s]+", m_cns.group(1).strip())
+        digits = "".join(raw_parts)  # junta tudo em sequência
+        cns_list = [digits[i:i+15] for i in range(0, len(digits), 15)]
+        cns = " ".join(cns_list)
+
 
     profissional = ""
     m_prof = regex_profissional.search(seg)

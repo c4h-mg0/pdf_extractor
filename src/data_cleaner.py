@@ -22,9 +22,24 @@ def remove_accents(text: str) -> str:
     nfkd = unicodedata.normalize("NFKD", text)
     return "".join([c for c in nfkd if not unicodedata.combining(c)])
 
+
+# Pega timestamps no formato YYYY-MM-DDTHH:MM:SS
+ISO_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$")
+
 def to_lowercase(record: dict) -> dict:
-    """Converte todas as strings para minúsculo."""
-    return {k: v.lower() if isinstance(v, str) else v for k, v in record.items()}
+    """
+    Converte strings para minúsculo, exceto quando
+    a string está em formato de timestamp ISO8601.
+    """
+    def maybe_lower(val):
+        if isinstance(val, str):
+            # Não altera timestamps ISO8601
+            if ISO_PATTERN.match(val):
+                return val
+            return val.lower()
+        return val
+
+    return {k: maybe_lower(v) for k, v in record.items()}
 
 
 def unify_datetime_fields(record: dict) -> dict:
@@ -71,15 +86,12 @@ def normalize_records(records: list) -> list:
     """Pipeline completo: minúsculo, sem acento, datas unificadas, sem duplicata."""
     normalized = []
     for r in records:
-        r = to_lowercase(r)
         r = {k: remove_accents(v) if isinstance(v, str) else v for k, v in r.items()}
         r = unify_datetime_fields(r)
+        r = to_lowercase(r)
         normalized.append(r)
     return normalized
 
-
-# src/data_cleaner.py
-from datetime import datetime
 
 def deduplicate_records(records: list, log_path="fix.txt", stats: dict = None) -> list:
     """
