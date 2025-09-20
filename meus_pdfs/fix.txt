@@ -1,0 +1,15 @@
+=== RESUMO POR PASTA ===
+renascenca: 0 arquivos PDF, 0 documentos extraídos
+prosad: 0 arquivos PDF, 0 documentos extraídos
+regissol: 5 arquivos PDF, 20 documentos extraídos
+centro de saude ii: 0 arquivos PDF, 0 documentos extraídos
+sae: 0 arquivos PDF, 0 documentos extraídos
+vila verde: 0 arquivos PDF, 0 documentos extraídos
+ruilandia: 0 arquivos PDF, 0 documentos extraídos
+cohab ii: 0 arquivos PDF, 0 documentos extraídos
+
+=== DUPLICADOS REMOVIDOS (total: 0) ===
+(nenhum)
+
+=== CAMPOS VAZIOS (NÃO REMOVIDOS) (total: 1) ===
+{'time_scan': '2025-09-05T14:57:17', 'unidade': 'regissol', 'file_name': '20250905135915439.pdf', 'codigo_srp': '24551471', 'nome': 'zilda lopes ferreira : -', 'exameRaw': '', 'nascimento': '1980-01-12T00:00:00', 'chegar_as': '2025-09-20T13:00:00', 'local': 'hm mae div amor e provid |', 'telefone': '+5511992182826 +5511976092258', 'cns': '708009856372623', 'profissional': 'yukio taroco nosse', 'data_hora_consulta': '2025-10-29T13:20:00'}
