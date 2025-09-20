@@ -5,7 +5,7 @@ from PIL import Image, ImageOps
 import pytesseract
 
 
-def pdf_to_text_preprocessed(pdf_path, dpi=400, lang="por", save_ocr_path=None):
+def pdf_to_text_preprocessed(pdf_path, dpi=300, lang="por", save_ocr_path=None):
     texto_total = []
     pages = convert_from_path(pdf_path, dpi=dpi)
 

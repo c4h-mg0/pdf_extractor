@@ -2,7 +2,7 @@
 import os
 import datetime
 from src.ocr_utils import pdf_to_text_preprocessed
-from src.regex_extractors import extract_fields, extract_codes
+from src.regex_extractors.extract_fields import extract_fields, extract_codes
 from src.data_cleaner import normalize_records, deduplicate_records
 
 
