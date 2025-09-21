@@ -18,12 +18,12 @@
     "time_scan": "2025-09-03T08:57:44",
     "unidade": "regissol",
     "file_name": "20250903075941818.pdf",
-    "codigo_srp": "5819136",
+    "codigo_srp": "5619136",
     "nome": "jose francisco de moraes filho",
     "especialidade": "cardiologia",
     "nascimento": "1954-11-25T00:00:00",
-    "telefone": "+551127020193 +5517996190767",
-    "local": "; hm mae div amor e provid",
+    "telefone": "+551127020103 +5517996190767",
+    "local": "; hm mae div amor e provid", LIMPAR LOCAL
     "profissional": "rafael vinicius cavazzana",
     "cns": "701805256656479",
     "chegar_as": "2025-09-20T08:30:00",
@@ -34,31 +34,17 @@
     "unidade": "regissol",
     "file_name": "20250905135915439.pdf",
     "codigo_srp": "6377314",
-    "nome": "antonio marcal da silva :",
+    "nome": "antonio marcal da silva :", LIMPAR NOME
     "especialidade": "ortopedia",
     "nascimento": "1948-10-20T00:00:00",
-    "telefone": "+5517991039618 +5517991416709",
+    "telefone": "+5517991039618", AQUI FALTOU UM TELEFONE POR CAUSA DO .
     "local": "hm mae div amor e provid",
     "profissional": "yukio taroco nosse",
     "cns": "106942571570002 704300555510195 898000077478047",
     "chegar_as": "2025-09-20T12:20:00",
     "data_hora_consulta": "2025-10-29T12:40:00"
   },
-  {
-    "time_scan": "2025-09-05T14:57:17",
-    "unidade": "regissol",
-    "file_name": "20250905135915439.pdf",
-    "codigo_srp": "12120976",
-    "nome": "mariangela donizeti leva",
-    "especialidade": "ortopedia",
-    "nascimento": "1955-07-29T00:00:00",
-    "telefone": "+5517981465644 +5517981124052",
-    "local": "hm mae div amor e provid",
-    "profissional": "yukio taroco nosse",
-    "cns": "706709573622316",
-    "chegar_as": "2025-09-20T12:20:00",
-    "data_hora_consulta": "2025-10-29T12:40:00"
-  },
+  #FALTOU MARIANGELA: CODIGO SUJO.
   {
     "time_scan": "2025-09-05T14:57:17",
     "unidade": "regissol",
@@ -79,7 +65,7 @@
     "unidade": "regissol",
     "file_name": "20250905135915439.pdf",
     "codigo_srp": "12914353",
-    "nome": "social: vanderlei adriano sanches",
+    "nome": "social: vanderlei adriano sanches", #BLOQUEAR SOCIAL
     "especialidade": "ortopedia",
     "nascimento": "1973-07-30T00:00:00",
     "telefone": "+551732532686 +5517991349868",
@@ -97,9 +83,9 @@
     "nome": "elisson guilherme da silva",
     "especialidade": "ortopedia",
     "nascimento": "1991-12-05T00:00:00",
-    "telefone": "+551732161389 +5517991976223",
+    "telefone": "+551732151389 +5517991976223",
     "local": "hm mae div amor e provid",
-    "profissional": "; yukio taroco nosse",
+    "profissional": "yukio taroco nosse",
     "cns": "898000635504377",
     "chegar_as": "2025-09-20T12:40:00",
     "data_hora_consulta": "2025-10-29T13:00:00"
@@ -130,8 +116,9 @@
     "telefone": "+5517981451807",
     "local": "hm mae div amor e provid",
     "profissional": "yukio taroco nosse",
-    "cns": "898002720860401",
-    "chegar_as": "2025-09-20T12:50:00"
+    "cns": "898002720660401",
+    "chegar_as": "2025-09-20T12:50:00",
+    "data_hora_consulta": "2025-10-29T13:10:00"
   },
   {
     "time_scan": "2025-09-05T14:57:17",
@@ -140,8 +127,8 @@
     "codigo_srp": "8634136",
     "nome": "maria aparecida teixeira gois de padua",
     "especialidade": "ortopedia",
-    "nascimento": null,
-    "telefone": "+5517981417217",
+    "nascimento": null, ESPAÇO NASCIMENTO
+    "telefone": "", PONTO NO TELEFONE
     "local": "hm mae div amor e provid",
     "profissional": "yukio taroco nosse",
     "cns": "898002702237578",
@@ -154,9 +141,9 @@
     "file_name": "20250905135915439.pdf",
     "codigo_srp": "24551471",
     "nome": "zilda lopes ferreira .",
-    "exame": "",
+    "exame": "", ESPECIÁLIDADE ACENTUADO
     "nascimento": "1960-01-12T00:00:00",
-    "telefone": "+5511992182828 +5511975092258",
+    "telefone": "+5511992182826 +5511976092258",
     "local": "hm mae div amor e provid",
     "profissional": "yukio taroco nosse",
     "cns": "708009856372623",
@@ -167,7 +154,7 @@
     "time_scan": "2025-09-05T14:57:17",
     "unidade": "regissol",
     "file_name": "20250905135915439.pdf",
-    "codigo_srp": "33960291",
+    "codigo_srp": "33969291",
     "nome": "roberto aparecido de mendonca",
     "especialidade": "ortopedia",
     "nascimento": "1957-03-02T00:00:00",
@@ -186,11 +173,12 @@
     "nome": "maria lucia da costa",
     "especialidade": "ortopedia",
     "nascimento": "1965-05-12T00:00:00",
-    "telefone": "",
+    "telefone": "", TELEFONE NUNCA VAI TER LETRA
     "local": "hm mae div amor e provid",
-    "profissional": "yukio taroco nosse '",
+    "profissional": "yukio taroco nosse",
     "cns": "898000996163486 898001458587470",
     "chegar_as": "2025-09-20T13:10:00"
+    DATA CONSULTA COM . E SEPARADO
   },
   {
     "time_scan": "2025-09-20t01:15:04.237894",
@@ -227,8 +215,8 @@
     "unidade": "regissol",
     "file_name": "20250909150154699.pdf",
     "codigo_srp": "11117972",
-    "nome": "gustavo yujiieiri",
-    "especialidade": "psiguiatria",
+    "nome": "gustavo yujieiri", NOME COLADO
+    "especialidade": "psiguiatria", #G EM VEZ DE Q
     "nascimento": "2007-08-13T00:00:00",
     "telefone": "+5517991440055",
     "local": "hm mae div amor e provid",
@@ -243,7 +231,7 @@
     "file_name": "20250909150154699.pdf",
     "codigo_srp": "22339358",
     "nome": "giovanna rodrigues teixeira",
-    "especialidade": "psiquiatria",
+    "especialidade": "psiguiatria", G EM VEZ DE Q
     "nascimento": "2009-09-11T00:00:00",
     "telefone": "+5517997561406",
     "local": "hm mae div amor e provid",
@@ -278,7 +266,7 @@
     "telefone": "+551732427427 +5517997012404",
     "local": "hosp de base de sjrp",
     "profissional": "",
-    "cns": "706208510786969 898001005463605",
+    "cns": "706208510766969 898001005463605",
     "chegar_as": "2025-09-20T13:50:00",
     "data_hora_exame": "2025-10-23T14:00:00"
   },

@@ -1,7 +1,7 @@
 # src/processors.py
 import os
 import datetime
-from src.ocr_utils import pdf_to_text_preprocessed
+from src.ocr_utils import pdf_ocr_text, save_ocr_txt
 from src.regex_extractors.extract_fields import extract_fields, extract_codes
 from src.data_cleaner import normalize_records, deduplicate_records
 
@@ -15,10 +15,10 @@ def get_file_metadata(pdf_path):
 
 
 def run_ocr(pdf_path):
-    """Executa OCR e retorna texto bruto."""
-    ocr_txt_path = pdf_path.replace(".pdf", ".ocr.txt")
-    return pdf_to_text_preprocessed(pdf_path, save_ocr_path=ocr_txt_path)
-
+    """Executa OCR e salva resultado em 'ocr/'."""
+    texto = pdf_ocr_text(pdf_path)
+    save_ocr_txt(texto, pdf_path)
+    return texto
 
 def extract_segments(texto_total):
     """Divide o texto em segmentos com base nos códigos SRP."""
