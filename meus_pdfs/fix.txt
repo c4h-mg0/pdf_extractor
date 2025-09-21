@@ -1,0 +1,22 @@
+=== RESUMO POR PASTA ===
+renascenca: 0 arquivos PDF, 0 documentos extraídos
+prosad: 0 arquivos PDF, 0 documentos extraídos
+regissol: 5 arquivos PDF, 19 documentos extraídos
+centro de saude ii: 0 arquivos PDF, 0 documentos extraídos
+sae: 0 arquivos PDF, 0 documentos extraídos
+vila verde: 0 arquivos PDF, 0 documentos extraídos
+ruilandia: 0 arquivos PDF, 0 documentos extraídos
+cohab ii: 0 arquivos PDF, 0 documentos extraídos
+
+=== DUPLICADOS REMOVIDOS (total: 0) ===
+(nenhum)
+
+=== CAMPOS VAZIOS (NÃO REMOVIDOS) (total: 8) ===
+{'time_scan': '2025-09-05T14:57:17', 'unidade': 'regissol', 'file_name': '20250905135915439.pdf', 'codigo_srp': '8634136', 'nome': 'maria aparecida teixeira gois de padua', 'especialidade': 'ortopedia', 'nascimento': None, 'telefone': '', 'local': 'hm mae div amor e provid', 'profissional': 'yukio taroco nosse', 'cns': '898002702237578', 'chegar_as': '2025-09-21T12:50:00', 'data_hora_consulta': '2025-10-29T13:10:00'}
+{'time_scan': '2025-09-05T14:57:17', 'unidade': 'regissol', 'file_name': '20250905135915439.pdf', 'codigo_srp': '24551471', 'nome': 'zilda lopes ferreira', 'exame': '', 'nascimento': '1960-01-12T00:00:00', 'telefone': '+5511992182826 +5511976092258', 'local': 'hm mae div amor e provid', 'profissional': 'yukio taroco nosse', 'cns': '708009856372623', 'chegar_as': '2025-09-21T13:00:00', 'data_hora_consulta': '2025-10-29T13:20:00'}
+{'time_scan': '2025-09-05T14:57:17', 'unidade': 'regissol', 'file_name': '20250905135915439.pdf', 'codigo_srp': '20254875', 'nome': 'maria lucia da costa', 'especialidade': 'ortopedia', 'nascimento': '1965-05-12T00:00:00', 'telefone': '', 'local': 'hm mae div amor e provid', 'profissional': 'yukio taroco nosse', 'cns': '898000996163486 898001458587470', 'chegar_as': '2025-09-21T13:10:00'}
+{'time_scan': '2025-09-20t01:15:04.237894', 'unidade': 'regissol', 'file_name': '20250915062525372.pdf', 'codigo_srp': '19657532', 'nome': 'sabina maria correia de oliveira', 'exame': 'cintilografia de miocardio p/ avaliacao da perfusao em situacao de estresse (minimo 3 projecoes)', 'nascimento': '1962-01-31T00:00:00', 'telefone': '+5511989800908 +5517992857814', 'local': 'santa casa votuporanga', 'profissional': '', 'cns': '708706117362599', 'chegar_as': '2025-09-21T11:50:00', 'data_hora_exame': '2025-09-19T12:00:00'}
+{'time_scan': '2025-09-20t01:15:04.237894', 'unidade': 'regissol', 'file_name': '20250915062525372.pdf', 'codigo_srp': '4865190', 'nome': 'aparecido donizeti alves', 'exame': 'cintilografia de miocardio p/ avaliacao da perfusao em situacao de estresse (minimo 3 projecoes)', 'nascimento': '1956-07-21T00:00:00', 'telefone': '+5517991648598 +5517991216665', 'local': 'santa casa votuporanga', 'profissional': '', 'cns': '703009803199675 898001242632826', 'chegar_as': '2025-09-21T11:50:00', 'data_hora_exame': '2025-09-19T12:00:00'}
+{'time_scan': '2025-09-05T14:31:41', 'unidade': 'regissol', 'file_name': '20250905133339379.pdf', 'codigo_srp': '30242173', 'nome': 'elaine martins cardoso vieira', 'exame': 'mamografia diagnostica', 'nascimento': '1984-09-01T00:00:00', 'telefone': '+5517981632168', 'local': 'hosp de base de sjrp', 'profissional': '', 'cns': '706500300358090', 'chegar_as': '2025-09-21T11:00:00', 'data_hora_exame': '2025-10-23T11:10:00'}
+{'time_scan': '2025-09-05T14:31:41', 'unidade': 'regissol', 'file_name': '20250905133339379.pdf', 'codigo_srp': '12797923', 'nome': 'taisa carla dos santos viana', 'exame': 'mamografia diagnostica', 'nascimento': '1984-04-28T00:00:00', 'telefone': '+551732427427 +5517997012404', 'local': 'hosp de base de sjrp', 'profissional': '', 'cns': '706208510766969 898001005463605', 'chegar_as': '2025-09-21T13:50:00', 'data_hora_exame': '2025-10-23T14:00:00'}
+{'time_scan': '2025-09-05T14:31:41', 'unidade': 'regissol', 'file_name': '20250905133339379.pdf', 'codigo_srp': '4136510', 'nome': 'erica soares da silva aragao', 'exame': 'mamografia diagnostica', 'nascimento': '1981-02-05T00:00:00', 'telefone': '+551788321284 +5517988362622', 'local': 'hosp de base de sjrp', 'profissional': '', 'cns': '127292851660000', 'chegar_as': '2025-09-21T10:50:00', 'data_hora_exame': '2025-10-24T11:00:00'}
