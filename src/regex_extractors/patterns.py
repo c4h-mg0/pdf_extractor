@@ -26,23 +26,20 @@ REGEX_EXAME = [
 # Datas / Horários
 # ---------------------------
 REGEX_DATA = [
-    (re.compile(r"Data Exame[:\s]*([0-3]?\d-\d{2}-\d{4})", re.I), "data_exame"),
-    (re.compile(r"Data Consulta[:\s]*([0-3]?\d-\d{2}-\d{4})", re.I), "data_consulta")
+    (re.compile(r"Data Exame[:\s]*([0-3]?\d\s*-\s*\d\s*\d\s*-\s*\d{4})", re.I), "data_exame"),
+    (re.compile(r"Data Consulta[:\s]*([0-3]?\d\s*-\s*\d\s*\d\s*-\s*\d{4})", re.I), "data_consulta")
 ]
+
 REGEX_HORA = re.compile(r"Hor[áa]rio[:\s]*([0-2]?\d:[0-5]\d)", re.I)
 
 # ---------------------------
 # Nascimento
 # ---------------------------
 REGEX_NASC = re.compile(
-    r"Data\s*de\s*Nascimento[:：︓﹕﹔；]?\s*([0-3]?\d[\/.\-:][01]?\d[\/.\-]\d{4})", re.I
+    r"Data\s*de\s*Nascimento[:：︓﹕﹔；]?\s*"
+    r"((?:\d\s*){1,2}[\/.\-:]\s*(?:\d\s*){1,2}[\/.\-:]\s*(?:\d\s*){2,4})",
+    re.I
 )
-
-# ---------------------------
-# Telefones
-# ---------------------------
-REGEX_TEL_BLOCK = re.compile(r"Telefone:(.*?)(?=Prontu[aá]rio[:\s]|$)", re.I | re.S)
-REGEX_TEL = re.compile(r"\(\d{2}\)\s*\d{4,5}-\d{4}")
 
 # ---------------------------
 # Local
@@ -52,7 +49,7 @@ REGEX_LOCAL = re.compile(r"Local[:\s]*(.+)", re.I)
 # ---------------------------
 # CNS
 # ---------------------------
-REGEX_CNS = re.compile(r"Cns[:\s]*([\d,\s]+)", re.I)
+REGEX_CNS = re.compile(r"(?:Cns|Ens)[:\s]*([\d,\s]+)", re.I)
 
 # ---------------------------
 # Profissional

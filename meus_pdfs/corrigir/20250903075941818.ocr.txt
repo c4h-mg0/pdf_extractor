@@ -1,60 +1,72 @@
-VS US/2025 08:48 : SIRESP - Comprovante de marcação ::
-ger Secretaria de Estado da Saúde de São Paulo
-ASM» COMPROVANTE DE MARCAÇÃO DE CONSULTA
+VUSUS/2VoS 08:48 :: SIRESP - Comprovante de marcação ::
+FER Secretaria de Estado da Saúde de São Paulo |
+Stvide COMPROVANTE DE MARCAÇÃO DE CONSULTA
+
 Código: 4800349
+
 Nome: SUELIY APARECIDA DA SILVA
+
 Data de Nascimento: 17/02/1967
+
 Cns: 704600114320723
-Telefone: Comercial: Cetular: (17) 99731-9529 Recado:
+
+Telefone: Comercial: Celular: (17) 99731-9529 Recado:
+
 Prontuário:
+
 Data Consulta: 19-09-2025
+
 Horário:09:00
+
 CHEGAR ÀS: 08:40
+
 Profissional: RAFAEL VINICIUS CAVAZZANA
+
 Especialidade: Cardiologia
+
 Tipo Marcação: Primeira Consulta
-Local: HM MAE DIV AMOR E PROVID
+Local: HM MAE DIv AMOR E PROVID
 Endereço: RUA RUI BARBOSA, 2019
 CENTRO
 MIRASSOL - SP
-Ponto de Referência: º
+Ponto de Referência: .
 A CONSULTA SERÁ REALIZADA NA CLINICA SÃO PEDRO,
 ÃO LADO DO HOSPITAL E MATERNIDADE DE MIRASSOL.
-RUA JOSE BONIFÁCIO, NÚMERO 24-47 - CENTRO,
+RUA JOSÉ BONIFÁCIO, NÚMERO 24-47 - CENTRO.
 CASA DE PORTÃO MARROM.
 Orientação: COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-NO DIA DO ATENDIMENTO SERÁ OBRIGATÓRIO APRESENTAR: é
+NO DIA DO ATENDIMENTO SERÁ OBRIGATÓRIO APRESENTAR: .
 1- CPF, RG OU CNH. (PARA PACIENTES MENORES DE QUE NÃO TIVEREM RG, APRESENTAR CERTIDÃO DE NASCIMENTO).
 2- CARTÃO SUS,
-3- GUIA DE CONSULTA.
+3- GUIA DE CONSULTA,
 É DE SUA RESPONSABILIDADE NÃO PERDER ESTE DOCUMENTO, POIS SE CASO PERDER, TERÁ QUE AGENDAR NOVA
 CONSULTA, POIS NÃO ATENDEMOS SEM A GUIA DE CONSULTA.
 
-, EM CASO DE DESISTÊNCIA AVISAR COM ANTECEDÊNCIA AO LOCAL EM QUE RETIROU A GUIA DE CONSULTA, POIS EXISTEM
-OUTROS PACIENTES NA FILA DE ESPERA - QUANDO UM PACIENTE FALTA E NÃO AVISA COM ANTECEDÊNCIA, IMPOSSIBILITA QUE
+. EM CASO DE DESISTÊNCIA AVISAR COM ANTECEDÊNCIA AO LOCAL EM QUE RETIROU A GUIA DE CONSULTA, POIS EXISTEM
+OUTROS PACIENTES NAFILA DE ESPERA - QUANDO UM PACIENTE FALTA E NÃO AVISA COM ANTECEDÊNCIA, IMPOSSIBILITA QUE
 OUTRA PESSOA SEJA ATENDIDA
-MENOR DE 18 ANOS SERÁ ATENDIDO SOMENTE COM ACOMPANHANTE RESPONSÁVEL.
+MENOR DE 18 ANOS SERÁ ATENDIDO SOMENTE COM ACOMPANHANTE RESPONSÁVEL,
 
 Preparo: NA DATA DA CONSULTA NÃO ESQUEÇA OS RESULTADOS DE EXAMES ANTERIORES MAIS RECENTES, QUE ESTEJAM
 RELACIONADOS AO MOTIVO DA CONSULTA.
 COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
 Solicitante: SMS - MIRASSOL
-Usuário: PERPETUAA. M. SILVA
+Usuário: PERPéTUAA. M. SILVA
 Controle: 503829068 - 03-09-2025 08:47
 No dia do atendimento, será OBRIGATÓRIO apresentar:
 CPF, RG ou CNH ou Certidão de Nascimento originais,
 Cartão SUS, Comprovante de Endereço e
 Encaminhamento Médico.
-Trazer exames anteriores caso possua.
+Trazer exames anteriores caso possua,
 Paciente menor, deverá comparecer acompanhado
-de responsável legal, munido de RG ou CNH originais.
+de responsável legal, munido de RG ou CNH originais,
 É muito importante manter seu cadastro atualizado!
-Principalmente os números de telefone, pois é por meio destes que os serviços de saúde farão contato para informar agendamentos
+Principalmente os números de telefone, pois é por meia destes que Os serviços de saúde farão contato para informar agendamentos
 realizados e para outras demandas de comunicação.
-Hps:/ombulatorial-siresp saude.sp.gov.brifipeta.oho705b-ATS2IU2IceRObbgieJBIVIXIVTwWEzUSekBEONGASGAttczzONX2HS7CTUUIpfaP TRA. 141
+ntps:ombulatorial siresp.saude. sp. gov brifipeta php ?0Sb-ATS2UZICeRObbgie JGIVIXIVTWEzUSSKBEONGASGAttcz2ONX2HS7CTUUIpfaPOTRMA. 141
 
-Uai Uco 08:46 :: SIRESP - Comprovante de marcação ::
-SE Secretaria de Estado da Saúde de São Paulo
+VUSUI/AULO 08:46 :: SIRESP - Comprovante de marcação ::
+gsia, Secretaria de Estado da Saúde de São Paulo
 COMPROVANTE DE MARCAÇÃO DE CONSULTA
 Código: 5619136
 Nome: JOSE FRANCISCO DE MORAES FILHO
@@ -68,23 +80,23 @@ CHEGAR ÀS: 08:30
 Profissional: RAFAEL VINICIUS CAVAZZANA
 Especialidade: Cardiologia
 Tipo Marcação: Primeira Consulta
-Local; HM MAE DIV AMOR E PROVID
-Endereço: RUA RUI BARBOSA, 2019
+Local: HM MAE DIV AMOR E PRÓVID
+Endereço: RUA RUI] BARBOSA, 2019
 CENTRO
 MIRASSOL - SP
 Ponto de Referência:
 A CONSULTA SERÁ REALIZADA NA CLINICA SÃO PEDRO,
-ÃO LADO DO HOSPITAL E MATERNIDADE DE MIRASSOL.
+AO LADO DO HOSPITAL E MATERNIDADE DE MIRASSOL.
 RUA JOSE BONIFÁCIO, NUMERO 24-47 - CENTRO.
 CASA DE PORTÃO MARROM.
-Orientação: COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
+Orientação: COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGEN DADO.
 NO DIA DO ATENDIMENTO SERÁ OBRIGATÓRIO APRESENTAR:
-1- CPE RG OU CNH. (PARA PACIENTES MENORES DE QUE NÃO TIVEREM RG, APRESENTAR CERTIDÃO DE NASCIMENTO).
+1. CPF, RG OU CNH. (PARA PACIENTES MENORES DE QUE NÃO TIVEREM RG, APRESENTAR CERTIDÃO DE NASCIMENTO).
 2- CARTÃO SUS.
 3- GUIA DE CONSULTA.
 É DE SUA RESPONSABILIDADE NÃO PERDER ESTE DOCUMENTO, POIS SE CASO PERDER, TERÁ QUE AGENDAR NOVA
 CONSULTA, POIS NÃO ATENDEMOS SEM A GUIA DE CONSULTA.
-EM CASO DE DESISTÊNCIA AVISAR COM ANTECEDÊNCIA AQ LOCAL EM QUE RETIROU A GUIA DE CONSULTA, POIS EXISTEM
+EM CASO DE DESISTÊNCIA AVISAR COM ANTECEDÊNCIA AO LOCAL EM QUE RETIROU A GUIA DE CONSULTA, POIS EXISTEM
 OUTROS PACIENTES NA FILA DE ESPERA - QUANDO UM PACIENTE FALTA E NÃO AVISA COM ANTECEDÊNCIA, IMPOSSIBILITA QUE
 OUTRA PESSOA SEJA ATENDIDA
 MENOR DE 18 ANOS SERÁ ATENDIDO SOMENTE COM ACOMPANHANTE RESPONSÁVEL.
@@ -92,16 +104,16 @@ Preparo: NA DATA DA CONSULTA NÃO ESQUEÇA OS RESULTADOS DE EXAMES ANTERIORES MA
 RELACIONADOS AQ MOTIVO DA CONSULTA.
 COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
 Solicitante: SMS - MIRASSOL
-Usuário: PERPéTUAA M. SILVA
+Usuário: PERPéTUAA. M. SILVA
 Controle: 503829067 - 03-09-2025 08:46
 No dia do atendimento, será OBRIGATÓRIO apresentar:
 CPF, RG ou CNH ou Certidão de Nascimento originais,
 Cartão SUS, Comprovante de Endereço e
-Encarninhamento Médico.
+Encaminhamento Médico.
 Trazer exames anteriores caso possua.
 Paciente menor, deverá comparecer acompanhado
 de responsável legal, munido de RG ou CNH originais.
 É muito importante manter seu cadastro atualizado!
 Principalmente os números de telefone, pois é por meio destes que os serviços de saúde farão contato para informar agendamentos
 realizados e para outras demandas de comunicação.
-hitps://ambulatorial.siresp.saude.sp.gov.brffilipeta,php?05b-ATS2IUZIceRObbgieJGrVIXIVTWEZUSeKBEONGA! DAiymMg89nMOEZOdibH4ESxigpf. A
+nHpsilambuiatoria siresp.saude.sp gov brifiipeta php ?0Sb-ATS2IUZIceRObbgiSJBIVIXIVTWEzUSCKBEONGA DAIyMMG89NMOEZOdIDHAESxigpf... 11

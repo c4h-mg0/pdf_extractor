@@ -16,13 +16,17 @@ def get_file_metadata(pdf_path):
 
 def run_ocr(pdf_path):
     """Executa OCR e salva resultado em 'ocr/'."""
+    print(f"pdf_processor | Executando OCR melhorado para: {os.path.basename(pdf_path)}")
     texto = pdf_ocr_text(pdf_path)
     save_ocr_txt(texto, pdf_path)
+    print(f"pdf_processor | OCR final salvo em: {pdf_path.replace('.pdf', '.ocr.txt')}")
     return texto
+
 
 def extract_segments(texto_total):
     """Divide o texto em segmentos com base nos códigos SRP."""
     matches = extract_codes(texto_total)
+    print(f"✓ Encontrados {len(matches)} códigos válidos")
     for i, match in enumerate(matches):
         seg_start = match.start()
         seg_end = matches[i + 1].start() if i + 1 < len(matches) else len(texto_total)
@@ -54,4 +58,3 @@ def process_pdf(pdf_path):
     # Apenas normaliza, sem deduplicar aqui
     normalized = normalize_records(raw_results)
     return normalized
-
