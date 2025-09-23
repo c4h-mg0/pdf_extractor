@@ -14,7 +14,7 @@ def pdf_ocr_text(pdf_path, dpi=300, lang="por"):
         # Pré-processamento
         img = page.convert("L")
         img = ImageOps.autocontrast(img, cutoff=1)
-        img = img.point(lambda x: 0 if x < 135 else 255)
+        img = img.point(lambda x: 0 if x < 140 else 255)
 
         # OCR
         page_text = pytesseract.image_to_string(
