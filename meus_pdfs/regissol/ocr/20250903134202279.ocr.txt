@@ -1,52 +1,17 @@
-03/09/2025 14:39 :: SIRESP - Comprovante de marcação ::
-gs Secretaria de Estado da Saúde de São Paulo
+03/09/2025 14:30 :: SIRESP - Comprovante de marcação ::
+dim Secretaria de Estado da Saúde de São Paulo
 COMPROVANTE DE MARCAÇÃO DE CONSULTA
 Código: 10689108
 Nome: DOTINO ALVES PEREIRA JUNIOR
-Data de Nascimento: 11/09/1975
-Ens: 700007222020904
-Telefone: (17) 99212.9222 Comercial: Celular: (17) 99126-7628 Recado:
+Data de Nascimento: 11 109/1975
+Cns: 700007222020904
+Telefone: (17) 99212-9222 Comercial: Celular: (17) 99126-7628 Recado:
 Prontuário:
-Data Consulta: 01-1 0-2025
+Data Consulta: 01-10-2025
 Horário:12:20
 CHEGAR ÀS: 12:00
 Profissional: YUKIO TAROCO NOSSE
 Especialidade: Ortopedia
 Tipo Marcação: Primeira Consulta
 Local: HM MAE DIV AMOR E PROVID
-Endereço: RUA RUI BARBOSA, 2018
-CENTRO
-MIRASSOL - SP
-Ponto de Referência:
-A CONSULTA SERÁ REALIZADA NA CLINICA SÃO PEDRO,
-AO LADO DO HOSPITAL E MATERNIDADE DE MIRASSOL.
-RUA JOSÉ BONIFÁCIO, NÚMERO 24-47 - CENTRO.
-CASA DE PORTÃO MARROM.
-Orientação: COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-NO DIA DO ATENDIMENTO SERÁ OBRIGATÓRIO APRESENTAR: .
-1- CPF, RG OU CNH, (PARA PACIENTES MENORES DE QUE NÃO TIVEREM RG, APRESENTAR CERTIDÃO DE NASCIMENTO).
-2- CARTÃO SUS,
-3» GUIA DE CONSULTA.
-É DE SUA RESPONSABILIDADE NÃO PERDER ESTE DOCUMENTO, POIS SE CASO PERDER, TERÁ QUE AGENDAR NOVA
-CONSULTA, POIS NÃO ATENDEMOS SEM A GUIA DE CONSULTA,
-EM CASO DE DESISTÊNCIA AVISAR COM ANTECEDÊNCIA AO LOCAL EM QUE RETIROU A GUIA DE CONSULTA, POIS EXISTEM
-OUTROS PACIENTES NA FILA DE ESPERA - QUANDO UM PACIENTE FALTA E NÃO AVISA COM ANTECEDÊNCIA, IMPOSSIBILITA QUE
-OUTRA PESSOA SEJA ATENDIDA
-MENOR DE 18 ANOS SERÁ ATENDIDO SOMENTE COM ACOMPANHANTE RESPONSÁVEL.
-Preparo: NA DATA DA CONSULTA NÃO ESQUEÇA OS RESULTADOS DE EXAMES ANTERIORES MAIS RECENTES, QUE ESTEJAM
-RELACIONADOS AO MOTIVO DA CONSULTA.
-COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-Solicitante: SMS - MIRASSOL
-Usuário: PERPETUAA M, SILVA
-Controle: 508494574 - 03-09-2025 14:38
-. No dia do atendimento, será OBRIGATÓRIO apresentar:
-CPF, RG ou CNH ou Certidão de Nascimento originais,
-l Cartão SUS, Comprovante de Endereço e
-Encaminhamento Médico.
-Trazer exames anteriores caso possua.
-Paciente menor, deverá comparecer acompanhado
-de responsável legal, munido de RG ou CNH originais.
-É muito importante manter seu cadastro atualizado!
-Principalmente os números de telefone, pois é por meio destes que os serviços de saúde farão contato para informar agendamentos
-realizados e para outras demandas de comunicação.
-https://ambulatorial.siresp saude.sp.gov.brffilipeta.php?diivptUJbynOSCDMIXT. e1XFWs8wTU MvMBBadIV3IySSQSDvr X1 ICV7IShCIuakWze1P... 414
+Endereço: RUA RUI BARBOSA, 2019
