@@ -14,7 +14,7 @@ def pdf_ocr_text(pdf_path, dpi=400, lang="por"):
 
     for page_num, page in enumerate(doc):
         rect = page.rect
-        top40 = fitz.Rect(0, 0, rect.width, rect.height * 0.35)
+        top40 = fitz.Rect(0, 0, rect.width, rect.height * 0.4)
 
         # Renderizar só a área cortada
         pix = page.get_pixmap(clip=top40, dpi=dpi)
@@ -23,7 +23,7 @@ def pdf_ocr_text(pdf_path, dpi=400, lang="por"):
         # Pré-processamento
         img = img.convert("L")
         img = ImageOps.autocontrast(img, cutoff=1)
-        img = img.point(lambda x: 0 if x < 140 else 255)
+        img = img.point(lambda x: 0 if x < 145 else 255)
 
         # OCR
         page_text = pytesseract.image_to_string(img, lang=lang, config="--psm 6 --oem 1")
