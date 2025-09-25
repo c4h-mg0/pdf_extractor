@@ -1,66 +1,13 @@
 05/09/2025 14:46 :: SIRESP - Comprovante de marcação ::
-sn ; Secretaria de Estado da Saúde de São Paulo
+a Si Secretaria de Estado da Saúde de São Paulo
 COMPROVANTE DE MARCAÇÃO DE CONSULTA
 Código: 6377314
-Nome: ANTONIO MARCAL DA SILVA :
-Data de Nascimento: 20/10/1948 -
+Nome: ANTONIO MARCAL DA SILVA e
+Data de Nascimento: 20/10/1948
 Cns: 106942571570002,704300555510195,898000077478047
 Telefone: (17) 99103-9618 Comercial: Celular: (17) 99141-6709 Recado:
 Prontuário:
-Data Consulta: 29-10-2025
-Horário: 12:40
-CHEGAR AS: 12:20
-Profissional: YUKIO TAROCO NOSSE
-Especialidade: Ortopedia
-Tipo Marcação: Primeira Consulta
-Local: HM MAE DIV AMOR E PROVID
-Endereço: RUA RUI BARBOSA, 2019
-CENTRO
-MIRASSOL - SP
-Ponto de Referência: o
-A CONSULTA SERÁ REALIZADA NA CLÍNICA SÃO PEDRO,
-ÃO LADO DO HOSPITAL E MATERNIDADE DE MIRASSOL,
-RUA JOSE BONIFÁCIO, NÚMERO 24-47 - CENTRO.
-CASA DE PORTÃO MARROM.
-Orientação: COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-NO DIA DO ATENDIMENTO SERÁ OBRIGATÓRIO APRESENTAR: .
-1- CPF, RG OU CNH. (PARA PACIENTES MENORES DE QUE NÃO TIVEREM RG, APRESENTAR CERTIDÃO DE NASCIMENTO).
-2- CARTÃO SUS.
-3- GUIA DE CONSULTA.
-É DE SUA RESPONSABILIDADE NÃO PERDER ESTE DOCUMENTO, POIS SE CASO PERDER, TERÁ QUE AGENDAR NOVA
-CONSULTA, POIS NÃO ATENDEMOS SEM A GUIA DE CONSULTA,
-EM CASO DE DESISTÊNCIA AVISAR COM ANTECEDÊNCIA AO LOCAL EM QUE RETIROU A GUIA DE CONSULTA, POIS EXISTEM
-OUTROS PACIENTES NA FILA DE ESPERA - QUANDO UM PACIENTE FALTA E NÃO AVISA COM ANTECEDÊNCIA, IMPOSSIBILITA QUE
-OUTRA PESSOA SEJA ATENDIDA
-MENOR DE 18 ANOS SERÁ ATENDIDO SOMENTE COM ACOMPANHANTE RESPONSÁVEL.
-Preparo: NA DATA DA CONSULTA NÃO ESQUEÇA OS RESULTADOS DE EXAMES ANTERIORES MAIS RECENTES, QUE ESTEJAM
-RELACIONADOS AO MOTIVO DA CONSULTA.
-COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-Solicitante: SMS - MIRASSOL
-Usuário:  PERPéTUAA. M. SILVA
-Controle: 506495471 - 05-09-2025 14:46 =
-: No dia do atendimento, será OBRIGATÓRIO apresentar:
-CPF, RG ou CNH ou Certidão de Nascimento originais,
-Cartão SUS, Comprovante de Endereço e
-. Encaminhamento Médico.
-: Trazer exames anteriores caso possua.
-: Paciehite menor, deverá comparecer acompanhado
-a de responsável legal, munido de RG ou CNH Originais.
-o É muito importante manter seu cadastro atualizado!
-Principalmente os números de telefone, pois é por meio destes que os serviços de saúde farão contato para informar agendamentos
-- realizados e para outras demandas de comunicação.
-htps:/embulstorial resp seude sp govibrfipea, hp? VPHUbYMOSCOMTeIXFWS BW TUMBA eIMBUROXEL AACS eao 1/1
-
-05/09/2025 14:47 :: SIRESP - Comprovante de marcação ::
-gen, Secretaria de Estado da Saúde de São Paulo
-COMPROVANTE DE MARCAÇÃO DE CONSULTA
-Código: 12120976 ,
-Nome: MARIANGELA DONIZETI LEVA
-Data de Nascimento: 29/07/1955
-Cns: 706709573622316
-Telefone: (17) 98146-5644 Comercial: Celular: (17) 98112-4052 Recado:
-Prontuário:
-Data Consulta: 29-10-2025
+Data Consulta: 29-10-2025 |
 Horário:12:40
 CHEGAR AS: 12:20
 Profissional: YUKIO TAROCO NOSSE
@@ -71,159 +18,20 @@ Endereço: RUA RUI BARBOSA, 2019
 CENTRO
 MIRASSOL - SP
 Ponto de Referência:
-A CONSULTA SERÁ REALIZADA NA CLINICA SÃO PEDRO,
-ÃO LADO DO HOSPITAL E MATERNIDADE DE MIRASSOL.
-RUA JOSE BONIFÁCIO, NÚMERO 24-47 - CENTRO.
-CASA DE PORTÃO MARROM.
-Orientação: COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-NO DIA DO ATENDIMENTO SERÁ OBRIGATÓRIO APRESENTAR: é
-1- CPF, RG OU CNH. (PARA PACIENTES MENORES DE QUE NÃO TIVEREM RG, APRESENTAR CERTIDÃO DE NASCIMENTO).
-2- CARTÃO SUS.
-3- GUIA DE CONSULTA,
-ÉDESUA RESPONSABILIDADE NÃO PERDER ESTE DOCUMENTO, POIS SE CASO PERDER, TERÁ QUE AGENDAR NOVA
-CONSULTA, POIS NÃO ATENDEMOS SEM A GUIA DE CONSULTA.
-EM CASO DE DESISTÊNCIA AVISAR COM ANTECEDÊNCIA AO LOCAL EM QUE RETIROU A GUIA DE CONSULTA, POIS EXISTEM
-OUTROS PACIENTES NA FILA DE ESPERA - QUANDO UM PACIENTE FALTA E NÃO AVISA COM ANTECEDÊNCIA, IMPOSSIBILITA QUE
-OUTRA PESSOA SEJA ATENDIDA
-MENOR DE 18 ANOS SERÁ ATENDIDO SOMENTE COM ACOMPANHANTE RESPONSÁVEL.
-Preparo: NA DATA DA CONSULTA NÃO ESQUEÇA OS RESULTADOS DE EXAMES ANTERIORES MAIS RECENTES, QUE ESTEJAM
-RELACIONADOS AO MOTIVO DA CONSULTA.
-COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-Solicitante: SMS - MIRASSOL
-Usuário: PERPéTUAA. M. SILVA
-Controle: 506495472 - 05-09-2025 14:46
-No dia do atendimento, será OBRIGATÓRIO apresentar:
-. CPF, RG ou CNH ou Certidão de Nascimento originais,
-Cartão SUS, Comprovante de Endereço e
-; Encaminhamento Médico.
-Trazer exames anteriores caso possua.
-Vo Paciente menor, deverá comparecer acompanhado
-E de responsável legal, munido de RG ou CNH originais.
-É muito importante manter seu cadastro atualizado!
-Principalmente os números de telefone, pois é por meio destes que Os serviços de saúde farão contato para informar agendamentos
-: realizados e para outras demandas de comunicação.
-https://ambulatorial.siresp.saude.sp.gov.brifilipeta -Php?diYptUIDynOScOMIXTE1X FWs8wTUMvMBBadIV3IyTqBT TEODHOB4XAW0OSRI BH3Sq... 1/1
 
-05/09/2025 14:48 :: SIRESP - Comprovante de marcação ::
-FR Secretaria de Estado da Saúde de São Paulo
+05/09/2025 14:47 :: SIRESP - Comprovante de marcação ::
+| fi, Secretaria de Estado da Saúde de São Paulo
 COMPROVANTE DE MARCAÇÃO DE CONSULTA
-Código: 8501339
-Nome: JESSICA AMBROSIO BESSA
-Data de Nascimento: 30/03/1992 .
-Cns: 70890279855081 7,898000078979465
-Telefone: Comercial: Celular: (17) 98129-9314 Recado:
+Código: 12120976
+Nome: MARIANGELA DONIZETI LEVA
+Data de Nascimento: 29/07/1955
+Cns: 706709573622316
+Telefone: (17) 98146-5644 Comercial: Celular: (17) 98112-4052 Recado:
 Prontuário:
-Data Consulta: 29-10-2025
-Horário:12:50
-CHEGAR AS: 12:30
+Data Consulta: 29-10-2025 | |
+Horário:12:40
+CHEGAR ÀS: 12:20 |
 Profissional: YUKIO TAROCO NOSSE
-Especialidade: Ortopedia
-Tipo Marcação: Primeira Consulta
-Local: HM MAE DIV AMOR E PROVID
-Endereço: RUA RUI BARBOSA, 2019
-CENTRO
-MIRASSOL - SP
-Ponto de Referência: .
-A CONSULTA SERÁ REALIZADA NA CLINICA SÃO PEDRO,
-ÃO LADO DO HOSPITAL E MATERNIDADE DE MIRASSOL.
-RUA JOSÉ BONIFÁCIO, NUMERO 24-47 - CENTRO.
-CASA DE PORTÃO MARROM.
-Orientação: COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-NO DIA DO ATENDIMENTO SERÁ OBRIGATÓRIO APRESENTAR: .
-1- CPF, RG OU CNH. (PARA PACIENTES MENORES DE QUE NÃO TIVEREM RG, APRESENTAR CERTIDÃO DE NASCIMENTO).
-2- CARTÃO SUS.
-3- GUIA DE CONSULTA.
-E DE SUA RESPONSABILIDADE NÃO PERDER ESTE DOCUMENTO, POIS SE CASO PERDER, TERÁ QUE AGENDAR NOVA
-CONSULTA, POIS NÃO ATENDEMOS SEM A GUIA DE CONSULTA,
-EM CASO DE DESISTÊNCIA AVISAR COM ANTECEDÊNCIA AO LOCAL EM QUE RETIROU A GUIA DE CONSULTA, POIS EXISTEM
-OUTROS PACIENTES NA FILA DE ESPERA - QUANDO UM PACIENTE FALTA E NÃO AVISA COM ANTECEDÊNCIA, IMPOSSIBILITA QUE
-OUTRA PESSOA SEJA ATENDIDA
-MENOR DE 18 ANOS SERÁ ATENDIDO SOMENTE COM ACOMPANHANTE RESPONSÁVEL.
-Preparo: NA DATA DA CONSULTA NÃO ESQUEÇA OS RESULTADOS DE EXAMES ANTERIORES MAIS RECENTES, QUE ESTEJAM
-RELACIONADOS AO MOTIVO DA CONSULTA.
-COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-Solicitante: SMS - MIRASSOL
-Usuário: PERPETUAA M. SILVA
-Controle: 506495473 - 05-09-2025 14:47
-no No dia do atendimento, será OBRIGATÓRIO apresentar:
-CPF, RG ou CNH ou Certidão de Nascimento originais,
-, Cartão SUS, Comprovante de Endereço e
-Encaminhamento Médico.
-Trazer exames anteriores caso possua.
-: Paciente menor, deverá comparecer acompanhado
-. , de responsável legal, munido de RG ou CNH originais.
-É muito importante manter seu cadastro atualizado!
-Principalmente os números de telefone, pois é por meio destes que os serviços de saúde farão contato para informar agendamentos
-realizados e para outras demandas de comunicação.
-https://ambulatorial.siresp.saude.sp.gov.br/filipeta -php?diiYptUJbynO3cDMIXTe1XF Ws8wTUMvMBBadIV3IiyTEP1 dUtKRWSEijLw c ter-M E4fXw... 1/1
-
-05/09/2025 14:49 :: SIRESP - Comprovante de marcação ::
-| SE Secretaria de Estado da Saúde de São Paulo
-COMPROVANTE DE MARCAÇÃO DE CONSULTA
-Código: 12914353
-Nome Social: VANDERLEI ADRIANO SANCHES
-Nome: VANDERLEI ADRIANO SANCHES
-Data de Nascimento: 30/07/1973
-Cns: 898001231901685 .
-Telefone: (17) 3253-2686 Comercial: Celular: (17) 99134-9868 Recado:
-Prontuário: -
-Data Consulta: 29-10-2025
-Horário:12:50
-CHEGAR AS: 12:30
-Profissional: YUKIO TAROCO NOSSE
-Especialidade: Ortopedia
-Tipo Marcação: Primeira Consulta
-Local: HM MAE DIV AMOR E PROVID
-Endereço: RUA RU! BARBOSA, 2019
-CENTRO
-MIRASSOL - SP
-Ponto de Referência: .
-A CONSULTA SERÁ REALIZADA NA CLINICA SÃO PEDRO,
-ÃO LADO DO HOSPITAL E MATERNIDADE DE MIRASSOL.
-RUA JOSE BONIFÁCIO, NÚMERO 24-47 - CENTRO.
-CASA DE PORTÃO MARROM.
-Orientação: COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-NO DIA DO ATENDIMENTO SERÁ OBRIGATÓRIO APRESENTAR: .
-1- CPF, RG OU CNH. (PARA PACIENTES MENORES DE QUE NÃO TIVEREM RG, APRESENTAR CERTIDÃO DE NASCIMENTO).
-2- CARTÃO SUS,
-3- GUIA DE CONSULTA.
-E DE SUA RESPONSABILIDADE NÃO PERDER ESTE DOCUMENTO, POIS SE CASO PERDER, TERÁ QUE AGENDAR NOVA
-CONSULTA, POIS NÃO ATENDEMOS SEM A GUIA DE CONSULTA.
-EM CASO DE DESISTÊNCIA AVISAR COM ANTECEDÊNCIA AO LOCAL EM QUE RETIROU A GUIA DE CONSULTA, POIS EXISTEM
-OUTROS PACIENTES NA FlLA DE ESPERA - QUANDO UM PACIENTE FALTA E NÃO AVISA COM ANTECEDÊNCIA, IMPOSSIBILITA QUE
-OUTRA PESSOA SEJA ATENDIDA
-MENOR DE 18 ANOS SERÁ ATENDIDO SOMENTE COM ACOMPANHANTE RESPONSÁVEL.
-Preparo: NA DATA DA CONSULTA NÃO ESQUEÇA OS RESULTADOS DE EXAMES ANTERIORES MAIS RECENTES, QUE ESTEJAM
-RELACIONADOS AO MOTIVO DA CONSULTA.
-COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-Solicitante: SMS - MIRASSOL
-Usuário: PERPÉTUAA. M. SILVA .
-Controle: 506495474 - 05-09-2025 14:49
-: No dia do atendimento, será OBRIGATÓRIO apresentar:
-oo CPF, RG ou CNH ou Certidão de Nascimento originais,
-Cartão SUS, Comprovante de Endereço e
-Encaminhamento Médico.
-Trazer exames anteriores caso possua.
-o Paciente menor, deverá comparecer acompanhado
-o de responsável legal, munido de RG ou CNH originais.
-É muito importante manter seu cadastro atualizado!
-Principalmente os números de telefone, pois é por meio destes que os serviços de saúde farão contato para informar agendamentos
-E realizados e para outras demandas de comunicação.
-nitps:/embulatorial resp saude sp govibrflipeta php? VptULbyNOSCOMIXTETXF WB TUMVMBBadIVSyTRSCZILNS2MBSA tOgXOr RCCIM 1
-
-05/09/2025 14:50 :: SIRESP - Comprovante de marcação ::
-ga Secretaria de Estado da Saúde de São Paulo
-COMPROVANTE DE MARCAÇÃO DE CONSULTA
-Código: 10777121
-Nome: ELISSON GUILHERME DA SILVA
-Data de Nascimento: 05/12/1991
-Cns: 898000635504377
-Telefone: (17) 3216-1389 Comercial: Celular: (17) 99197-6223 Recado:
-Prontuário:
-Data Consulta: 29-10-2025
-Horário:13:00
-CHEGAR ÀS: 12:40
-Profissional; YUKIO TAROCO NOSSE
 Especialidade: Ortopedia
 Tipo Marcação: Primeira Consulta
 Local: HM MAE DIV AMOR E PROVID
@@ -231,51 +39,20 @@ Endereço: RUA RUI BARBOSA, 2019
 CENTRO
 MIRASSOL - SP
 Ponto de Referência:
-À CONSULTA SERÁ REALIZADA NA CLIN ICA SÃO PEDRO,
-ÃO LADO DO HOSPITAL E MATERNIDADE DE MIRASSOL.
-RUA JOSE BONIFÁCIO, NÚMERO 24-47 - CENTRO.
-CASA DE PORTÃO MARROM.
-Orientação: COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-NO DIA DO ATENDIMENTO SERÁ OBRIGATÓRIO APRESENTAR: .
-1- CPF, RG OU CNH. (PARA PACIENTES MENORES DE QUE NÃO TIVEREM RG, APRESENTAR CERTIDÃO DE NASCIMENTO).
-2- CARTÃO SUS,
-3- GUIA DE CONSULTA,
-E DE'SUA RESPONSABILIDADE NÃO PERDER ESTE DOCUMENTO, POIS SE CASO PERDER, TERÁ QUE AGENDAR NOVA
-CONSULTA, POIS NÃO ATENDEMOS SEM A GUIA DE CONSULTA.
-EM CASO DE DESISTÊNCIA AVISAR COM ANTECEDÊNCIA AO LOCAL EM QUE RETIROU A GUIA DE CONSULTA, POIS EXISTEM
-OUTROS PACIENTES NA FILA DE ESPERA - QUANDO UM PACIENTE FALTA E NÃO AVISA COM ANTECEDÊNCIA, IMPOSSIBILITA QUE
-OUTRA, PESSOA SEJA ATENDIDA
-MENOR DE 18 ANOS SERÁ ATENDIDO SOMENTE COM ACOMPANHANTE RESPONSÁVEL.
-Preparo: NA DATA DA CONSULTA NÃO ESQUEÇA OS RESULTADOS DE EXAMES ANTERIORES MAIS RECENTES, QUE ESTEJAM
-RELACIONADOS AO MOTIVO DA CONSULTA,
-COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-Solicitante: SMS - MIRASSOL
-Usuário: PERPETUAA M SILVA
-Controle: 506495475 - 05-09-2025 14:49
-. º No dia do atendimento, será OBRIGATÓRIO apresentar:
-E CPF, RG ou CNH ou Certidão de Nascimento originais,
-| Cartão SUS, Comprovante de Endereço e
-Encaminhamento Médico.
-: Trazer exames anteriores caso possua.
-: Paciente menor, deverá comparecer acompanhado
-. de responsável legal, munido de RG ou CNH originais.
-É muito importante manter seu cadastro atualizado!
-Principalmente os números de telefone, pois é por meio destes que os serviços de saúde farão contato para informar agendamentos
-o realizados e para outras demandas de comunicação.
-Nips/embultoiasiresp saude sp GovNet Dhp?OVPNUBYPOSCOMDXTe IXPWSBNTUM NBSP CABXISESAMAPUN Re 14
+APASNBICIILTA Ap! ms
 
-05/09/2025 14:51 :: SIRESP - Comprovante de marcação ::
-ao p Secretaria de Estado da Saúde de São Paulo
+05/09/2025 14:48 :: SIRESP - Comprovante de marcação ::
+Si Secretaria de Estado da Saúde de São Paulo
 COMPROVANTE DE MARCAÇÃO DE CONSULTA
-Código: 11604051 .
-Nome: KELLY LASNOU CANDIDO GOMES DA SILVA
-Data de Nascimento: 06/02/1979
-Cns: 898002778847105
-Telefone: (17) 98804-0890 Comercial: Celular: (17) 98804-0892 Recado:
+Código: 8501339
+Nome: JESSICA AMBROSIO BESSA
+Data de Nascimento: 30/03/1992
+Cns: 70890279855081 7,898000078979465
+Telefone: Comercial: Celular: (17) 98129-9314 Recado:
 Prontuário:
-Data Consulta: 29-10-2025
-Horário:13:00
-CHEGAR ÀS: 12:40
+Data Consulta: 29-10-2025 |
+Horário:12:50
+CHEGAR AS: 12:30
 Profissional: YUKIO TAROCO NOSSE
 Especialidade: Ortopedia
 Tipo Marcação: Primeira Consulta
@@ -283,51 +60,98 @@ Local: HM MAE DIV AMOR E PROVID
 Endereço: RUA RUI BARBOSA, 2019
 CENTRO
 MIRASSOL - SP
-Ponto de Referência: º
-A CONSULTA SERÁ REALIZADA NA CLINICA SÃO PEDRO,
-AO LADO DO HOSPITAL E MATERNIDADE DE MIRASSOL.
-RUA JOSE BONIFÁCIO, NÚMERO 24-47 - CENTRO.
-CASA DE PORTÃO MARROM.
-Orientação: COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-NO DIA DO ATENDIMENTO SERÁ OBRIGATÓRIO APRESENTAR: é
-1- CPF, RG OU CNH. (PARA PACIENTES MENORES DE QUE NÃO TIVEREM R6, APRESENTAR CERTIDÃO DE NASCIMENTO).
-2- CARTÃO SUS.
-3- GUIA DE CONSULTA.
-É DE'SUA RESPONSABILIDADE NÃO PERDER ESTE DOCUMENTO, POIS SE CASO PERDER, TERÁ QUE AGENDAR NOVA
-CONSULTA, POIS NÃO ATENDEMOS SEM A GUIA DE CONSULTA,
-EM CASO DE DESISTÊNCIA AVISAR COM ANTECEDÊNCIA AO LOCAL EM QUE RETIROU A GUIA DE CONSULTA, POIS EXISTEM
-OUTROS PACIENTES NA FILA DE ESPERA - QUANDO UM PACIENTE FALTA E NÃO AVISA COM ANTECEDÊNCIA, IMPOSSIBILITA QUE
-OUTRA PESSOA SEJA ATENDIDA
-MENOR DE 18 ANOS SERÁ ATENDIDO SOMENTE COM ACOMPANHANTE RESPONSÁVEL.
-Preparo: NA DATA DA CONSULTA NÃO ESQUEÇA OS RESULTADOS DE EXAMES ANTERIORES MAIS RECENTES, QUE ESTEJAM
-RELACIONADOS AO MOTIVO DA CONSULTA.
-COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-Solicitante: SMS - MIRASSOL
-Usuário: PERPÉTUAA. M. SILVA
-Controle: 506495476 - 05-09-2025 14:50 .
-o No dia do atendimento, será OBRIGATÓRIO apresentar:
-CPF, RG ou CNH ou Certidão de Nascimento originais,
-Cartão SUS, Comprovante de Endereço e
-Encaminhamento Médico.
-Trazer exames anteriores caso possua,
-V Paciente menor, deverá comparecer acompanhado
-| de responsável legal, munido de RG ou CNH originais.
-É muito importante manter seu cadastro atualizado!
-Principalmente os números de telefone, pois é por meio destes Que os serviços de saúde farão contato para informar agendamentos
-o realizados e para outras demandas de comunicação.
-Tpsilambuiatoril iresp saude sp gov brfiipeta php Av PAUJLyrOSCOMXTEIXPWSBWTUMVMBBadIVSyTAOQEBObArse VOS FAKE bnsp an
+Ponto de Referência: o
+APCANMNCLILTA Arma Á APR AL ima
 
-05/09/2025 14:52 : SIRESP . Comprovante de marcação ::
-am Secretaria de Estado da Saúde de São Paulo
-MM COMPROVANTE DE MARCAÇÃO DE CONSULTA
+05/09/2025 14:49 :: SIRESP - Comprovante de marcação ::
+à Sn , Secretaria de Estado da Saúde de São Paulo
+COMPROVANTE DE MARCAÇÃO DE CONSULTA
+Código: 12914353
+Nome Social: VANDERLEI ADRIANO SANCHES
+Nome: VANDERLEI ADRIANO SANCHES
+Data de Nascimento: 30/07/1973 o
+Cns: 898001231901685
+Telefone: (17) 3253-2686 Comercial: Celular: ( 17) 99134-9868 Recado:
+Prontuário:
+Data Consulta: 29-10-2025
+Horário:12:50
+CHEGAR ÀS: 12:30
+Profissional: YUKIO TAROCO NOSSE
+Especialidade: Ortopedia
+Tipo Marcação: Primeira Consulta
+Local: HM MAE DIV AMOR E PROVID
+Endereço: RUA RUI BARBOSA, 2019
+CENTRO |
+MIRASSOL - SP
+
+05/09/2025 14:50 :: SIRESP - Comprovante de marcação ::
+Em +” Secretaria de Estado da Saúde de São Paulo
+EB COMPROVANTE DE MARCAÇÃO DE CONSULTA | |
+
+Código: 10777121
+
+Nome: ELISSON GUILHERME DA SILVA
+
+Data de Nascimento: 05/12/1991
+
+Cns: 898000635504377
+
+Telefone: (17) 3216-1389 Comercial: Celular: (17) 99197-6223 Recado:
+
+Prontuário: |
+Data Consulta: 29-10-2025 |
+Horário:13:00
+
+CHEGAR AS: 12:40
+
+Profissional: YUKIO TAROCO NOSSE
+
+Especialidade: Ortopedia
+
+Tipo Marcação: Primeira Consulta
+
+Local: HM MAE DIV AMOR E PROVID
+Endereço: RUA RUI BARBOSA, 2019
+
+CENTRO
+MIRASSOL - SP
+
+Ponto de Referência:
+AGCANNICOLILCPA Area! mami
+
+05/09/2025 14:51 :: SIRESP - Comprovante de marcação ::
+gr y Secretaria de Estado da Saúde de São Paulo |
+COMPROVANTE DE MARCAÇÃO DE CONSULTA
+Código: 11604051 |
+Nome: KELLY LASNOU CANDIDO GOMES DA SILVA
+Data de Nascimento: 06/02/1979
+Cns: 898002778847105
+Telefone: (17) 98804-0890 Comercial: Celular: (17) 98804-0892 Recado:
+Prontuário:
+Data Consulta: 29-10-2025
+Horário:13:00
+CHEGAR AS: 12:40
+Profissional: YUKIO TAROCO NOSSE
+Especialidade: Ortopedia =
+Tipo Marcação: Primeira Consulta
+Local: HM MAE DIV AMOR E PROVID |
+Endereço: RUA RUI BARBOSA, 2019
+CENTRO
+MIRASSOL - SP
+Ponto de Referência: o
+AGCANNIOVILTTA APR Lan. ml
+
+05/09/2025 14:52 :: SIRESP - Comprovante de marcação ::
+ER Secretaria de Estado da Saúde de São Paulo
+&B COMPROVANTE DE MARCAÇÃO DE CONSULTA
 Código: 9414793
 Nome: APARECIDA PERPETUA VIGNA CARDOSO
 Data de Nascimento: 12/06/1973
-Cns: 898002720860401
+Cns: 898002720660401
 Telefone: Comercial: Celular: (17) 98145-1807 Recado:
 Prontuário:
-Data Consuita: 29-10-2025
-Horário:13:10 ' |
+Data Consulta: 29-10-2025 :
+Horário:13:10 | |
 CHEGAR AS: 12:50
 Profissional: YUKIO TAROCO NOSSE
 Especialidade: Ortopedia
@@ -337,211 +161,21 @@ Endereço: RUA RUI BARBOSA, 2019
 CENTRO
 MIRASSOL - SP
 Ponto de Referência:
-A CONSULTA SERÁ REALIZADA NA CLINICA SÃO PEDRO,
-ÃO LADO DO HOSPITAL E MATERNIDADE DE MIRASSOL.
-RUA JOSE BONIFÁCIO, NÚMERO 24-47 - CENTRO.
-CASA DE PORTÃO MARROM.
-Orientação: COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO,
-NO DIA DO ATENDIMENTO SERÁ OBRIGATÓRIO APRESENTAR: º
-1- CPF, RG OU CNH. (PARA PACIENTES MENORES DE QUE NÃO TIVEREM RG, APRESENTAR CERTIDÃO DE NASCIMENTO).
-2- CARTÃO SUS.
-3- GUIA DE CONSULTA.
-É DESUA RESPONSABILIDADE NÃO PERDER ESTE DOCUMENTO, POIS SE CASO PERDER, TERÁ QUE AGENDAR NOVA
-CONSULTA, POIS NÃO ATENDEMOS SEM A GUIA DE CONSULTA.
-EM CASO DE DESISTÊNCIA AVISAR COM ANTECEDÊNCIA AO LOCAL EM QUE RETIROU A GUIA DE CONSULTA, POIS EXISTEM
-OUTROS PACIENTES NA FILA DE ESPERA - QUANDO UM PACIENTE FALTA E NÃO AVISA COM ANTECEDÊNCIA, IMPOSSIBILITA QUE
-OUTRA PESSOA SEJA ATENDIDA
-MENOR DE 18 ANOS SERÁ ATENDIDO SOMENTE COM ACOMPANHANTE RESPONSÁVEL.
-Preparo: NA DATA DA CONSULTA NÃO ESQUEÇA OS RESULTADOS DE EXAMES ANTERIORES MAIS RECENTES, QUE ESTEJAM
-RELACIONADOS AQ MOTIVO DA CONSULTA.
-COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-Solicitante: SMS - MIRASSOL
-Usuário: PERPÉTUAA M. SILVA
-Controle: 506495477 - 05-09-2025 14:51
-No dia do atendimento, será OBRIGATÓRIO apresentar:
-CPF, RG ou CNH ou Certidão de Nascimento originais,
-Cartão SUS, Comprovante de Endereço e
-Encaminhamento Médico.
-“ Trazer exames anteriores caso possua.
-o Paciente menor, deverá comparecer acompanhado
-. de responsável legal, munido de RG ou CNH originais.
-É muito importante manter seu cadastro atualizado!
-Principalmente os números de telefone, pois é por meio destes que os serviços de saúde farão contato para informar agendamentos
-. realizados e para outras demandas de comunicação. .
-pslambuletorial sitesp saude sp gowiriipeta php? JbymOSCOMXTe1XPWSEWTUMVMS Bad SSOG AAA Eme ásia CTRMnO 1m
+ACONCQIUITA OCDA BPAISARA LL
 
 05/09/2025 14:52 :: SIRESP - Comprovante de marcação ::
-So Secretaria de Estado da Saúde de São Paulo
+gema, Secretaria de Estado da Saúde de São Paulo
 COMPROVANTE DE MARCAÇÃO DE CONSULTA
-Código: 8634136
+Código: 8634136 |
 Nome: MARIA APARECIDA TEIXEIRA GOIS DE PADUA
-Data de Nascimento: 01/01/1 965
+Data de Nascimento: 01/01/1965
 Cns: 898002702237578
 Telefone: Comercial: Celular: (17) 98141-7217 Recado:
 Prontuário:
 Data Consulta: 29-10-2025
 Horário:13:10
-CHEGAR ÀS: 12:50
+CHEGAR AS: 12:50
 Profissional: YUKIO TAROCO NOSSE
-Especialidade: Ortopedia
-Tipo Marcação: Primeira Consulta
-Local: HM MAE DIV AMOR E PROVID
-Endereço: RUA RUI BARBOSA, 2019
-CENTRO
-MIRASSOL - SP
-Ponto de Referência: .
-A CONSULTA SERÁ REALIZADA NA CLINICA SÃO PEDRO,
-ÃO LADO DO HOSPITAL E MATERNIDADE DE MIRASSOL.
-RUA JOSÉ BONIFÁCIO, NÚMERO 24-47 - CENTRO.
-CASA DE PORTÃO MARROM.
-Orientação: COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-NO DIA DO ATENDIMENTO SERÁ OBRIGATÓRIO APRESENTAR: é
-1- CPF, RG OU CNH. (PARA PACIENTES MENORES DE QUE NÃO TIVEREM RG, APRESENTAR CERTIDÃO DE NASCIMENTO).
-2- CARTÃO SUS.
-3- GUIA DE CONSULTA. '
-É DE SUA RESPONSABILIDADE NÃO PERDER ESTE DOCUMENTO, POIS SE CASO PERDER, TERÁ QUE AGENDAR NOVA
-CONSULTA, POIS NÃO ATENDEMOS SEM A GUIA DE CONSULTA.
-EM CASO DE DESISTÊNCIA AVISAR COM ANTECEDÊNCIA AO LOCAL EM QUE RETIROU A GUIA DE CONSULTA, POIS EXISTEM
-OUTROS PACIENTES NA FILA DE ESPERA - QUANDO UM PACIENTE FALTA E NÃO AVISA COM ANTECEDÊNCIA, IMPOSSIBILITA QUE
-OUTRA PESSOA SEJA ATENDIDA
-MENOR DE 18 ANOS SERÁ ATENDIDO SOMENTE COM ACOMPANHANTE RESPONSÁVEL.
-Preparo: NA DATA DA CONSULTA NÃO ESQUEÇA OS RESULTADOS DE EXAMES ANTERIORES MAIS RECENTES, QUE ESTEJAM
-RELACIONADOS AO MOTIVO DA CONSULTA.
-COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-Solicitante: SMS - MIRASSOL
-Usuário: PERPÉTUAA M. SILVA
-Controle: 506495478 - 05-09-2025 14:52 .
-o No dia do atendimento, será OBRIGATÓRIO apresentar:
-. CPF, RG ou CNH ou Certidão de Nascimento originais,
-Cartão SUS, Comprovante de Endereço e
-. Encaminhamento Médico.
-Trazer exames anteriores caso possua.
-, Paciente menor, deverá comparecer acompanhado
-o de responsável legal, munido de RG ou CNH originais.
-É muito importante manter seu cadastro atualizado!
-Principalmente os números de telefone, pois é por meio destes que os serviços de saúde farão contato para informar agendamentos
-.: realizados e para outras demandas de comunicação.
-https://embulatorial.siresp saude sp gov brflipeta php?diiVPIUJDYNO3CDMXTe 1X FWs8wTUMvMBBadIV3Iiy Tp9KsOXc1 TizhiT2sVelTLexvYCEK3... 1/1
-
-05/09/2025 14:53 “ SIRESP - Comprovante de marcação ::
-go Secretaria de Estado da Saúde de São Paulo .
-COMPROVANTE DE MARCAÇÃO DE CONSULTA
-Código: 24551471
-Nome: ZILDA LOPES FERREIRA .
-Data de Nascimento: 12/01/1960
-Cns: 708009856372623 .
-Telefone: (11) 99218-2828 Comercial: Celular: (11) 97509-2258 Recado:
-Prontuário: .
-Data Consulta: 29-10-2025
-Horário:13:20
-CHEGAR ÀS: 13:00 |
-Profissional: YUKIO TAROCO NOSSE
-Especiálidade: Ortopedia
-Tipo Márcação: Primeira Consulta
-Local: HM MAE DIV AMOR E PROVID
-Endereço: RUA RUI BARBOSA, 2019
-* CENTRO
-- MIRASSOL-SP
-Pontgide Referência:
-A CONSULTA SERÁ REALIZADA NA CLINICA SÃO PEDRO,
-AO LADO DO HOSPITAL E MATERNIDADE DE MIRASSOL. .
-RUA JOSE BONIFÁCIO, NÚMERO 24-47 - CENTRO.
-CASA DE PORTÃO MARROM.
-Orientação: COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-NO DIA DO ATENDIMENTO SERÁ OBRIGATÓRIO APRESENTAR: é
-1- CPF, RG OU CNH, (PARA PACIENTES MENORES DE QUE NÃO TIVEREM RG, APRESENTAR CERTIDÃO DE NASCIMENTO)
-2- CARTÃO SUS.
-3- GUIA DE CONSULTA,
-E DE SUA RESPONSABILIDADE NÃO PERDER ESTE DOCUMENTO, POIS SE CASO PERDER, TERÁ QUE AGENDAR NOVA
-CONSULTA, POIS NÃO ATENDEMOS SEM A GUIA DE CONSULTA.
-EM CASO DE DESISTÊNCIA AVISAR COM ANTECEDÊNCIA AO LOCAL EM QUE RETIROU A GUIA DE CONSULTA, POIS EXISTEM
-OUTROS PACIENTES NA FILA DE ESPERA - QUANDO UM PACIENTE FALTA E NÃO AVISA COM ANTECEDÊNCIA, IMPOSSIBILITA QUE
-OUTRA PESSOA SEJA ATENDIDA
-MENOR DE 18 ANOS SERÁ ATENDIDO SOMENTE COM ACOMPANHANTE RESPONSÁVEL.
-Preparo: NA DATA DA CONSULTA NÃO ESQUEÇA OS RESULTADOS DE EXAMES ANTERIORES MAIS RECENTES, QUE ESTEJAM
-RELACIONADOS AQ MOTIVO DA CONSULTA.
-COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-Solicitante: SMS - MIRASSOL
-Usuário: PERPÉTUAA. M. SILVA
-Controle: 506495479 - 05-09-2025 14:53
-No dia do atendimento, será OBRIGATÓRIO apresentar:
-. CPF, RG ou CNH ou Certidão de Nascimento originais,
-| Cartão SUS, Comprovante de Endereço e
-Encaminhamento Médico.
-” Trazer exames anteriores caso possua,
-Paciente menor, deverá comparecer acompanhado
-o de responsável legal, munido de RG ou CNH originais.
-E É muito importante manter seu cadastro atualizado!
-Principalmente os números de telefone, pois é por meio destes que os serviços de saúde farão contato para informar agendamentos
-: realizados e para outras demandas de comunicação. |
-"pSHembulatorial sresp saude sp gov britipeta php ?VGIUbyMO SCDMAXTE NX FINS TUMBA AIVSITLhAATVBZYNVICMP SM OANS 1/1
-
-05/09/2025 14:54 :: SIRESP - Comprovante de marcação ::
-rio . Secretaria de Estado da Saúde de São Paulo
-COMPROVANTE DE MARCAÇÃO DE CONSULTA
-Código: 33960291
-Nome; ROBERTO APARECIDO DE MENDONCA
-Data de Nascimento: 02/03/1957
-Cns: 705007689241153
-Telefone: (17) 99663-5005 Comercial: Celular: (17) 99759-6006 Recado:
-Prontuário: -
-Data Consulta: 29-10-2025
-Horário:13:20
-CHEGAR AS: 13:00
-Profissional: YUKIO TAROCO NOSSE
-Especialidade: Ortopedia
-Tipo Marcação: Primeira Consulta
-Local: HM MAE DIV AMOR E PROVID
-Endereço: RUA RUI BARBOSA, 2019
-' CENTRO
-MIRASSOL - SP
-Ponto de Referência: º
-A CONSULTA SERÁ REALIZADA NA CLINICA SÃO PEDRO,
-ÃO LADO DO HOSPITAL E MATERNIDADE DE MIRASSOL.
-RUA JOSÉ BONIFÁCIO, NÚMERO 24-47 - CENTRO.
-CASA DE PORTÃO MARROM.
-Orientação: COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-NO DIA DO ATENDIMENTO SERÁ OBRIGATÓRIO APRESENTAR: .
-1-CPF, RG OU CNH. (PARA PACIENTES MENORES DE QUE NÃO TIVEREM RG. APRESENTAR CERTIDÃO DE NASCIMENTO).
-2- CARTÃO SUS.
-3- GUJA DE CONSULTA,
-É DE SUA RESPONSABILIDADE NÃO PERDER ESTE DOCUMENTO, POIS SE CASO PERDER, TERÁ QUE AGENDAR NOVA
-CONSULTA, POIS NÃO ATENDEMOS SEM A GUIA DE CONSULTA.
-EM CASO DE DESISTÊNCIA AVISAR COM ANTECEDÊNCIA AO LOCAL EM QUE RETIROU A GUIA DE CONSULTA, POIS EXISTEM
-OUTROS PACIENTES NA FILA DE ESPERA - QUANDO UM PACIENTE FALTA E NÃO AVISA COM ANTECEDÊNCIA, IMPOSSIBILITA QUE
-OUTRA PESSOA SEJA ATENDIDA
-MENOR DE 18 ANOS SERÁ ATENDIDO SOMENTE COM ACOMPANHANTE RESPONSÁVEL,
-Preparo: NA DATA DA CONSULTA NÃO ESQUEÇA OS RESULTADOS DE EXAMES ANTERIORES MAIS RECENTES, QUE ESTEJAM
-RELACIONADOS AO MOTIVO DA CONSULTA.
-COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-Solicitante: SMS - MIRASSOL
-Usuário: PERPÉTUAA M SILVA
-Controle: 506495480 - 05-09-2025 14:54
-o No dia do atendimento, será OBRIGATÓRIO apresentar:
-CPF, RG ou CNH ou Certidão de Nascimento originais,
-: Cartão SUS, Comprovante de Endereço e
-: Encaminhamento Médico.
-: Trazer exames anteriores caso possua.
-ci Paciente menor, deverá comparecer acompanhado
-o de responsável legal, munido de RG ou CNH originais.
-o É muito importante manter seu cadastro atualizado!
-Principalmente os números de telefone, pois é por meio destes que os serviços de saúde farão contato para informar agendamentos
-realizados e para outras demandas de comunicação.
-htips://ambulatorial siresp saude .sp.gov.briflipeta.php?diivptUJbynO3cDMIXT e1XFWs8wTUMyMêEBadIV3IiyTG7S1 uSbdJoLxKCQOmaDLCJOJKM... 1/1
-
-VtUicdlo 14:56 :: SIRESP « Comprovante de marcação ::
-j rm Secretaria de Estado da Saúde de São Paulo
-COMPROVANTE DE MARCAÇÃO DE CONSULTA
-Código: 20254875
-Nome: MARIA LUCIA DA COSTA
-Data de Nascimento: 12/05/1965
-Cns: 898000996163486,898001458587470
-Telefone: Comercial: Celular: (17) 98127-s664 Recado:
-Prontuário:
-Data Consulta: 29-1 0-2025
-Horário:13:30
-CHEGAR AS: 13:10
-Profissional: YUKIO TAROCO NOSSE '
 Especialidade: Ortopedia
 Tipo Marcação: Primeira Consulta
 Local: HM MAE DIV AMOR E PROVID
@@ -549,35 +183,70 @@ Endereço: RUA RUI BARBOSA, 2019
 CENTRO
 MIRASSOL - SP
 Ponto de Referência:
-A CONSULTA SERÁ REALIZADA NA CLINICA SÃO PEDRO,
-ÃO LADO DO HOSPITAL E MATERNIDADE DE MIRASSOL.
-RUA JOSÉ BONIFÁCIO, NÚMERO 24-47 - CENTRO,
-CASA DE PORTÃO MARROM.
-Orientação: COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.,
-NO DIA DO ATENDIMENTO SERÁ OBRIGATÓRIO APRESENTAR:
-1- CPF, RG OU CNH, (PARA PACIENTES MENORES DE QUE NÃO TIVEREM RG, APRESENTAR CERTIDÃO DE NASCIMENTO).
-2- CARTÃO SUS,
-3- GUIA DE CONSULTA. '
-E DE SUA RESPONSABILIDADE NÃO PERDER ESTE DOCUMENTO, POIS SE CASO PERDER, TERÁ QUE AGENDAR NOVA
-CONSULTA, POIS NÃO ATENDEMOS SEM A GUIA DE CONSULTA.
-EM CASO DE DESISTÊNCIA AVISAR COM ANTECEDÊNCIA AO LOCAL EM QUE RETIROU A GUIA DE CONSULTA, POIS EXISTEM
-OUTROS PACIENTES NA F LA DE ESPERA - QUANDO UM PACIENTE FALTA E NÃO AVISA COM ANTECEDÊNCIA, IMPOSSIBILITA QUE
-OUTRA PESSOA SEJAATENDIDA
-MENOR DE 18 ANOS SERÁ ATENDIDO SOMENTE COM ACOMPANHANTE RESPONSÁVEL.
-Preparo: NA DATA DA CONSULTA NÃO ESQUEÇA OS RESULTADOS DE EXAMES ANTERIORES MAIS RECENTES, QUE ESTEJAM
-RELACIONADOS AO MOTIVO DA CONSULTA,
-COMPAREÇA COM 20 (VINTE) MINUTOS DE ANTECEDÊNCIA DO HORÁRIO AGENDADO.
-Solicitante: SMS - MIRASSOL
-Usuário: PERPÉTUAA. M. SILVA
-Controle: 506495481 - 05-09-2025 14:55
-. : No dia do atendimento, será OBRIGATÓRIO apresentar:
-: CPF, RG ou CNH ou Certidão de Nascimento originais,
-o Cartão SUS, Comprovante de Endereço e
-. Encaminhamento Médico.
-e Trazer exames anteriores caso possua, |
-Paciente menor, deverá comparecer acompanhado
-a de responsável legal, munido de RG ou CNH originais.
-E muito importante manter seu cadastro atualizado!
-Principaimente os números de telefone, pois é por meio destes que Os serviços de saúde farão contato para informar agendamentos
-Í realizados e para outras demandas de comunicação.
-Te ambutoi srosp saude so goubripeta DPI NO SCOM XP TUNA VE 14
+ACONCLUTA CEBDA MTALisamMa No va
+
+05/09/2025 14:53 = SIRESP - Comprovante de marcação :: o
+Ea Secretaria de Estado da Saúde de São Paulo
+COMPROVANTE DE MARCAÇÃO DE CONSULTA .
+Código: 24551471 .
+Nome: ZILDA LOPES FERREIRA :
+Data de Nascimento: 12/01/1960
+Cns: 708009856372623 |
+Telefone: (11) 99218-2826 Comercial: Celular: (11) 97609-2258 Recado:
+Prontuário: .
+Data Consulta: 29-10-2025 |
+Horário:13:20
+CHEGAR AS: 13:00 |
+Profissional: YUKIO TAROCO NOSSE
+Especiálidade: Ortopedia |
+Tipo Márcação: Primeira Consulta | .
+Local: HM MAE DIV AMOR E PROVID |
+Endereço: RUA RUI BARBOSA, 2019 |
+“ CENTRO :
+MIRASSOL -SP |
+Ponto de Referência:
+À CONISUI TA CEDÁ DOCADVLIDVAPSA RIA APRIL me
+
+05/09/2025 14:54 :: SIRESP - Comprovante de marcação ::
+ia Secretaria de Estado da Saúde de São Paulo
+COMPROVANTE DE MARCAÇÃO DE CONSULTA
+Código: 33969291 =
+Nome: ROBERTO APARECIDO DE MENDONCA
+Data de Nascimento: 02/03/1957
+Cns: 705007689241153
+Telefone: (17) 99663-5005 Comercial: Celular: (17) 99759-6006 Recado:
+Prontuário: .
+Data Consulta: 29-10-2025
+Horário:13:20 '
+CHEGAR AS: 13:00
+Profissional: YUKIO TAROCO NOSSE | |
+Especialidade: Ortopedia
+Tipo Marcação: Primeira Consulta
+Local: HM MAE DIV AMOR E PROVID
+Endereço: RUA RUI BARBOSA, 2019
+CENTRO
+MIRASSOL - SP |
+Ponto de Referência: o
+APCANMOCLIILTA AREAL amas all
+
+SHELL 14:56 :: SIRESP - Comprovante de marcação ::
+Ei “Secretaria de Estado da Saúde de São Paulo
+COMPROVANTE DE MARCAÇÃO DE CONSULTA
+Código: 20254875
+Nome: MARIA LUCIA DA COSTA
+Data de Nascimento: 12/05/1965
+Cns: 898000996163486,898001458587470
+Telefone: Comercial: Celular: (17) 98127-6664 Recado:
+Prontuário:
+Data Consulta: 29-10-2025 |
+Horário:13:30
+CHEGAR AS: 13:10
+Profissional: YUKIO TAROCO NOSSE o
+Especialidade: Ortopedia
+Tipo Marcação: Primeira Consulta
+Local: HM MAE DIV AMOR E PROVID
+Endereço: RUA RUI BARBOSA, 2019
+CENTRO
+“ MIRASSOL -SP
+Ponto de Referência: º
+A CONSULTA SERA REALIZANA NIA ALIADAS ATA

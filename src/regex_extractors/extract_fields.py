@@ -29,6 +29,15 @@ def extract_datas(seg: str) -> dict:
     return result
 
 
+def extract_telefones(seg: str) -> dict:
+    tel_block = (patterns.REGEX_TEL_BLOCK.search(seg) or ["", ""])[1]
+    rawPhones = patterns.REGEX_TEL.findall(tel_block)[:4]
+    while len(rawPhones) < 4:
+        rawPhones.append("")
+    telefones_str = " ".join([f"+55{re.sub(r'[^0-9]', '', t)}" for t in rawPhones if t])
+    return {"telefone": telefones_str}
+
+
 def extract_local(seg: str) -> dict:
     m = patterns.REGEX_LOCAL.search(seg)
     return {"local": m.group(1).strip()} if m else {"local": ""}
@@ -78,6 +87,7 @@ def extract_fields(seg: str) -> dict:
         extract_exame,
         extract_datas,
         extract_nascimento,
+        extract_telefones,
         extract_local,
         extract_profissional,
         extract_cns,

@@ -1,14 +1,16 @@
 import os
 import json
-from src.pdf_processor import process_pdf
-from src.data_cleaner import deduplicate_records
+from src.processor.pdf_processor import process_pdf
+from src.cleaning.data_cleaner import deduplicate_records
 
 BASE_DIR = "meus_pdfs"
+
 
 def process_all_folders(base_dir=BASE_DIR):
     all_records = []
     stats = {}
 
+    # Percorre subpastas da pasta base
     for root, dirs, files in os.walk(base_dir):
         if root == base_dir:
             for subpasta in dirs:
@@ -20,13 +22,14 @@ def process_all_folders(base_dir=BASE_DIR):
                     "docs": len(records)
                 }
 
-    # Deduplicação global com log e stats
+    # Deduplicação global com log e estatísticas
     final_records = deduplicate_records(
         all_records,
         log_path=os.path.join(base_dir, "fix.txt"),
         stats=stats
     )
 
+    # Salva consolidado
     out_path = os.path.join(base_dir, "firestore.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(final_records, f, ensure_ascii=False, indent=2)
@@ -34,8 +37,14 @@ def process_all_folders(base_dir=BASE_DIR):
 
 
 def process_one_subfolder(subpath, subpasta):
+    """
+    Processa todos os PDFs dentro de uma subpasta.
+    - Chama process_pdf() para cada arquivo.
+    - Salva resultados parciais em resultados.json
+    """
     resultados = []
     n_pdfs = 0
+
     for fname in os.listdir(subpath):
         if fname.lower().endswith(".pdf"):
             n_pdfs += 1
@@ -50,8 +59,6 @@ def process_one_subfolder(subpath, subpasta):
         print(f"[OK] Extração salva em {out_path}")
 
     return resultados, n_pdfs
-
-
 
 
 if __name__ == "__main__":

@@ -3,61 +3,7 @@ import unicodedata
 from datetime import datetime
 import os
 import re
-from typing import Union, List, Dict
-
-def remove_spaces_numeric_like(record: dict) -> dict:
-    """
-    Remove espaços apenas de campos que parecem datas, horas ou códigos curtos.
-    - Datas e horas: contêm apenas números e símbolos, ou nome sugere data/hora
-    - Códigos curtos (menos de 15 caracteres): juntar números
-    - Valores longos (ex: CNS) não são tocados
-    """
-    campos_alvo_substrings = ["data", "hora", "codigo", "chegar_as", "nascimento",]
-    novo = {}
-    
-    for k, v in record.items():
-        if not isinstance(v, str):
-            novo[k] = v
-            continue
-        
-        # remove espaços em datas/horas ou campos que sugerem isso
-        if any(sub in k.lower() for sub in campos_alvo_substrings):
-            novo[k] = v.replace(" ", "")
-        # remove espaços em valores numeric-like curtos (códigos)
-        elif all(c.isdigit() or c in "-/: " for c in v) and len(v) <= 14:
-            novo[k] = v.replace(" ", "")
-        else:
-            # tudo mais mantém (CNS, nomes, etc.)
-            novo[k] = v
-            
-    return novo
-
-
-def clean_fields(data: Union[Dict, List[Dict]]) -> Union[Dict, List[Dict]]:
-    """
-    Limpa prefixos e sujidades finais (; : . - |) de todos os valores string
-    de um dicionário ou de uma lista de dicionários.
-    """
-    def _clean_value(v: str) -> str:
-        if not v:
-            return ""
-        v = v.strip()
-        v = re.sub(r"^[\s:;,\-\.\|]+", "", v)   # remove prefixo sujo
-        v = re.sub(r"[\s:;,\-\.\|]+$", "", v)   # remove sujidade final
-        return v
-
-    def _clean_dict(d: Dict) -> Dict:
-        return {
-            k: _clean_value(v) if isinstance(v, str) else v
-            for k, v in d.items()
-        }
-
-    if isinstance(data, dict):
-        return _clean_dict(data)
-    elif isinstance(data, list):
-        return [_clean_dict(d) for d in data]
-    else:
-        raise TypeError("clean_fields aceita apenas dict ou lista de dicts")
+from src.cleaning.raw_cleaner import clean_raw
 
 
 def clean_date_str(date_str: str) -> str:
@@ -138,16 +84,18 @@ def unify_datetime_fields(record: dict) -> dict:
 
 
 def normalize_records(records: list) -> list:
-    """Pipeline completo: minúsculo, sem acento, datas unificadas, sem duplicata."""
+    """Aplica clean_raw apenas nos valores de string de cada registro."""
     normalized = []
     for r in records:
-        r = remove_spaces_numeric_like(r)
-        r = {k: remove_accents(v) if isinstance(v, str) else v for k, v in r.items()}
-        r = unify_datetime_fields(r)
-        r = to_lowercase(r)
-        r = clean_fields(r)
-        normalized.append(r)
+        r_clean = {}
+        for k, v in r.items():
+            if isinstance(v, str):
+                r_clean[k] = clean_raw(v)
+            else:
+                r_clean[k] = v  # mantém intactos números, datas, etc.
+        normalized.append(r_clean)
     return normalized
+
 
 
 def deduplicate_records(records: list, log_path="fix.txt", stats: dict = None) -> list:
