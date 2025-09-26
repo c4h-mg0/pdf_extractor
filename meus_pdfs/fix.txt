@@ -1,9 +1,0 @@
-=== RESUMO POR PASTA ===
-regissol: 3 arquivos PDF, 23 documentos extraídos
-
-=== DUPLICADOS REMOVIDOS (total: 0) ===
-(nenhum)
-
-=== CAMPOS VAZIOS (NÃO REMOVIDOS) (total: 2) ===
-{'time_scan': '2025/09/05T14:57:17', 'unidade': 'regissol', 'file_name': '20250905135915439.pdf', 'codigo_srp': '24551471', 'nome': 'ZILDA LOPES FERREIRA:', 'exame': '', 'data_consulta': '29/10/2025', 'hora_consulta': '13:20', 'nascimento': '12/01/1960', 'telefone': '55119921828265511976092258', 'local': 'HM MAE DIV AMOR E PROVID', 'profissional': 'YUKIO TAROCO NOSSE', 'cns': '708009856372623', 'chegar_as': '13:00'}
-{'time_scan': '2025/09/11T07:41:55', 'unidade': 'regissol', 'file_name': '20250911064353290.pdf', 'codigo_srp': '5304495', 'nome': 'ADRIANA DA SILVA NERY', 'especialidade': 'Cirurgia Vascular', 'nascimento': '', 'telefone': '5517988202358', 'local': 'HM MAE DIV AMOR E PROVID', 'profissional': 'FERNANDO GUIRADO NETO', 'cns': '700205440577028898002384212925', 'chegar_as': '13:40'}

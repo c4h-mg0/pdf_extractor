@@ -39,12 +39,6 @@ REGEX_NASC = re.compile(
 )
 
 # ---------------------------
-# Telefones
-# ---------------------------
-REGEX_TEL_BLOCK = re.compile(r"Telefone:(.*?)(?=Prontu[aá]rio[:\s]|$)", re.I | re.S)
-REGEX_TEL = re.compile(r"\(\d{2}\)\s*\d{4,5}-\d{4}")
-
-# ---------------------------
 # Local
 # ---------------------------
 REGEX_LOCAL = re.compile(r"Local[:\s]*(.+)", re.I)

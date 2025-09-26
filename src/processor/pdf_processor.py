@@ -2,9 +2,11 @@
 import os
 import datetime
 from src.ocr.pdf_ocr import PdfOCR
-from src.utils.file_utils import save_text
+from src.utils.file_utils import save_text, save_cleaner
 from src.regex_extractors.extract_fields import extract_fields, extract_codes
 from src.cleaning.data_cleaner import normalize_records, deduplicate_records
+from src.cleaning.raw_cleaner import clean_raw
+
 
 
 def get_file_metadata(pdf_path):
@@ -45,9 +47,11 @@ def process_pdf(pdf_path):
     """
     folder_name, file_name, time_scan = get_file_metadata(pdf_path)
     texto_total = run_ocr(pdf_path)
+    texto_cleaner = clean_raw(texto_total)
+    save_cleaner(texto_cleaner, pdf_path, folder="ocr_clean")
 
     raw_results = []
-    for codigo_srp, segment in extract_segments(texto_total):
+    for codigo_srp, segment in extract_segments(texto_cleaner):
         campos = extract_fields(segment)
         result = {
             "time_scan": time_scan,
