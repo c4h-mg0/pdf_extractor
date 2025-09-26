@@ -1,20 +1,9 @@
 # src/processors.py
-import os
-import datetime
 from src.ocr.pdf_ocr import PdfOCR
-from src.utils.file_utils import save_text, save_cleaner
-from src.regex_extractors.extract_fields import extract_fields, extract_codes
-from src.cleaning.data_cleaner import normalize_records, deduplicate_records
-from src.cleaning.raw_cleaner import clean_raw
-
-
-
-def get_file_metadata(pdf_path):
-    """Coleta nome da pasta, arquivo e timestamp do PDF."""
-    folder_name = os.path.basename(os.path.dirname(pdf_path))
-    file_name = os.path.basename(pdf_path)
-    time_scan = datetime.datetime.fromtimestamp(os.path.getmtime(pdf_path)).isoformat()
-    return folder_name, file_name, time_scan
+from src.utils.file_utils import save_cleaner
+from src.parse_steps.raw_cleaner import RawCleaner
+from src.parse_steps.bock_splitter import BlockSplitter
+from src.parse_steps.pipeline_parser import Pipeline
 
 
 def run_ocr(pdf_path, dpi=400, lang="por"):
@@ -28,40 +17,25 @@ def run_ocr(pdf_path, dpi=400, lang="por"):
     return texto
 
 
-def extract_segments(texto_total):
-    """Divide o texto em segmentos com base nos códigos SRP."""
-    matches = extract_codes(texto_total)
-    for i, match in enumerate(matches):
-        seg_start = match.start()
-        seg_end = matches[i + 1].start() if i + 1 < len(matches) else len(texto_total)
-        yield match.group(1), texto_total[seg_start:seg_end]
-
-
 def process_pdf(pdf_path):
-    """
-    Processa um PDF e retorna lista de dicionários:
-      1. OCR com pré-processamento (delegado ao image_preproc)
-      2. Extração de campos
-      3. Normalização (minúsculo, sem acento, datas/hora unificadas)
-      (não remove duplicatas aqui)
-    """
-    folder_name, file_name, time_scan = get_file_metadata(pdf_path)
     texto_total = run_ocr(pdf_path)
-    texto_cleaner = clean_raw(texto_total)
-    save_cleaner(texto_cleaner, pdf_path, folder="ocr_clean")
 
-    raw_results = []
-    for codigo_srp, segment in extract_segments(texto_cleaner):
-        campos = extract_fields(segment)
-        result = {
-            "time_scan": time_scan,
-            "unidade": folder_name,
-            "file_name": file_name,
-            "codigo_srp": codigo_srp,
-            **campos
-        }
-        raw_results.append(result)
+    steps = [
+        RawCleaner(),
+        BlockSplitter(),
+    ]
 
-    # Apenas normaliza, sem deduplicar aqui
-    normalized = normalize_records(raw_results)
-    return normalized
+    pipeline = Pipeline(steps)
+    resultado = pipeline.run(texto_total)   # resultado é list[str]
+
+    # Concatena os blocos em um único texto para salvar
+    texto_formatado = "\n\n".join(
+        [f"===== BLOCO {i+1} =====\n{bloco}" for i, bloco in enumerate(resultado)]
+    )
+
+    # Agora sim salva no txt
+    save_cleaner(texto_formatado, pdf_path, folder="ocr_clean")
+
+    # Retorna os blocos como lista (para uso posterior no código)
+    return resultado
+    

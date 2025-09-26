@@ -1,7 +1,7 @@
 import os
 import json
 from src.processor.pdf_processor import process_pdf
-from src.cleaning.data_cleaner import deduplicate_records
+# from src.cleaning.data_cleaner import deduplicate_records
 
 BASE_DIR = "meus_pdfs"
 
@@ -23,17 +23,17 @@ def process_all_folders(base_dir=BASE_DIR):
                 }
 
     # Deduplicação global com log e estatísticas
-    final_records = deduplicate_records(
-        all_records,
-        log_path=os.path.join(base_dir, "fix.txt"),
-        stats=stats
-    )
+    # final_records = deduplicate_records(
+    #     all_records,
+    #     log_path=os.path.join(base_dir, "fix.txt"),
+    #     stats=stats
+    # )
 
     # Salva consolidado
-    out_path = os.path.join(base_dir, "firestore.json")
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(final_records, f, ensure_ascii=False, indent=2)
-    print(f"[OK] Arquivo consolidado salvo em {out_path}")
+    # out_path = os.path.join(base_dir, "firestore.json")
+    # with open(out_path, "w", encoding="utf-8") as f:
+    #     json.dump(final_records, f, ensure_ascii=False, indent=2)
+    # print(f"[OK] Arquivo consolidado salvo em {out_path}")
 
 
 def process_one_subfolder(subpath, subpasta):
