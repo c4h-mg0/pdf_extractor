@@ -1,6 +1,6 @@
-# src/pipeline.py
+# src/parse_steps/pipeline_parser.py
 from typing import List
-from src.parse_steps.interface import Step
+from src.parse_steps.base_step import Step
 
 
 class Pipeline:

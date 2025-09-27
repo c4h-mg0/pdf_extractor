@@ -1,4 +1,4 @@
-# etapas/base.py
+# src/parse_steps/base_step.py
 class Step:
     def processar(self, entrada):
         """Toda etapa deve implementar esse método"""
