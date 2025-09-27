@@ -1,6 +1,6 @@
-# src/extractor/data_extractors.py
+# src/parsers/extractors.py
 import re
-from src.extractors.base_extractor import BaseExtractor
+from src.interfaces import BaseExtractor
 
 
 class CodigoExtractor(BaseExtractor):

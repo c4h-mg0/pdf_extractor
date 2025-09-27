@@ -1,13 +1,34 @@
 # src/processor/processors.py
 from src.ocr.pdf_ocr import PdfOCR
 from src.utils.file_utils import save_cleaner
-from src.parse_steps.raw_cleaner import RawCleaner
-from src.parse_steps.extract_regex import ExtractRegex
-from src.parse_steps.pipeline_parser import Pipeline
+from src.pipeline.stages import Cleaner, ExtractRegex
+from src.interfaces import Step
 
 # importa explicitamente para que os extractors se registrem
-import src.extractors.data_extractors
+import src.parsers.extractors
 import json
+
+
+
+
+class ParsePipeline:
+    """
+    Orquestra a execução sequencial das Steps.
+    """
+
+    def __init__(self, Steps: list[Step]):
+        self.Steps = Steps
+
+    def run(self, input):
+        """
+        Executa todas as Steps do pipeline.
+        A saída de uma Step é a input da próxima.
+        """
+        data = input
+        for Step in self.Steps:
+            data = Step.processar(data)
+        return data
+
 
 
 def run_ocr(pdf_path, dpi=400, lang="por"):
@@ -25,11 +46,11 @@ def process_pdf(pdf_path):
     texto_total = run_ocr(pdf_path)
 
     steps = [
-        RawCleaner(),
+        Cleaner(),
         ExtractRegex(),
     ]
 
-    pipeline = Pipeline(steps)
+    pipeline = ParsePipeline(steps)
     resultado = pipeline.run(texto_total)
 
     

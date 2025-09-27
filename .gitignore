@@ -1,5 +1,7 @@
-# Python cache
-__pycache__/
+# Ignorar caches do Python
+**/__pycache__/
 *.py[cod]
+
+# Ignorar configurações locais
 .vscode/
 .venv/

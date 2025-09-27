@@ -1,6 +1,6 @@
 import os
 import json
-from src.processor.pdf_processor import process_pdf
+from src.pipeline.processor_pipeline import process_pdf
 # from src.cleaning.data_cleaner import deduplicate_records
 
 BASE_DIR = "meus_pdfs"

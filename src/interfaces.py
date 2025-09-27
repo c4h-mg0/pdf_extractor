@@ -1,9 +1,18 @@
-# src/extractor/base_extractor.py
+# src/intefaces.py
 from abc import ABC, abstractmethod
 
-# Registry global
-EXTRACTORS = []
 
+class Step(ABC):
+    """Classe abstrata que define o contrato das Steps."""
+
+    @abstractmethod
+    def processar(self, entrada: str) -> str:
+        """Toda etapa deve implementar esse método"""
+        pass
+
+
+# Registry extractors
+EXTRACTORS = []
 class BaseExtractor(ABC):
     campo = None  # nome do campo, ex: "codigo", "nome"
 
@@ -20,3 +29,5 @@ class BaseExtractor(ABC):
     def extrair(self, texto: str):
         """Todo extractor deve implementar este método"""
         pass
+
+
