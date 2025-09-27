@@ -1,8 +1,16 @@
 # src/parse_steps/base_step.py
-class Step:
-    def processar(self, entrada):
+from abc import ABC, abstractmethod
+
+
+class Step(ABC):
+    """Classe abstrata que define o contrato das Steps."""
+
+    @abstractmethod
+    def processar(self, entrada: str) -> str:
         """Toda etapa deve implementar esse método"""
-        raise NotImplementedError("Subclasses devem implementar processar()")
+        pass
+
+       
 
 
 

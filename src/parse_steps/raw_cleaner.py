@@ -31,6 +31,7 @@ class RawCleaner(Step):
     def _texto_lower(self, texto: str) -> str:
         return texto.lower()
 
+
     def processar(self, entrada: str) -> str:
         """Aplica todas as limpezas em ordem"""
         texto = self._remover_invisiveis(entrada)

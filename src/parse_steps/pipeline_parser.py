@@ -1,5 +1,4 @@
 # src/parse_steps/pipeline_parser.py
-from typing import List
 from src.parse_steps.base_step import Step
 
 
@@ -8,7 +7,7 @@ class Pipeline:
     Orquestra a execução sequencial das Steps.
     """
 
-    def __init__(self, Steps: List[Step]):
+    def __init__(self, Steps: list[Step]):
         self.Steps = Steps
 
     def run(self, input):
