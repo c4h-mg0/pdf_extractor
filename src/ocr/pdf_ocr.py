@@ -44,7 +44,7 @@ class PdfOCR:
             texto_total.append(page_text)
 
         doc.close()
-        return "\n".join(texto_total)
+        return texto_total
 
     def save(self, texto: str, pdf_path: str, folder: str = "ocr") -> str:
         """

@@ -236,3 +236,69 @@ def process_pdf(pdf_path, debug=False):
 
     pipeline = ParsePipeline(steps)
     return pipeline.run(pdf_path)
+
+
+
+class CodigoExtractor(BaseTextExtractor):
+    campo = "codigo"
+
+    def extrair(self, texto: str):
+        match = re.search(r"(?:codigo|corigo)\s*[:;.,]?\s*([\d\s.,-]{3,})", texto, re.IGNORECASE)
+        if match:
+            valor = self.normalizar_codigo(match.group(1))
+            return {self.campo: valor}
+        return None
+
+
+
+from abc import ABC, abstractmethod
+
+class BaseTextExtractor(ABC):
+    """
+    Extrator base: todo extractor retorna sempre um dict.
+    """
+
+    campo = None  # usado nos casos simples (ex.: "codigo")
+
+    @abstractmethod
+    def extrair(self, texto: str) -> dict:
+        """
+        Retorna sempre um dict. Ex:
+        - {"codigo": "12345"}
+        - {"data_consulta": "12-10-2025"}
+        - {}
+        """
+        pass
+
+    def pos_processar(self, valor: str) -> str:
+        """Hook para normalizações simples (override se precisar)."""
+        return valor.strip() if valor else valor
+
+
+
+class CodigoExtractor(BaseTextExtractor):
+    campo = "codigo"
+
+    def extrair(self, texto: str):
+        import re
+        match = re.search(r"(?:codigo|corigo)\s*[:;.,]?\s*([\d\s.,-]{3,12})", texto, re.IGNORECASE)
+        if match:
+            valor = self.pos_processar(match.group(1))
+            return {self.campo: valor}
+        return {}
+
+
+class DataExtractor(BaseTextExtractor):
+    def extrair(self, texto: str):
+        import re
+        match = re.search(r"(data\s*(consulta|exame))\s*[:;.,-]?\s*([\d\s\-]+)", texto, re.IGNORECASE)
+        if match:
+            tipo = match.group(2).lower()       # consulta ou exame
+            valor = self.pos_processar(match.group(3))
+            return {f"data_{tipo}": valor}
+        return {}
+
+
+dados = {}
+for extractor in EXTRACTORS:
+    dados.update(extractor.extrair(bloco))  # junta todos os dicts

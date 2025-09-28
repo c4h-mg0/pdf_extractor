@@ -1,15 +1,12 @@
 import os
 
 
-def save_text(texto: str, pdf_path: str, folder: str = "ocr") -> str:
-    """
-    Salva o texto OCR em um .txt dentro de uma subpasta.
-    """
-    base_dir = os.path.dirname(pdf_path)         # pasta do PDF
-    ocr_dir = os.path.join(base_dir, folder)     # subpasta 'ocr'
-    os.makedirs(ocr_dir, exist_ok=True)          # cria se não existir
+def save_text(texto: str, pdf_path: str, folder="ocr", suffix="") -> str:
+    base_dir = os.path.dirname(pdf_path)
+    ocr_dir = os.path.join(base_dir, folder)
+    os.makedirs(ocr_dir, exist_ok=True)
 
-    file_name = os.path.basename(pdf_path).replace(".pdf", ".ocr.txt")
+    file_name = os.path.basename(pdf_path).replace(".pdf", f"{suffix}.ocr.txt")
     save_path = os.path.join(ocr_dir, file_name)
 
     with open(save_path, "w", encoding="utf-8") as f:
@@ -20,15 +17,13 @@ def save_text(texto: str, pdf_path: str, folder: str = "ocr") -> str:
 
 
 
-def save_cleaner(texto: str, pdf_path: str, folder: str = "ocr_clean") -> str:
-    """
-    Salva o texto OCR em um .txt dentro de uma subpasta.
-    """
-    base_dir = os.path.dirname(pdf_path)         # pasta do PDF
-    ocr_dir = os.path.join(base_dir, folder)     # subpasta 'ocr'
-    os.makedirs(ocr_dir, exist_ok=True)          # cria se não existir
 
-    file_name = os.path.basename(pdf_path).replace(".pdf", ".ocr_clean.txt")
+def save_cleaner(texto: str, pdf_path: str, folder="ocr", suffix="") -> str:
+    base_dir = os.path.dirname(pdf_path)
+    ocr_dir = os.path.join(base_dir, folder)
+    os.makedirs(ocr_dir, exist_ok=True)
+
+    file_name = os.path.basename(pdf_path).replace(".pdf", f"{suffix}.ocr.txt")
     save_path = os.path.join(ocr_dir, file_name)
 
     with open(save_path, "w", encoding="utf-8") as f:

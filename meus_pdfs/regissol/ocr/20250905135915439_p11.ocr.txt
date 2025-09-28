@@ -1,0 +1,21 @@
+SHELL 14:56 :: SIRESP - Comprovante de marcação ::
+Ei “Secretaria de Estado da Saúde de São Paulo
+COMPROVANTE DE MARCAÇÃO DE CONSULTA
+Código: 20254875
+Nome: MARIA LUCIA DA COSTA
+Data de Nascimento: 12/05/1965
+Cns: 898000996163486,898001458587470
+Telefone: Comercial: Celular: (17) 98127-6664 Recado:
+Prontuário:
+Data Consulta: 29-10-2025 |
+Horário:13:30
+CHEGAR AS: 13:10
+Profissional: YUKIO TAROCO NOSSE o
+Especialidade: Ortopedia
+Tipo Marcação: Primeira Consulta
+Local: HM MAE DIV AMOR E PROVID
+Endereço: RUA RUI BARBOSA, 2019
+CENTRO
+“ MIRASSOL -SP
+Ponto de Referência: º
+A CONSULTA SERA REALIZANA NIA ALIADAS ATA

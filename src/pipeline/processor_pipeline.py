@@ -1,6 +1,6 @@
 # src/processor/processors.py
 from src.utils.file_utils import save_cleaner
-from src.pipeline.stages import RunOcr, Cleaner, SplitBlocks, ExtractRegex
+from src.pipeline.stages import RunOcr, Cleaner, ExtractRegex
 from src.interfaces import Step
 
 # importa explicitamente para que os extractors se registrem
@@ -31,7 +31,6 @@ def process_pdf(pdf_path):
     steps = [
         RunOcr(),
         Cleaner(),
-        SplitBlocks(),
         ExtractRegex(),
     ]
 

@@ -4,63 +4,36 @@ from src.interfaces import Step, BaseExtractor
 from src.parsers.cleaners import *
 import re
 
+from src.utils.file_utils import save_text
+
 
 class RunOcr(Step):
     def __init__(self, dpi=400, lang="por"):
         self.dpi = dpi
         self.lang = lang
 
-    def processar(self, pdf_path: str) -> str:
-        """
-        Executa OCR e retorna o texto.
-        """
+    def processar(self, pdf_path: str) -> list[str]:
         ocr_engine = PdfOCR(dpi=self.dpi, lang=self.lang)
-        texto = ocr_engine.extract(pdf_path)
-        ocr_engine.save(texto, pdf_path)
-        return texto
+        paginas = ocr_engine.extract(pdf_path)
+        
+        # Salva para debug: cada página num arquivo separado
+        for i, texto in enumerate(paginas, start=1):
+            save_text(texto, pdf_path, folder="ocr", suffix=f"_p{i}")
+
+        return paginas
 
 
 class Cleaner(Step):     
-    """
-    Aplica todas as limpezas em ordem
-    Etapa de limpeza global do texto OCR:
-    - Remove caracteres invisíveis
-    - Normaliza acentos
-    - Padroniza separadores em chave:valor
-    - Remove espaços desnecessários
-    """
-    def processar(self, entrada: str) -> str:
-        texto = remover_invisiveis(entrada)
-        texto = remover_acentos(texto)
-        texto = texto_lower(texto)
-        texto = ajustar_espacos(texto)
-        return texto
+    def processar(self, paginas: list[str]) -> list[str]:
+        paginas_limpas = []
+        for texto in paginas:
+            texto = remover_invisiveis(texto)
+            texto = remover_acentos(texto)
+            texto = texto_lower(texto)
+            texto = ajustar_espacos(texto)
+            paginas_limpas.append(texto)
+        return paginas_limpas
 
-
-class SplitBlocks(Step):
-    def processar(self, texto: str) -> list[str]:
-        """
-        Divide o texto em blocos de pacientes/páginas.
-        Ordem de fallback:
-        1. codigo:
-        2. local:
-        3. quebra dupla de linha
-        """
-        # 1. Tenta com "codigo:"
-        blocos = re.split(r"(?=codigo:)", texto)
-        blocos = [b.strip() for b in blocos if b.strip()]
-
-        # 2. Fallback: usa "local:"
-        if not blocos or len(blocos) == 1:
-            blocos = re.split(r"(?=local:)", texto)
-            blocos = [b.strip() for b in blocos if b.strip()]
-
-        # 3. Fallback final: divide por linha em branco
-        if not blocos or len(blocos) == 1:
-            blocos = re.split(r"\n\s*\n", texto)
-            blocos = [b.strip() for b in blocos if b.strip()]
-
-        return blocos
 
 
 class ExtractRegex(Step):
@@ -73,8 +46,7 @@ class ExtractRegex(Step):
             dados = {}
             for extractor in BaseExtractor.registry:
                 dados[extractor.campo] = extractor.extrair(bloco)
-            resultado_total.append(dados)            
-        return resultado_total
-
+            resultado_total.append(dados)
+        return resultado_total  
 
 
