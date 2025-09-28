@@ -11,23 +11,21 @@ class Step(ABC):
         pass
 
 
-# Registry extractors
-EXTRACTORS = []
 class BaseExtractor(ABC):
-    campo = None  # nome do campo, ex: "codigo", "nome"
+    """Base para todos os extractors (regex, etc.)."""
+    campo = None
+    registry = []  # todos extractors registrados
 
     def __init_subclass__(cls, **kwargs):
         """
-        Toda subclasse registrada automaticamente no Registry
+        Toda subclasse registrada automaticamente no registry
         se definir 'campo'.
         """
         super().__init_subclass__(**kwargs)
         if cls.campo:
-            EXTRACTORS.append(cls())  # cria instância e registra
+            BaseExtractor.registry.append(cls())  # cria instância e registra
 
     @abstractmethod
     def extrair(self, texto: str):
         """Todo extractor deve implementar este método"""
         pass
-
-
