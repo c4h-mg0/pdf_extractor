@@ -23,6 +23,41 @@ class NomeExtractor(BaseExtractor):
         return match.group(1).split("\n")[0].strip() if match else None
 
 
+class LocalExtractor(BaseExtractor):
+    campo = "local"
+
+    def extrair(self, texto: str):
+        match = re.search(r"local[:\s]*(.+)", texto)
+        return match.group(1).split("\n")[0].strip() if match else None
+
+class ProfissionalExtractor(BaseExtractor):
+    campo = "profissional"
+
+    def extrair(self, texto: str):
+        match = re.search(r"profissional[:\s]*([^\n\r]+)", texto)
+        return match.group(1).split("\n")[0].strip() if match else None
+
+class HorarioExtractor(BaseExtractor):
+    campo = "horario"
+
+    def extrair(self, texto: str):
+        match = re.search(r"horario[:\s]*([0-2]?\d:[0-5]\d)", texto)
+        return match.group(1).split("\n")[0].strip() if match else None
+
+class ChegarAsExtractor(BaseExtractor):
+    campo = "chegar_as"
+
+    def extrair(self, texto: str):
+        match = re.search(r"chegar[^\d]*?([0-2]?\d:[0-5]\d)", texto)
+        return match.group(1).split("\n")[0].strip() if match else None
+
+class CnsExtractor(BaseExtractor):
+    campo = "cns"
+
+    def extrair(self, texto: str):
+        match = re.search(r"cns[:\s]*([\d,\s]+)", texto)
+        return match.group(1).split("\n")[0].strip() if match else None
+
 class DataNascimentoExtractor(BaseExtractor):
     campo = "data_nascimento"
 
