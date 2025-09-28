@@ -3,7 +3,6 @@ import fitz
 import pytesseract
 from PIL import Image
 from src.ocr.image_preprocess import preprocess_image
-from src.utils.file_utils import save_text
 
 
 class PdfOCR:
@@ -46,8 +45,3 @@ class PdfOCR:
         doc.close()
         return texto_total
 
-    def save(self, texto: str, pdf_path: str, folder: str = "ocr") -> str:
-        """
-        Salva o OCR em arquivo .txt dentro de uma subpasta.
-        """
-        return save_text(texto, pdf_path, folder=folder)

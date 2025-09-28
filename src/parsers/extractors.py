@@ -3,21 +3,24 @@ import re
 from src.interfaces import BaseExtractor
 
 
+
+# -------------------
+# Extractors comuns
+# -------------------
 class CodigoExtractor(BaseExtractor):
     campo = "codigo"
 
     def extrair(self, texto: str):
-        regex = r"c[o0]digo\s*[:;.,-]?\s*([\d\s.,]{3,12})"
-        match = re.search(regex, texto)
-        return match.group(1).splitlines()[0].strip() if match else None
+        match = re.search(r"c[o0]digo\s*[:;.,-]?\s*([\d\s]{3,12})", texto)
+        return match.group(1).strip() if match else None
 
 
 class NomeExtractor(BaseExtractor):
     campo = "nome"
 
     def extrair(self, texto: str):
-        match = re.search(r"(?:nome|neme)\s*[:;.,]?\s*([a-z '!\-]+)", texto)
-        return match.group(1).strip().split("\n")[0] if match else None
+        match = re.search(r"nome\s*[:;.,]?\s*([a-z '!\-]+)", texto)
+        return match.group(1).split("\n")[0].strip() if match else None
 
 
 class DataNascimentoExtractor(BaseExtractor):
@@ -33,42 +36,60 @@ class DataNascimentoExtractor(BaseExtractor):
             return valor  # exemplo: "13081984"
         return None
 
+# -------------------
+# Extractor tipo: Consulta
+# -------------------
+class EspecialidadeExtractor(BaseExtractor):
+    campo = "especialidade"
+    tipos = ["consulta"]
+
+    def extrair(self, texto: str):
+        match = re.search(r"especialidade\s*[:;.,-]?\s*([a-z ]+)", texto)
+        return match.group(1).strip() if match else None
 
 
+class DataConsultaExtractor(BaseExtractor):
+    campo = "data_consulta"
+    tipos = ["consulta"]
 
-# class TipoExtractor(BaseExtractor):
-#     def extrair(self, texto: str):
-#         # captura "especialidade" ou "exame"
-#         match = re.search(
-#             r"(especialidade|exame)\s*[:;.,-]?\s*([a-z0-9\s\-\(\)]+)",
-#             texto,
-#             re.IGNORECASE
-#         )
-#         if match:
-#             tipo = match.group(1).lower()  # "especialidade" ou "exame"
-#             valor = match.group(2).strip().split("\n")[0]
-#             return {tipo: valor}
-#         return None
+    def extrair(self, texto: str):
+        regex = r"(?:data\s*)?consulta\s*[:;.,-]?\s*([\d/-]{8,10})"
+        match = re.search(regex, texto)
+        return match.group(1).strip() if match else None
 
-# class DataExtractor(BaseExtractor):
-#     def extrair(self, texto: str):
-#         # tenta capturar "data consulta" ou "data exame"
-#         match = re.search(
-#             r"(data\s*(consulta|exame))\s*[:;.,-]?\s*([\d\s\-]+)",
-#             texto,
-#             re.IGNORECASE
-#         )
-#         if match:
-#             tipo = match.group(2).lower()   # "consulta" ou "exame"
-#             valor = match.group(3).strip().split("\n")[0]
-#             valor = self.normalizar_data(valor)
-#             return {f"data_{tipo}": valor}
-#         return None
 
-#     def normalizar_data(self, valor: str) -> str:
-#         # remove espaços extras
-#         valor = valor.replace(" ", "")
-#         # se já estiver DD-MM-YYYY, retorna padronizado
-#         if re.match(r"^\d{2}-\d{2}-\d{4}$", valor):
-#             return valor
-#         return valor  # fallback cru
+# -------------------
+#  Extractor tipo: Exame
+# -------------------
+class ExameExtractor(BaseExtractor):
+    campo = "exame"
+    tipos = ["exame"]
+
+    def extrair(self, texto: str):
+        # procura "data exame" para começar do ponto correto
+        pos_data = texto.find("data exame")
+        if pos_data == -1:
+            return None
+
+        fragmento = texto[pos_data:].splitlines()
+
+        for linha in fragmento:
+            # ignora linhas que não contenham "exame" seguido de valor
+            match = re.match(r"exame\s*[:;,.\-\s]?\s*(.+)", linha, re.IGNORECASE)
+            if match:
+                # captura apenas o valor depois de "exame"
+                return match.group(1).strip()
+
+        return None
+
+
+class DataExameExtractor(BaseExtractor):
+    campo = "data_exame"
+    tipos = ["exame"]
+
+    def extrair(self, texto: str):
+        regex = r"(?:data\s*)?exame\s*[:;.,-]?\s*([\d/-]{8,10})"
+        match = re.search(regex, texto)
+        return match.group(1).strip() if match else None
+
+

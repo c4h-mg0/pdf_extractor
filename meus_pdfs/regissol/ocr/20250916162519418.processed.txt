@@ -1,0 +1,42 @@
+[
+  {
+    "tipo": "exame",
+    "codigo": null,
+    "nome": "aparecida maria barbosa silva",
+    "data_nascimento": "24/05/1951",
+    "exame": "mamografia diagnostica",
+    "data_exame": "30-10-2025"
+  },
+  {
+    "tipo": "exame",
+    "codigo": "38467271",
+    "nome": "margarida maria de holanda silva",
+    "data_nascimento": "23/11/1950",
+    "exame": "mamografia diagnostica",
+    "data_exame": "28-10-2025"
+  },
+  {
+    "tipo": "exame",
+    "codigo": null,
+    "nome": "vania aparecida de oliveira gregorio",
+    "data_nascimento": "28/09/1980",
+    "exame": "mamografia diagnostica",
+    "data_exame": "27-10-2025"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "5948089",
+    "nome": "aparecida de fatima zacarias",
+    "data_nascimento": "15/06/1970",
+    "especialidade": "reumatologia",
+    "data_consulta": "22-10-2025"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "40385538",
+    "nome": "maite bonaci borges",
+    "data_nascimento": "15/06/2025",
+    "especialidade": "oftalmologia",
+    "data_consulta": "27-10-2025"
+  }
+]

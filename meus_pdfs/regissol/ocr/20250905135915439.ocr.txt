@@ -1,57 +1,262 @@
-[
-  {
-    "codigo": "6377314",
-    "nome": "antonio marcal da silva e",
-    "data_nascimento": "20/10/1948"
-  },
-  {
-    "codigo": "12120976",
-    "nome": "mariangela donizeti leva",
-    "data_nascimento": "29/07/1955"
-  },
-  {
-    "codigo": "8501339",
-    "nome": "jessica ambrosio bessa",
-    "data_nascimento": "30/03/1992"
-  },
-  {
-    "codigo": "12914353",
-    "nome": "social",
-    "data_nascimento": "30/07/1973"
-  },
-  {
-    "codigo": "10777121",
-    "nome": "elisson guilherme da silva",
-    "data_nascimento": "05/12/1991"
-  },
-  {
-    "codigo": "11604051",
-    "nome": "kelly lasnou candido gomes da silva",
-    "data_nascimento": "06/02/1979"
-  },
-  {
-    "codigo": "9414793",
-    "nome": "aparecida perpetua vigna cardoso",
-    "data_nascimento": "12/06/1973"
-  },
-  {
-    "codigo": "8634136",
-    "nome": "maria aparecida teixeira gois de padua",
-    "data_nascimento": "01/01/1965"
-  },
-  {
-    "codigo": "24551471 .",
-    "nome": "zilda lopes ferreira",
-    "data_nascimento": "12/01/1960"
-  },
-  {
-    "codigo": "33969291",
-    "nome": "roberto aparecido de mendonca",
-    "data_nascimento": "02/03/1957"
-  },
-  {
-    "codigo": "20254875",
-    "nome": "maria lucia da costa",
-    "data_nascimento": "12/05/1965"
-  }
-]
+05/09/2025 14:46 :: SIRESP - Comprovante de marcação ::
+a Si Secretaria de Estado da Saúde de São Paulo
+COMPROVANTE DE MARCAÇÃO DE CONSULTA
+Código: 6377314
+Nome: ANTONIO MARCAL DA SILVA e
+Data de Nascimento: 20/10/1948
+Cns: 106942571570002,704300555510195,898000077478047
+Telefone: (17) 99103-9618 Comercial: Celular: (17) 99141-6709 Recado:
+Prontuário:
+Data Consulta: 29-10-2025 |
+Horário:12:40
+CHEGAR AS: 12:20
+Profissional: YUKIO TAROCO NOSSE
+Especialidade: Ortopedia
+Tipo Marcação: Primeira Consulta
+Local: HM MAE DIV AMOR E PROVID
+Endereço: RUA RUI BARBOSA, 2019
+CENTRO
+MIRASSOL - SP
+Ponto de Referência:
+
+
+05/09/2025 14:47 :: SIRESP - Comprovante de marcação ::
+| fi, Secretaria de Estado da Saúde de São Paulo
+COMPROVANTE DE MARCAÇÃO DE CONSULTA
+Código: 12120976
+Nome: MARIANGELA DONIZETI LEVA
+Data de Nascimento: 29/07/1955
+Cns: 706709573622316
+Telefone: (17) 98146-5644 Comercial: Celular: (17) 98112-4052 Recado:
+Prontuário:
+Data Consulta: 29-10-2025 | |
+Horário:12:40
+CHEGAR ÀS: 12:20 |
+Profissional: YUKIO TAROCO NOSSE
+Especialidade: Ortopedia
+Tipo Marcação: Primeira Consulta
+Local: HM MAE DIV AMOR E PROVID
+Endereço: RUA RUI BARBOSA, 2019
+CENTRO
+MIRASSOL - SP
+Ponto de Referência:
+APASNBICIILTA Ap! ms
+
+
+05/09/2025 14:48 :: SIRESP - Comprovante de marcação ::
+Si Secretaria de Estado da Saúde de São Paulo
+COMPROVANTE DE MARCAÇÃO DE CONSULTA
+Código: 8501339
+Nome: JESSICA AMBROSIO BESSA
+Data de Nascimento: 30/03/1992
+Cns: 70890279855081 7,898000078979465
+Telefone: Comercial: Celular: (17) 98129-9314 Recado:
+Prontuário:
+Data Consulta: 29-10-2025 |
+Horário:12:50
+CHEGAR AS: 12:30
+Profissional: YUKIO TAROCO NOSSE
+Especialidade: Ortopedia
+Tipo Marcação: Primeira Consulta
+Local: HM MAE DIV AMOR E PROVID
+Endereço: RUA RUI BARBOSA, 2019
+CENTRO
+MIRASSOL - SP
+Ponto de Referência: o
+APCANMNCLILTA Arma Á APR AL ima
+
+
+05/09/2025 14:49 :: SIRESP - Comprovante de marcação ::
+à Sn , Secretaria de Estado da Saúde de São Paulo
+COMPROVANTE DE MARCAÇÃO DE CONSULTA
+Código: 12914353
+Nome Social: VANDERLEI ADRIANO SANCHES
+Nome: VANDERLEI ADRIANO SANCHES
+Data de Nascimento: 30/07/1973 o
+Cns: 898001231901685
+Telefone: (17) 3253-2686 Comercial: Celular: ( 17) 99134-9868 Recado:
+Prontuário:
+Data Consulta: 29-10-2025
+Horário:12:50
+CHEGAR ÀS: 12:30
+Profissional: YUKIO TAROCO NOSSE
+Especialidade: Ortopedia
+Tipo Marcação: Primeira Consulta
+Local: HM MAE DIV AMOR E PROVID
+Endereço: RUA RUI BARBOSA, 2019
+CENTRO |
+MIRASSOL - SP
+
+
+05/09/2025 14:50 :: SIRESP - Comprovante de marcação ::
+Em +” Secretaria de Estado da Saúde de São Paulo
+EB COMPROVANTE DE MARCAÇÃO DE CONSULTA | |
+
+Código: 10777121
+
+Nome: ELISSON GUILHERME DA SILVA
+
+Data de Nascimento: 05/12/1991
+
+Cns: 898000635504377
+
+Telefone: (17) 3216-1389 Comercial: Celular: (17) 99197-6223 Recado:
+
+Prontuário: |
+Data Consulta: 29-10-2025 |
+Horário:13:00
+
+CHEGAR AS: 12:40
+
+Profissional: YUKIO TAROCO NOSSE
+
+Especialidade: Ortopedia
+
+Tipo Marcação: Primeira Consulta
+
+Local: HM MAE DIV AMOR E PROVID
+Endereço: RUA RUI BARBOSA, 2019
+
+CENTRO
+MIRASSOL - SP
+
+Ponto de Referência:
+AGCANNICOLILCPA Area! mami
+
+
+05/09/2025 14:51 :: SIRESP - Comprovante de marcação ::
+gr y Secretaria de Estado da Saúde de São Paulo |
+COMPROVANTE DE MARCAÇÃO DE CONSULTA
+Código: 11604051 |
+Nome: KELLY LASNOU CANDIDO GOMES DA SILVA
+Data de Nascimento: 06/02/1979
+Cns: 898002778847105
+Telefone: (17) 98804-0890 Comercial: Celular: (17) 98804-0892 Recado:
+Prontuário:
+Data Consulta: 29-10-2025
+Horário:13:00
+CHEGAR AS: 12:40
+Profissional: YUKIO TAROCO NOSSE
+Especialidade: Ortopedia =
+Tipo Marcação: Primeira Consulta
+Local: HM MAE DIV AMOR E PROVID |
+Endereço: RUA RUI BARBOSA, 2019
+CENTRO
+MIRASSOL - SP
+Ponto de Referência: o
+AGCANNIOVILTTA APR Lan. ml
+
+
+05/09/2025 14:52 :: SIRESP - Comprovante de marcação ::
+ER Secretaria de Estado da Saúde de São Paulo
+&B COMPROVANTE DE MARCAÇÃO DE CONSULTA
+Código: 9414793
+Nome: APARECIDA PERPETUA VIGNA CARDOSO
+Data de Nascimento: 12/06/1973
+Cns: 898002720660401
+Telefone: Comercial: Celular: (17) 98145-1807 Recado:
+Prontuário:
+Data Consulta: 29-10-2025 :
+Horário:13:10 | |
+CHEGAR AS: 12:50
+Profissional: YUKIO TAROCO NOSSE
+Especialidade: Ortopedia
+Tipo Marcação: Primeira Consulta
+Local: HM MAE DIV AMOR E PROVID
+Endereço: RUA RUI BARBOSA, 2019
+CENTRO
+MIRASSOL - SP
+Ponto de Referência:
+ACONCQIUITA OCDA BPAISARA LL
+
+
+05/09/2025 14:52 :: SIRESP - Comprovante de marcação ::
+gema, Secretaria de Estado da Saúde de São Paulo
+COMPROVANTE DE MARCAÇÃO DE CONSULTA
+Código: 8634136 |
+Nome: MARIA APARECIDA TEIXEIRA GOIS DE PADUA
+Data de Nascimento: 01/01/1965
+Cns: 898002702237578
+Telefone: Comercial: Celular: (17) 98141-7217 Recado:
+Prontuário:
+Data Consulta: 29-10-2025
+Horário:13:10
+CHEGAR AS: 12:50
+Profissional: YUKIO TAROCO NOSSE
+Especialidade: Ortopedia
+Tipo Marcação: Primeira Consulta
+Local: HM MAE DIV AMOR E PROVID
+Endereço: RUA RUI BARBOSA, 2019
+CENTRO
+MIRASSOL - SP
+Ponto de Referência:
+ACONCLUTA CEBDA MTALisamMa No va
+
+
+05/09/2025 14:53 = SIRESP - Comprovante de marcação :: o
+Ea Secretaria de Estado da Saúde de São Paulo
+COMPROVANTE DE MARCAÇÃO DE CONSULTA .
+Código: 24551471 .
+Nome: ZILDA LOPES FERREIRA :
+Data de Nascimento: 12/01/1960
+Cns: 708009856372623 |
+Telefone: (11) 99218-2826 Comercial: Celular: (11) 97609-2258 Recado:
+Prontuário: .
+Data Consulta: 29-10-2025 |
+Horário:13:20
+CHEGAR AS: 13:00 |
+Profissional: YUKIO TAROCO NOSSE
+Especiálidade: Ortopedia |
+Tipo Márcação: Primeira Consulta | .
+Local: HM MAE DIV AMOR E PROVID |
+Endereço: RUA RUI BARBOSA, 2019 |
+“ CENTRO :
+MIRASSOL -SP |
+Ponto de Referência:
+À CONISUI TA CEDÁ DOCADVLIDVAPSA RIA APRIL me
+
+
+05/09/2025 14:54 :: SIRESP - Comprovante de marcação ::
+ia Secretaria de Estado da Saúde de São Paulo
+COMPROVANTE DE MARCAÇÃO DE CONSULTA
+Código: 33969291 =
+Nome: ROBERTO APARECIDO DE MENDONCA
+Data de Nascimento: 02/03/1957
+Cns: 705007689241153
+Telefone: (17) 99663-5005 Comercial: Celular: (17) 99759-6006 Recado:
+Prontuário: .
+Data Consulta: 29-10-2025
+Horário:13:20 '
+CHEGAR AS: 13:00
+Profissional: YUKIO TAROCO NOSSE | |
+Especialidade: Ortopedia
+Tipo Marcação: Primeira Consulta
+Local: HM MAE DIV AMOR E PROVID
+Endereço: RUA RUI BARBOSA, 2019
+CENTRO
+MIRASSOL - SP |
+Ponto de Referência: o
+APCANMOCLIILTA AREAL amas all
+
+
+SHELL 14:56 :: SIRESP - Comprovante de marcação ::
+Ei “Secretaria de Estado da Saúde de São Paulo
+COMPROVANTE DE MARCAÇÃO DE CONSULTA
+Código: 20254875
+Nome: MARIA LUCIA DA COSTA
+Data de Nascimento: 12/05/1965
+Cns: 898000996163486,898001458587470
+Telefone: Comercial: Celular: (17) 98127-6664 Recado:
+Prontuário:
+Data Consulta: 29-10-2025 |
+Horário:13:30
+CHEGAR AS: 13:10
+Profissional: YUKIO TAROCO NOSSE o
+Especialidade: Ortopedia
+Tipo Marcação: Primeira Consulta
+Local: HM MAE DIV AMOR E PROVID
+Endereço: RUA RUI BARBOSA, 2019
+CENTRO
+“ MIRASSOL -SP
+Ponto de Referência: º
+A CONSULTA SERA REALIZANA NIA ALIADAS ATA

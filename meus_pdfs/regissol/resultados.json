@@ -1,137 +1,218 @@
 [
   {
+    "tipo": "exame",
     "codigo": null,
     "nome": "aparecida maria barbosa silva",
-    "data_nascimento": "24/05/1951"
+    "data_nascimento": "24/05/1951",
+    "exame": "mamografia diagnostica",
+    "data_exame": "30-10-2025"
   },
   {
+    "tipo": "exame",
     "codigo": "38467271",
     "nome": "margarida maria de holanda silva",
-    "data_nascimento": "23/11/1950"
+    "data_nascimento": "23/11/1950",
+    "exame": "mamografia diagnostica",
+    "data_exame": "28-10-2025"
   },
   {
+    "tipo": "exame",
     "codigo": null,
     "nome": "vania aparecida de oliveira gregorio",
-    "data_nascimento": "28/09/1980"
+    "data_nascimento": "28/09/1980",
+    "exame": "mamografia diagnostica",
+    "data_exame": "27-10-2025"
   },
   {
+    "tipo": "consulta",
     "codigo": "5948089",
     "nome": "aparecida de fatima zacarias",
-    "data_nascimento": "15/06/1970"
+    "data_nascimento": "15/06/1970",
+    "especialidade": "reumatologia",
+    "data_consulta": "22-10-2025"
   },
   {
+    "tipo": "consulta",
     "codigo": "40385538",
     "nome": "maite bonaci borges",
-    "data_nascimento": "15/06/2025"
+    "data_nascimento": "15/06/2025",
+    "especialidade": "oftalmologia",
+    "data_consulta": "27-10-2025"
   },
   {
+    "tipo": "consulta",
     "codigo": "6377314",
     "nome": "antonio marcal da silva e",
-    "data_nascimento": "20/10/1948"
+    "data_nascimento": "20/10/1948",
+    "especialidade": "ortopedia",
+    "data_consulta": "29-10-2025"
   },
   {
+    "tipo": "consulta",
     "codigo": "12120976",
     "nome": "mariangela donizeti leva",
-    "data_nascimento": "29/07/1955"
+    "data_nascimento": "29/07/1955",
+    "especialidade": "ortopedia",
+    "data_consulta": "29-10-2025"
   },
   {
+    "tipo": "consulta",
     "codigo": "8501339",
     "nome": "jessica ambrosio bessa",
-    "data_nascimento": "30/03/1992"
+    "data_nascimento": "30/03/1992",
+    "especialidade": "ortopedia",
+    "data_consulta": "29-10-2025"
   },
   {
+    "tipo": "consulta",
     "codigo": "12914353",
     "nome": "social",
-    "data_nascimento": "30/07/1973"
+    "data_nascimento": "30/07/1973",
+    "especialidade": "ortopedia",
+    "data_consulta": "29-10-2025"
   },
   {
+    "tipo": "consulta",
     "codigo": "10777121",
     "nome": "elisson guilherme da silva",
-    "data_nascimento": "05/12/1991"
+    "data_nascimento": "05/12/1991",
+    "especialidade": "ortopedia",
+    "data_consulta": "29-10-2025"
   },
   {
+    "tipo": "consulta",
     "codigo": "11604051",
     "nome": "kelly lasnou candido gomes da silva",
-    "data_nascimento": "06/02/1979"
+    "data_nascimento": "06/02/1979",
+    "especialidade": "ortopedia",
+    "data_consulta": "29-10-2025"
   },
   {
+    "tipo": "consulta",
     "codigo": "9414793",
     "nome": "aparecida perpetua vigna cardoso",
-    "data_nascimento": "12/06/1973"
+    "data_nascimento": "12/06/1973",
+    "especialidade": "ortopedia",
+    "data_consulta": "29-10-2025"
   },
   {
+    "tipo": "consulta",
     "codigo": "8634136",
     "nome": "maria aparecida teixeira gois de padua",
-    "data_nascimento": "01/01/1965"
+    "data_nascimento": "01/01/1965",
+    "especialidade": "ortopedia",
+    "data_consulta": "29-10-2025"
   },
   {
-    "codigo": "24551471 .",
+    "tipo": "consulta",
+    "codigo": "24551471",
     "nome": "zilda lopes ferreira",
-    "data_nascimento": "12/01/1960"
+    "data_nascimento": "12/01/1960",
+    "especialidade": "ortopedia",
+    "data_consulta": "29-10-2025"
   },
   {
+    "tipo": "consulta",
     "codigo": "33969291",
     "nome": "roberto aparecido de mendonca",
-    "data_nascimento": "02/03/1957"
+    "data_nascimento": "02/03/1957",
+    "especialidade": "ortopedia",
+    "data_consulta": "29-10-2025"
   },
   {
+    "tipo": "consulta",
     "codigo": "20254875",
     "nome": "maria lucia da costa",
-    "data_nascimento": "12/05/1965"
+    "data_nascimento": "12/05/1965",
+    "especialidade": "ortopedia",
+    "data_consulta": "29-10-2025"
   },
   {
+    "tipo": "consulta",
     "codigo": "9850736",
     "nome": "claudia domingos",
-    "data_nascimento": "30/05/1974"
+    "data_nascimento": "30/05/1974",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
   },
   {
+    "tipo": "consulta",
     "codigo": "30472530",
     "nome": "jose ferreira de carvalho",
-    "data_nascimento": "08/01/1947"
+    "data_nascimento": "08/01/1947",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
   },
   {
+    "tipo": "consulta",
     "codigo": "10069655",
     "nome": "ana paula da silva prates dos santos",
-    "data_nascimento": "26/01/1987"
+    "data_nascimento": "26/01/1987",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
   },
   {
+    "tipo": "consulta",
     "codigo": "7578233",
     "nome": "maria ines batista garcia",
-    "data_nascimento": "03/02/1966"
+    "data_nascimento": "03/02/1966",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
   },
   {
+    "tipo": "consulta",
     "codigo": "18081751",
     "nome": "alaine franciele moreira leonardo",
-    "data_nascimento": "03/03/1992"
+    "data_nascimento": "03/03/1992",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
   },
   {
+    "tipo": "consulta",
     "codigo": "11426742",
     "nome": "jose antonio do carmo",
-    "data_nascimento": "07/10/1966"
+    "data_nascimento": "07/10/1966",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
   },
   {
+    "tipo": "consulta",
     "codigo": "11724308",
     "nome": "liliane cristina vigilato jose melchor",
-    "data_nascimento": "22/09/1981"
+    "data_nascimento": "22/09/1981",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
   },
   {
+    "tipo": "consulta",
     "codigo": "4447520",
     "nome": "neide amelia da silva mata",
-    "data_nascimento": "22/12/14950"
+    "data_nascimento": "22/12/14950",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
   },
   {
+    "tipo": "consulta",
     "codigo": "4065005",
     "nome": "vanilda celeste ferreira",
-    "data_nascimento": "13/08/1984"
+    "data_nascimento": "13/08/1984",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": "29-10-2025"
   },
   {
+    "tipo": "consulta",
     "codigo": "4170427",
     "nome": "roberto daniel sagrillo",
-    "data_nascimento": "14/05/1953"
+    "data_nascimento": "14/05/1953",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": "29-10-2025"
   },
   {
+    "tipo": "consulta",
     "codigo": "5304495",
     "nome": "adriana da silva nery",
-    "data_nascimento": "24/07/1978"
+    "data_nascimento": "24/07/1978",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
   }
 ]

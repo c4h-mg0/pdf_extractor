@@ -1,0 +1,90 @@
+[
+  {
+    "tipo": "consulta",
+    "codigo": "9850736",
+    "nome": "claudia domingos",
+    "data_nascimento": "30/05/1974",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "30472530",
+    "nome": "jose ferreira de carvalho",
+    "data_nascimento": "08/01/1947",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "10069655",
+    "nome": "ana paula da silva prates dos santos",
+    "data_nascimento": "26/01/1987",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "7578233",
+    "nome": "maria ines batista garcia",
+    "data_nascimento": "03/02/1966",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "18081751",
+    "nome": "alaine franciele moreira leonardo",
+    "data_nascimento": "03/03/1992",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "11426742",
+    "nome": "jose antonio do carmo",
+    "data_nascimento": "07/10/1966",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "11724308",
+    "nome": "liliane cristina vigilato jose melchor",
+    "data_nascimento": "22/09/1981",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "4447520",
+    "nome": "neide amelia da silva mata",
+    "data_nascimento": "22/12/14950",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "4065005",
+    "nome": "vanilda celeste ferreira",
+    "data_nascimento": "13/08/1984",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": "29-10-2025"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "4170427",
+    "nome": "roberto daniel sagrillo",
+    "data_nascimento": "14/05/1953",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": "29-10-2025"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "5304495",
+    "nome": "adriana da silva nery",
+    "data_nascimento": "24/07/1978",
+    "especialidade": "cirurgia vascular",
+    "data_consulta": null
+  }
+]

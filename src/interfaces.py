@@ -14,6 +14,7 @@ class Step(ABC):
 class BaseExtractor(ABC):
     """Base para todos os extractors (regex, etc.)."""
     campo = None
+    tipos = ["consulta", "exame"]
     registry = []  # todos extractors registrados
 
     def __init_subclass__(cls, **kwargs):
@@ -29,3 +30,4 @@ class BaseExtractor(ABC):
     def extrair(self, texto: str):
         """Todo extractor deve implementar este método"""
         pass
+
