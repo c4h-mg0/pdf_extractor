@@ -1,11 +1,7 @@
 # src/processor/processors.py
-from src.utils.file_utils import save_cleaner
-from src.pipeline.stages import RunOcr, Cleaner, ExtractRegex
+from src.pipeline.stages import RunOcr, Cleaner, ExtractRegex, with_debug
 from src.interfaces import Step
 
-# importa explicitamente para que os extractors se registrem
-import src.parsers.extractors
-import json
 
 
 class ParsePipeline:
@@ -34,14 +30,12 @@ def process_pdf(pdf_path):
         ExtractRegex(),
     ]
 
-    pipeline = ParsePipeline(steps)
+    # pipeline = ParsePipeline(steps)
+
+    pipeline = ParsePipeline(with_debug(steps, base_folder="debug"))
     resultado = pipeline.run(pdf_path)
 
-    
-    texto = json.dumps(resultado, ensure_ascii=False, indent=2)
-    save_cleaner(texto, pdf_path)
 
-    
     return resultado
 
 # def process_pdf(pdf_path):
