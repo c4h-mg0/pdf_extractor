@@ -1,10 +1,8 @@
-# src/parse_steps/pipeline_parser.py
+# src/pipeline/stages.py
 from src.ocr.pdf_ocr import PdfOCR
 from src.interfaces import Step, BaseExtractor
 from src.parsers.cleaners import *
-import re
-
-from src.utils.file_utils import save_text
+from src.pipeline.helpers import identificar_tipo, save_to_file
 
 
 class RunOcr(Step):
@@ -12,11 +10,10 @@ class RunOcr(Step):
 
         self.dpi = dpi
         self.lang = lang
+
     def processar(self, pdf_path: str) -> list[str]:
         ocr_engine = PdfOCR(dpi=self.dpi, lang=self.lang)
         paginas = ocr_engine.extract(pdf_path)
-    
-        save_text(paginas, pdf_path)
         return paginas
 
 
@@ -32,7 +29,7 @@ class Cleaner(Step):
         return paginas_limpas
 
 
-class ExtractRegex:
+class ExtractRegex(Step):
     def processar(self, blocos: list[str]) -> list[dict]:
         resultado_total = []
         for bloco in blocos:
@@ -56,9 +53,11 @@ class ExtractRegex:
         return resultado_total
 
 
-def identificar_tipo(texto: str) -> str:
-    if "data consulta" in texto or "consulta" in texto:
-        return "consulta"
-    elif "data exame" in texto or "exame" in texto:
-        return "exame"
-    return "desconhecido"
+class SaveStep(Step):
+    def __init__(self, prefix="stage", folder="debug"):
+        self.prefix = prefix
+        self.folder = folder
+
+    def processar(self, data):
+        save_to_file(data, prefix=self.prefix, folder=self.folder)
+        return data  # importante: não altera o fluxo

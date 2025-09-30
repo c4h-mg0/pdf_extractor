@@ -1,14 +1,12 @@
-# src/processor/processors.py
-from src.utils.file_utils import save_cleaner
-from src.pipeline.stages import RunOcr, Cleaner, ExtractRegex
+# src/pipeline/processor_pipeline.py
+from src.pipeline.stages import RunOcr, Cleaner, ExtractRegex, SaveStep
 from src.interfaces import Step
 
 # importa explicitamente para que os extractors se registrem
 import src.parsers.extractors
-import json
 
 
-class ParsePipeline:
+class StagePipeline:
     """
     Orquestra a execução sequencial das Steps.
     """
@@ -27,45 +25,19 @@ class ParsePipeline:
 
 
 def process_pdf(pdf_path):
-    
     steps = [
         RunOcr(),
         Cleaner(),
         ExtractRegex(),
     ]
-
-    pipeline = ParsePipeline(steps)
+    pipeline = StagePipeline(with_debug(steps))
     resultado = pipeline.run(pdf_path)
-
-    
-    texto = json.dumps(resultado, ensure_ascii=False, indent=2)
-    save_cleaner(texto, pdf_path)
-
-    
     return resultado
 
-# def process_pdf(pdf_path):
-#     texto_total = run_ocr(pdf_path)
 
-#     # Instancia as Steps
-#     cleaner = RawCleaner()
-#     extractor = ExtractRegex()
-
-#     # ---------- Output do RawCleaner ----------
-#     texto_limpo = cleaner.processar(texto_total)
-#     with open("raw_cleaner_output.txt", "w", encoding="utf-8") as f:
-#         f.write(texto_limpo)
-
-#     # ---------- Pipeline completo ----------
-#     steps = [cleaner, extractor]
-#     pipeline = Pipeline(steps)
-#     resultado = pipeline.run(texto_total)  # mantém o fluxo normal
-
-#     # Salva resultado final (após ExtractRegex)
-#     with open("resultado_final.json", "w", encoding="utf-8") as f:
-#         f.write(json.dumps(resultado, ensure_ascii=False, indent=2))
-
-
-#     return resultado
-
-
+def with_debug(steps, folder="debug"):
+    debugged = []
+    for i, step in enumerate(steps, start=1):
+        debugged.append(step)
+        debugged.append(SaveStep(prefix=f"{i:02d}_{step.__class__.__name__}", folder=folder))
+    return debugged

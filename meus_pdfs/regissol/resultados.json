@@ -1,0 +1,64 @@
+[
+  {
+    "tipo": "exame",
+    "codigo": "s... 4447764",
+    "nome": "aparecida maria barbosa silva",
+    "data_nascimento": "24/05/1951",
+    "cns": "704807502059342,898002705668022",
+    "data_exame": "30-10-2025",
+    "horario": "14:40",
+    "chegar_as": "14:30",
+    "exame": "mamografia diagnostica",
+    "local": "hosp de base de sjrp"
+  },
+  {
+    "tipo": "exame",
+    "codigo": ". 38467271",
+    "nome": "margarida maria de holanda silva",
+    "data_nascimento": "23/11/1950",
+    "cns": "705001280556256",
+    "data_exame": "28-10-2025",
+    "horario": "15:10",
+    "chegar_as": "15:00",
+    "exame": "mamografia diagnostica",
+    "local": "hosp de base de sjrp"
+  },
+  {
+    "tipo": "exame",
+    "codigo": "gc.: 4131951",
+    "nome": "vania aparecida de oliveira gregorio",
+    "data_nascimento": "28/09/1980",
+    "cns": "270024067830009,702800695133164",
+    "data_exame": "27-10-2025",
+    "horario": "15:30",
+    "chegar_as": "15:20",
+    "exame": "mamografia diagnostica",
+    "local": "hosp de base de sjrp"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "5948089",
+    "nome": "aparecida de fatima zacarias",
+    "data_nascimento": "15/06/1970",
+    "cns": "704201744530381",
+    "data_consulta": "22-10-2025",
+    "horario": "13:00",
+    "chegar_as": "12:30",
+    "profissional": "taisa morete da silva",
+    "especialidade": "reumatologia- triagem",
+    "local": "hosp de base de sjrp"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "40385538",
+    "nome": "maite bonaci borges",
+    "data_nascimento": "15/06/2025",
+    "cns": "708506377626776",
+    "data_consulta": "27-10-2025",
+    "horario": "07:10",
+    "chegar_as": "07:00",
+    "profissional": "carolina assis pereira vilela",
+    "especialidade": "oftalmologia",
+    "local": "hosp de base de sjrp"
+  }
+]
