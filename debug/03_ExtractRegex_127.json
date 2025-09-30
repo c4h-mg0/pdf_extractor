@@ -1,0 +1,52 @@
+[
+  {
+    "tipo": "consulta",
+    "codigo": "6313356",
+    "nome": "eliseu dos santos",
+    "data_nascimento": "17/09/1989",
+    "cns": "898000630494497",
+    "data_consulta": "23-09-2025",
+    "horario": "08:00",
+    "chegar_as": "07:00",
+    "profissional": "daniel mazzo jose",
+    "especialidade": "neurologia",
+    "local": "ame sj rio preto"
+  },
+  {
+    "tipo": "exame",
+    "codigo": "22358015",
+    "nome": "matheus da silva de oliveira",
+    "data_nascimento": "07/10/2012",
+    "cns": "898003494528111",
+    "data_exame": "22-09-2025",
+    "horario": "12:00",
+    "chegar_as": "11:00",
+    "exame": "rm cranio",
+    "local": "ame sj rio preto"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": null,
+    "nome": null,
+    "data_nascimento": null,
+    "cns": null,
+    "data_consulta": null,
+    "horario": null,
+    "chegar_as": null,
+    "profissional": null,
+    "especialidade": null,
+    "local": null
+  },
+  {
+    "tipo": "exame",
+    "codigo": "22358015",
+    "nome": "matheus da silva de oliveira",
+    "data_nascimento": "07/10/2012",
+    "cns": "898003494528111",
+    "data_exame": "24-10-2025",
+    "horario": "13:20",
+    "chegar_as": "12:20",
+    "exame": "ecocardiografia transtoracica",
+    "local": "ame sj rio preto"
+  }
+]

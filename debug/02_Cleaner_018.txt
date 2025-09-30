@@ -1,0 +1,39 @@
+15/09/2025 15:02:: siresp- comprovante de marcacao::
+“a secretaria de estado da saude de sao paulo
+8 comprovante de marcacao de consulta
+codigo: 41454273
+nome: marciana maximo
+data de nascimento: 18/09/1984
+cns: 706507320792396
+telefone: comercial: celular: (17) 99269-5009 recado:
+prontuario:
+data consulta: 10-10-2025
+horario:07:40
+chegar as: 07:20
+profissional: rafael vinicius cavazzana
+especialidade: cardiologia
+tipo marcacao: primeira consulta
+local: hm mae div amor e provid
+endereco: rua rui barbosa, 2019
+centro
+— mirassol-sp
+
+15/09/2025 15:49- siresp- comprovante de marcacao::
+a secretaria de estado da saude de sao paulo
+em comprovante de marcacao de consulta
+codigo: 12701520
+nome: sandra de lourdes valero
+data de nascimento: 28/06/1958
+cns: 704005364757568
+telefone: (17) 99158-1074 comercial: (17) 3242-1913 celular: (17) 99127-6169 recado:
+prontuario:
+data consulta: 30-10-2025
+horario:09:10
+chegar as: 08:50
+profissional: silvio andrade filho
+especialidade: otorrinolaringologia
+tipo marcacao: primeira consulta
+local: hm mae div amor e provid
+endereco: rua rui barbosa, 2019
+centro
+mirassol- sp

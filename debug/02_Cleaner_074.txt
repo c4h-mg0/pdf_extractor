@@ -1,0 +1,23 @@
+= secretaria de estado da saude de sao paulo
+
+es comprovante de marcacao de consulta
+codigo: 16918520
+nome: rubens rissi
+data de nascimento: 01/09/1947
+cns: 702307107677614
+telefone: comercial: celular: (17) 99280-4141 recado: |
+prontuario: 00992604
+data consulta: 08-10-2025
+horario:11:10
+chegar as: 10:10
+profissional: alexandre funes navarro da cruz
+especialidade: oftalmologia- catarata- linha de cuidado
+tipo marcacao: primeira consulta
+local: ame sj rio preto
+endereco: rua antonio fuscaldo, s/n
+
+jardim fuscaldo
+
+sao jose do rio preto- sp
+
+o o o e mesa nsairnimal antilaranaradbdado

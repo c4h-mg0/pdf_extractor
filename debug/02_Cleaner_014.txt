@@ -1,0 +1,19 @@
+17/09/2025, 15:53 e “= siresp- comprovante de marcacao::
+secretaria de estado da saude de sao paulo
+a» comprovante de marcacao de consulta
+codigo: 12000979
+nome: marcos antonio bidoia dos santos
+data de nascimento: 24/06/2004
+cns: 898005833448761
+telefone: comercial: celular: (17) 98150-8033 recado:
+prontuario: 1857703
+data consulta: 23-09-2025
+horario:07:00
+chegar as: 07:00
+profissional: eurides maria de oliveira pozetti
+especialidade: dermatologia- acne
+tipo marcacao: primeira consulta
+local: hosp de base de sjrp
+endereco: avenida brigadeiro faria lima, 5544
+vila sao jose
+sao jose do rio preto- sp

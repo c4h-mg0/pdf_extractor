@@ -1,10 +1,10 @@
 # src/pipeline/processor_pipeline.py
-from src.pipeline.stages import RunOcr, Cleaner, ExtractRegex, SaveStep
+from src.pipeline.stages import RunOcr, Cleaner, ExtractRegex, NormalizerRegex, SaveStep
 from src.interfaces import Step
 
 # importa explicitamente para que os extractors se registrem
 import src.parsers.extractors
-
+import src.parsers.normalizers
 
 class StagePipeline:
     """
@@ -29,15 +29,20 @@ def process_pdf(pdf_path):
         RunOcr(),
         Cleaner(),
         ExtractRegex(),
+        NormalizerRegex(),
     ]
     pipeline = StagePipeline(with_debug(steps))
     resultado = pipeline.run(pdf_path)
     return resultado
 
-
+    
 def with_debug(steps, folder="debug"):
     debugged = []
     for i, step in enumerate(steps, start=1):
         debugged.append(step)
         debugged.append(SaveStep(prefix=f"{i:02d}_{step.__class__.__name__}", folder=folder))
     return debugged
+
+
+
+

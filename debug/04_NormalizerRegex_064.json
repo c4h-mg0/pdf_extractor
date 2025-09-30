@@ -1,0 +1,28 @@
+[
+  {
+    "tipo": "consulta",
+    "codigo": "13162155",
+    "nome": "ignez bortoloti bertuolo",
+    "data_nascimento": "21011950",
+    "cns": "210023537280009898001231571073",
+    "data_consulta": "07102025",
+    "horario": "1330",
+    "chegar_as": "1310",
+    "profissional": "roberto nakamura mazzaro junior",
+    "especialidade": "cardiologia",
+    "local": "hm mae div amor provid"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "22566776",
+    "nome": "maria luiza cassemiro",
+    "data_nascimento": "30101950",
+    "cns": "705200430958475898000721054740",
+    "data_consulta": "07102025",
+    "horario": "1330",
+    "chegar_as": "1310",
+    "profissional": "roberto nakamura mazzaro junior",
+    "especialidade": "cardiologia",
+    "local": "hm mae div amor provid"
+  }
+]

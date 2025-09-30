@@ -1,0 +1,19 @@
+2 secretaria de estado da saude de sao paulo
+esa comprovante de marcacao de consulta
+codigo: 10231285
+nome: aparecida dos santos braga
+data de nascimento: 16/01/1 942
+cns: 201403554850001 700302972052430,898000749093767
+telefone: (17) 99742-8555 comercial: celular: (17) 99203-9887 recado:
+prontuario: 1764968- 1799776
+
+data consulta: 24-09-2025
+horario:07:00
+chegar as: 07:00
+profissional: jose francisco gandolfi
+especialidade: cirurgia geral- pancreas € vias biliares
+tipo marcacao: primeira consulta
+local: hosp de base de sjrp
+endereco: avenida brigadeiro faria lima, 5544
+vila sao jose
+sao jose do rio preto- sp

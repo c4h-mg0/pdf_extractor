@@ -1,0 +1,66 @@
+[
+  {
+    "tipo": "consulta",
+    "codigo": "23699268",
+    "nome": "yuri do",
+    "data_nascimento": "14/10/2006",
+    "cns": "709000814755613",
+    "data_consulta": "10-10-2025",
+    "horario": "08:00",
+    "chegar_as": "07:40 |",
+    "profissional": "rafael vinicius cavazzana",
+    "especialidade": "cardiologia",
+    "local": "hm mae div amor e provid"
+  },
+  {
+    "tipo": "exame",
+    "codigo": "17023904",
+    "nome": "layla gabriela clemente machado",
+    "data_nascimento": "04/07/1999",
+    "cns": "701209007043413,898050089018623",
+    "data_exame": "25-09-2025",
+    "horario": "11:40",
+    "chegar_as": "11:30",
+    "exame": "us obstetrico",
+    "local": "hm mae div amor e provid"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "10815954",
+    "nome": "erica cristina germano",
+    "data_nascimento": "06/10/1983",
+    "cns": "700009226745808,898000634181612",
+    "data_consulta": "28-09-2025",
+    "horario": "22:20 |",
+    "chegar_as": "22:00",
+    "profissional": "julia monteiro baggio montialli",
+    "especialidade": "psiquiatria",
+    "local": "hm mae div amor e provid"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "37463071",
+    "nome": "lais marinho mota |",
+    "data_nascimento": "17/04/2005",
+    "cns": "704600621400620",
+    "data_consulta": "25-10-2025",
+    "horario": "15:00",
+    "chegar_as": "14:40",
+    "profissional": "julia monteiro baggio montialli",
+    "especialidade": "psiquiatria",
+    "local": "hm mae div amor e provid"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "22319393",
+    "nome": "nadia adriana do",
+    "data_nascimento": "20/09/1972",
+    "cns": "705003841452057",
+    "data_consulta": "25-10-2025",
+    "horario": "15:10",
+    "chegar_as": "14:50",
+    "profissional": "julia monteiro baggio montialli",
+    "especialidade": "psiquiatria",
+    "local": "hm mae div amor e provid"
+  }
+]

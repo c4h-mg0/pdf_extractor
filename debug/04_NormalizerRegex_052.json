@@ -1,0 +1,14 @@
+[
+  {
+    "tipo": "exame",
+    "codigo": "11341818",
+    "nome": "jessica cristina alves dos santos",
+    "data_nascimento": "26101991",
+    "cns": "702006869483281898001234770948",
+    "data_exame": "25092025",
+    "horario": "1500",
+    "chegar_as": "1400",
+    "exame": "endoscopia digestiva alta eda",
+    "local": "ame sj rio preto"
+  }
+]

@@ -1,6 +1,6 @@
 12/09/2025, 15:37:: siresp- comprovante de marcacao::
 u secretaria de estado da saude de sao faulo
-2 comprovante de marcacao de e> ame
+ea comprovante de marcacao de e> ame
 codis... 4447764
 nome: aparecida maria barbosa silva
 data de nascimento: 24/05/1951
@@ -19,7 +19,7 @@ pontc je referencia: proximo ao "rio preto shopping"
 hospital de base- av: brigadeiro faria lima no 5544- entrada portaria sus- subsolo- setor de informacoes
 
 12/09/2025, 15:39:: siresp- comprovante de marcacao::
-ps secretaria de estado da saude de sao paulo
+sa secretaria de estado da saude de sao paulo
 sa comprovante de marcacao de exame
 codigo. 38467271
 nome: margarida maria de holanda silva
@@ -35,11 +35,11 @@ local: hosp de base de sjrp
 endereco: avenida brigadeiro faria lima, 5544
 vila sao jose
 sao jose do rio preto- sp
-ponto ..e referencia: proximo ao "rio preto shopping" o
+ponto .e referencia: proximo ao "rio preto shopping" o
 hospital de base- av: brigadeiro faria lima no 5544- entrada portaria sus- subsolo- setor de informacoes
 
 12/09/2025, 15:39:: siresp- comprovante de marcacao::
-pa secretaria de estado da saude de sao paulo
+se. secretaria de estado da saude de sao paulo
 a comprovante de marcacao de exame
 codigc.: 4131951
 nome: vania aparecida de oliveira gregorio
@@ -59,7 +59,7 @@ ponto de referencia: proximo ao "rio preto shopping"
 hospital de base- av: brigadeiro faria lima no 5544- entrada portaria sus- subsolo- setor de informacoes
 
 12/09/2025, 15:51:: siresp- comprovante de marcacao::
-se secretaria de estado da saude de sao paulo
+e secretaria de estado da saude de sao paulo
 8 comprovante de marcacao de consulta
 codigo: 5948089
 nome: aparecida de fatima zacarias
@@ -77,11 +77,11 @@ local: hosp de base de sjrp
 endereco: avenida brigadeiro faria lima, 5544
 vila sao jose
 sao jose do rio preto- sp
-panta da prafaranria: ddavima an pdia ddcta guaddiaiasu
+panta da rafaranria: ddavima an ndia ddcta guaddiniasu
 
 12/09/2025, 16:02:: siresp- comprovante de marcacao::
 *» secretaria de estado da saude de sao paulo
-8 comprovante de marcacao de consulta
+es comprovante de marcacao de consulta
 codigo: 40385538
 nome: maite bonaci borges
 data de nascimento: 15/06/2025

@@ -1,0 +1,28 @@
+[
+  {
+    "tipo": "consulta",
+    "codigo": "10986158",
+    "nome": "gabriel thierry batista",
+    "data_nascimento": "18/11/2004",
+    "cns": "708000868696129,898000627144960",
+    "data_consulta": "24-09-2025",
+    "horario": "13:00",
+    "chegar_as": "12:30",
+    "profissional": "ricardo funes bastos",
+    "especialidade": "neurologia- epilepsia",
+    "local": "hosp de base de sjrp"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "4414879",
+    "nome": "joao rosalvo alves",
+    "data_nascimento": "30/01/1943",
+    "cns": "704500321709511,898000104491061,898000635515174",
+    "data_consulta": "15-10-2025",
+    "horario": "13:00",
+    "chegar_as": "12:30",
+    "profissional": "ricardo funes bastos",
+    "especialidade": "neurologia- epilepsia",
+    "local": "hosp de base de sjrp"
+  }
+]

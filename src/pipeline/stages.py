@@ -1,6 +1,6 @@
 # src/pipeline/stages.py
 from src.ocr.pdf_ocr import PdfOCR
-from src.interfaces import Step, BaseExtractor
+from src.interfaces import Step, BaseExtractor, BaseNormalizer
 from src.parsers.cleaners import *
 from src.pipeline.helpers import identificar_tipo, save_to_file
 
@@ -53,11 +53,32 @@ class ExtractRegex(Step):
         return resultado_total
 
 
+class NormalizerRegex(Step):
+    def processar(self, dados_lista: list[dict]) -> list[dict]:
+        resultado_total = []
+
+        for dados in dados_lista:
+            tipo = dados.get("tipo")
+
+            # aplica normalizadores relevantes
+            for normalizer in BaseNormalizer.registry:
+                if normalizer.campo in dados and dados[normalizer.campo] is not None:
+                    dados[normalizer.campo] = normalizer.normalizar(dados[normalizer.campo])
+
+            resultado_total.append(dados)
+
+        return resultado_total
+
+
 class SaveStep(Step):
+    _counter = 0  # contador global para todos os SaveStep
+
     def __init__(self, prefix="stage", folder="debug"):
         self.prefix = prefix
         self.folder = folder
 
     def processar(self, data):
-        save_to_file(data, prefix=self.prefix, folder=self.folder)
-        return data  # importante: não altera o fluxo
+        SaveStep._counter += 1             # PONTO-CHAVE: incrementa a cada dump
+        prefix = f"{self.prefix}_{SaveStep._counter:03d}"
+        save_to_file(data, prefix=prefix, folder=self.folder)
+        return data

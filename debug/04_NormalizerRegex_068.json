@@ -1,0 +1,15 @@
+[
+  {
+    "tipo": "consulta",
+    "codigo": "10231285",
+    "nome": "aparecida dos santos braga",
+    "data_nascimento": "16011942",
+    "cns": "201403554850001700302972052430898000749093767",
+    "data_consulta": "24092025",
+    "horario": "0700",
+    "chegar_as": "0700",
+    "profissional": "jose francisco gandolfi",
+    "especialidade": "cirurgia geral- pancreas € vias biliares",
+    "local": "hosp de base de sjrp"
+  }
+]

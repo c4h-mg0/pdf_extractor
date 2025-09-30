@@ -1,0 +1,34 @@
+15/09/2025, 14:18:: siresp- comprovante de marcacao::
+sa * secretaria de estado da saude de sao paulo
+comprovante de marcacao de consulta
+
+codigo: 4095492
+
+nome: adenir francisco de souza
+
+data de nascimento: 23/12/1961
+
+cns: 2044841 54660006,702508302438630,89800008023077 9
+telefone: comercial: celular: (17) 99186-4549 recado:
+
+prontuario: 100524
+
+data consulta: 22-09-2025
+
+horario:11:40 |
+chegar as: 10:40 .
+
+profissional: rodrigo akira kishi
+
+especialidade: cirurgia vascular
+
+tipo marcacao: primeira consulta
+
+local: ame sj rio preto
+endereco: rua antonio fuscaldo, s/n
+
+jardim fuscaldo
+- sao jose do rio preto- sp
+
+ponto de referencia: em frente a represa municipal ao lado da rr 144
+daire no rima a

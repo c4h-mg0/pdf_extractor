@@ -1,0 +1,79 @@
+16/09/2025, 07:20: siresp- comprovante de marcacao::
+fi secretaria de estado da saude de sao paulo
+es comprovante de marcacao de consulta
+codigo: 31936160
+nome: anderson rodrigo dos santos
+data de nascimento: 14/07/1986
+cns: 706306793400674
+telefone: (16) 98833-7975 comercial: celular: (17) 99190-3121 recado:
+prontuario: 01011555
+data consulta: 30-10-2025
+horario:09:40
+chegar as: 08:40
+profissional: carlos augusto rodrigues padilha
+especialidade: reumatologia
+tipo marcacao: primeira consulta
+local: ame sj rio preto
+endereco: rua antonio fuscaldo, s/n
+jardim fuscaldo
+sao jose do rio preto- sp
+
+16/09/2025, 07:21:: siresp- comprovante de marcacao::
+st secretaria de estado da saude de sao paulo
+comprovante de marcacao de consulta
+codigo: 10942278
+nome: francisca de fatima caliendo
+data de nascimento: 17/04/1956
+cns: 700000183208204,898000104477743
+telefone: (17) 99209-0122 comercial: celular: (17) 99149-9058 recado:
+prontuario: 00820928 ,
+data consulta: 30-10-2025
+horario:11:40
+chegar as: 10:40
+profissional: fernanda lourenco macagnani
+especialidade: reumatologia
+tipo marcacao: primeira consulta
+local: ame sj rio preto
+endereco: rua antonio fuscaldo, s/n
+jardim fuscaldo
+sao jose do rio preto- sp
+
+16/09/2025, 07:18:: siresp- comprovante de marcacao::
+sia secretaria de estado da saude de sao paulo
+ea comprovante de marcacao de consulta
+codigo: 21186438
+nome: thais marques dos santos
+data de nascimento: 31/01/1992
+cns: 200705583310002,201404834910005,801440429651932
+telefone: (17) 98822-9861 comercial: celular: (17) 99140-8173 recado:
+prontuario:
+data consulta: 24-09-2025
+horario:08:00
+chegar as: 07:40
+profissional: ligia cosentino junqueira franco
+especialidade: obstetricia- alto risco
+tipo marcacao: primeira consulta
+local: hosp de base de sjrp
+endereco: avenida brigadeiro faria lima, 5544
+vila sao jose
+sao jose do rio preto- sp
+
+16/09/2025, 07:24 « siresp- comprovante de marcacao::
+“ki. secretaria de estado da saude de sao paulo
+e comprovante de marcacao de consulta
+codigo: 16706010
+nome: natiele camila pereira
+data de nascimento: 13/04/1991
+cns: 165880634590018,705202403934775
+telefone: comercial: celular: (17) 98212-5839 recado:
+prontuario:
+data consulta: 24-10-2025
+horario:09:00
+chegar as: 08:30
+profissional: tania dalur de souza
+especialidade: ginecologia- triagem
+tipo marcacao: primeira consulta
+local: hosp de base de sjrp
+endereco: avenida brigadeiro faria lima, 5544
+vila sao jose
+sao jose do rio preto- sp

@@ -1,0 +1,96 @@
+16/09/2025 07:35:: siresp- comprovante de marcacao::
+ei» secretaria de estado da saude de sao paulo
+es comprovante de marcacao de consulta
+
+codigo: 10240190
+
+nome: aparecida lucera vedelago
+
+data de nascimento: 22/04/1944
+
+cns: 706500390827397,898000075020655
+
+telefone: (17) 3242-6201 comercial: celular: (17) 98227-9070 recado:
+prontuario:
+
+data consulta: 23-09-2025
+
+horario:13:50
+
+chegar as: 13:30
+
+profissional: yukio taroco nosse
+
+especialidade: ortopedia
+
+tipo marcacao: primeira consulta
+
+local: hm mae div amor e provid
+
+endereco: rua rui barbosa, 2019
+
+centro
+mirassol- sp
+ponto de referancia-
+
+16/09/2025 07:36:: siresp- comprovante de marcacao::
+se secretaria de estado da saude de sao paulo
+8 comprovante de marcacao de consulta
+codigo: 10451787
+nome: carlos jose da silva filho
+data de nascimento: 25/10/1991
+cns: 706801749283227
+telefone: (17) 98812-7556 comercial: celular: (17) 98822-9801 recado:
+prontuario:
+data consulta: 24-09-2025
+horario:13:40
+chegar as: 13:20
+profissional: yukio taroco nosse
+especialidade: ortopedia
+tipo marcacao: primeira consulta
+local: hm mae div amor e provid
+endereco: rua rui barbosa, 2019
+centro
+mirassol- sp
+danta da dafaromeima .
+
+16/09/2025 07:38:: siresp- comprovante de marcacao::
+si secretaria de estado da saude de sao paulo
+8 comprovante de marcacao de consulta
+codigo: 4106253
+nome: maria de lourdes matias mendes
+data de nascimento: 20/03/1953
+cns: 702805659092865
+telefone: (17) 99108-0339 comercial: celular: (17) 99156-7916 recado: (17) 99156-7916
+prontuario:
+data consulta: 24-09-2025
+horario:15:30
+chegar as: 15:10
+profissional: yukio taroco nosse
+especialidade: ortopedia
+tipo marcacao: primeira consulta
+local: hm mae div amor e provid
+endereco: rua rui barbosa, 2019
+centro
+mirassol- sp
+panta da rafaraneia-
+
+16/09/2025 07:39:: siresp- comprovante de marcacao::
+si secretaria de estado da saude de sao paulo
+8 comprovante de marcacao de consulta
+codigo: 28186298
+nome: maria cristina correa tashiro
+data de nascimento: 14/02/1961
+cns: 700504107778355,801434352901631
+telefone: comercial: celular: (17) 99122-7914 recado:
+prontuario:
+data consulta: 25-09-2025
+horario:12:20
+chegar as: 12:00
+profissional: yukio taroco nosse
+especialidade: ortopedia
+tipo marcacao: primeira consulta
+local: hm mae div amor e provid
+endereco: rua rui barbosa, 2019
+centro
+mirassol- sp

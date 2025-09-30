@@ -1,0 +1,14 @@
+[
+  {
+    "tipo": "exame",
+    "codigo": "36985926",
+    "nome": "antonio aparecido bezerra florentino",
+    "data_nascimento": "26/12/1988",
+    "cns": "700304944562235",
+    "data_exame": "20-09-2025",
+    "horario": "11:40",
+    "chegar_as": "10:40",
+    "exame": "us tornozelo direito",
+    "local": "ame sj rio preto"
+  }
+]

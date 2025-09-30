@@ -1,0 +1,41 @@
+[
+  {
+    "tipo": "consulta",
+    "codigo": "40625200",
+    "nome": "raul donizetti leite filho",
+    "data_nascimento": "01/09/2011",
+    "cns": "898006230201528",
+    "data_consulta": "07-10-2025",
+    "horario": "13:00",
+    "chegar_as": "12:40",
+    "profissional": "roberto nakamura mazzaro junior",
+    "especialidade": "cardiologia",
+    "local": "hm mae div amor e provid"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "22308695",
+    "nome": "everton rodrigo doretto",
+    "data_nascimento": "03/11/1983",
+    "cns": "700502559305259 |",
+    "data_consulta": "09-10-2025",
+    "horario": "08:00",
+    "chegar_as": "07:40 |",
+    "profissional": "jose roberto dos santos rodrigues",
+    "especialidade": "cirurgia geral",
+    "local": "hm mae div amor e provid"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "33089444",
+    "nome": "sueli da silva rosa",
+    "data_nascimento": "30/03/1 969",
+    "cns": "703207664608799",
+    "data_consulta": "21-10-2025",
+    "horario": "16:10",
+    "chegar_as": "15:50",
+    "profissional": "michelle macruz peresi",
+    "especialidade": "psiquiatria",
+    "local": "hm mae div amor e provid"
+  }
+]

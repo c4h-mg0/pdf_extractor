@@ -1,0 +1,28 @@
+[
+  {
+    "tipo": "consulta",
+    "codigo": "5529955",
+    "nome": "vera lucia ferre lopes",
+    "data_nascimento": "11041966",
+    "cns": "708909718360613801434358389193",
+    "data_consulta": "31102025",
+    "horario": "1040",
+    "chegar_as": "0940",
+    "profissional": "nathalia maria domingues morgueta",
+    "especialidade": "reumatologia",
+    "local": "ame sj rio preto"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "4078415",
+    "nome": "lourdes yoshiko kaneta natalim",
+    "data_nascimento": "16051948",
+    "cns": "898004151874765",
+    "data_consulta": "30102025",
+    "horario": "1120",
+    "chegar_as": "1020",
+    "profissional": "carlos augusto rodrigues padilha",
+    "especialidade": "reumatologia",
+    "local": "ame sj rio preto"
+  }
+]

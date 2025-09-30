@@ -19,7 +19,6 @@ def identificar_tipo(texto: str) -> str:
 def save_to_file(data, prefix="stage", folder="debug"):
     os.makedirs(folder, exist_ok=True)
 
-    # decide extensão
     if isinstance(data, dict) or (isinstance(data, list) and all(isinstance(x, dict) for x in data)):
         ext = ".json"
         content = json.dumps(data, ensure_ascii=False, indent=2)

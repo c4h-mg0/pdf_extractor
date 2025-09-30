@@ -31,3 +31,19 @@ class BaseExtractor(ABC):
         """Todo extractor deve implementar este método"""
         pass
 
+
+class BaseNormalizer(ABC):
+    """Base para todos os normalizadores de campos."""
+    campo = None
+    tipos = ["consulta", "exame"]
+    registry = []
+
+    def __init_subclass__(cls, **kwargs):
+        super().__init_subclass__(**kwargs)
+        if cls.campo:
+            BaseNormalizer.registry.append(cls())
+
+    @abstractmethod
+    def normalizar(self, valor: str) -> str:
+        """Todo normalizador deve implementar este método"""
+        pass

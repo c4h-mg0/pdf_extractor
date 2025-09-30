@@ -1,0 +1,93 @@
+[
+  {
+    "tipo": "consulta",
+    "codigo": "15397831",
+    "nome": "teresa fernandes da silva",
+    "data_nascimento": "18051948",
+    "cns": "708607058992783898000996190343898001234835942",
+    "data_consulta": "22092025",
+    "horario": "0830",
+    "chegar_as": "0810",
+    "profissional": "roberto nakamura mazzaro junior",
+    "especialidade": "cardiologia",
+    "local": "hm mae div amor provid"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "1629908",
+    "nome": "hilda rufino de almeida",
+    "data_nascimento": "19041950",
+    "cns": "706006879633742",
+    "data_consulta": "25092025",
+    "horario": "0820",
+    "chegar_as": "0800",
+    "profissional": "silvio andrade filho",
+    "especialidade": "otorrinolaringologia",
+    "local": "hm mae div amor provid"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "28945987",
+    "nome": "jean ricardo de almeida conceicao",
+    "data_nascimento": "20101992",
+    "cns": "702003325427287",
+    "data_consulta": "30102025",
+    "horario": "0910",
+    "chegar_as": "0850",
+    "profissional": "silvio andrade filho",
+    "especialidade": "otorrinolaringologia",
+    "local": "hm mae div amor provid"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "8580030",
+    "nome": "enedina de oliveira matsuguma",
+    "data_nascimento": "31071956",
+    "cns": "700501782153756",
+    "data_consulta": "24102025",
+    "horario": "1600",
+    "chegar_as": "1540",
+    "profissional": "marina nahas mega",
+    "especialidade": "psiquiatria",
+    "local": "hm mae div amor provid"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "5171687",
+    "nome": "jamaildes novais de almeida",
+    "data_nascimento": "05061964",
+    "cns": "704100175021771",
+    "data_consulta": "30102025",
+    "horario": "0910",
+    "chegar_as": "0850",
+    "profissional": "silvio andrade filho",
+    "especialidade": "otorrinolaringologia",
+    "local": "hm mae div amor provid"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "4198917",
+    "nome": "elisabete correa merloti",
+    "data_nascimento": "16011956",
+    "cns": "700507518439158",
+    "data_consulta": "24102025",
+    "horario": "1610",
+    "chegar_as": "1550",
+    "profissional": "marina nahas mega",
+    "especialidade": "psiquiatria",
+    "local": "hm mae div amor provid"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "17984005",
+    "nome": "victor hugo merloti",
+    "data_nascimento": "30042013",
+    "cns": "701706277740470898004007464229",
+    "data_consulta": "24102025",
+    "horario": "1630",
+    "chegar_as": "1610",
+    "profissional": "marina nahas mega",
+    "especialidade": "psiquiatria",
+    "local": "hm mae div amor provid"
+  }
+]

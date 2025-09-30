@@ -1,0 +1,54 @@
+[
+  {
+    "tipo": "consulta",
+    "codigo": "31936160",
+    "nome": "anderson rodrigo dos santos",
+    "data_nascimento": "14071986",
+    "cns": "706306793400674",
+    "data_consulta": "30102025",
+    "horario": "0940",
+    "chegar_as": "0840",
+    "profissional": "carlos augusto rodrigues padilha",
+    "especialidade": "reumatologia",
+    "local": "ame sj rio preto"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "10942278",
+    "nome": "francisca de fatima caliendo",
+    "data_nascimento": "17041956",
+    "cns": "700000183208204898000104477743",
+    "data_consulta": "30102025",
+    "horario": "1140",
+    "chegar_as": "1040",
+    "profissional": "fernanda lourenco macagnani",
+    "especialidade": "reumatologia",
+    "local": "ame sj rio preto"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "21186438",
+    "nome": "thais marques dos santos",
+    "data_nascimento": "31011992",
+    "cns": "200705583310002201404834910005801440429651932",
+    "data_consulta": "24092025",
+    "horario": "0800",
+    "chegar_as": "0740",
+    "profissional": "ligia cosentino junqueira franco",
+    "especialidade": "obstetricia- alto risco",
+    "local": "hosp de base de sjrp"
+  },
+  {
+    "tipo": "consulta",
+    "codigo": "16706010",
+    "nome": "natiele camila pereira",
+    "data_nascimento": "13041991",
+    "cns": "165880634590018705202403934775",
+    "data_consulta": "24102025",
+    "horario": "0900",
+    "chegar_as": "0830",
+    "profissional": "tania dalur de souza",
+    "especialidade": "ginecologia- triagem",
+    "local": "hosp de base de sjrp"
+  }
+]
