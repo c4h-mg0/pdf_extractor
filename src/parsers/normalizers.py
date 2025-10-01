@@ -1,226 +1,63 @@
 # src/parsers/normalizers.py
-from src.interfaces import BaseNormalizer
-import re
+from src.parsers.base_normalizers import DigitsNormalizer, TextoNormalizer
 
 
-class CodigoNormalizer(BaseNormalizer):
+# ---- Campos numéricos ----
+class CodigoNormalizer(DigitsNormalizer):
     campo = "codigo"
 
-    def normalizar(self, valor: str) -> str:
-        # ponto-chave: pega só os dígitos
-        return re.sub(r"\D", "", valor)  
 
-
-class NomeNormalizer(BaseNormalizer):
-    campo = "nome"
-
-    def normalizar(self, valor: str) -> str:
-        if not valor:
-            return None
-
-        # 1. Substitui "!" por "i"
-        valor = valor.replace("!", "i")
-
-        # 2. Mantém apenas permitido: letras, ç, espaço, apóstrofo, hífen, símbolos
-        permitido = r"[^a-zA-ZçÇ' \-€£¥₩₽]"
-        valor = re.sub(permitido, "", valor)
-
-        # 3. Remove letras soltas
-        valor = re.sub(r"^[A-Za-zçÇ] ", "", valor)       # letra no início
-        valor = re.sub(r" [A-Za-zçÇ]$", "", valor)       # letra no fim
-        valor = re.sub(r" [A-Za-zçÇ] ", " ", valor)      # letra no meio
-
-        # 4. Normaliza espaços
-        valor = re.sub(r"\s+", " ", valor).strip()
-
-        return valor if valor else None
-
-
-class DataNascimentoNormalizer(BaseNormalizer):
+class DataNascimentoNormalizer(DigitsNormalizer):
     campo = "data_nascimento"
-
-    def normalizar(self, valor: str) -> str:
-        if not valor:
-            return None
-
-        # 1. Extrai apenas os números
-        numeros = re.sub(r"\D", "", valor)
-
-        # 2. Só aceita se tiver exatamente 8
-        return numeros if len(numeros) == 8 else None
+    tamanho=8
 
 
-class CnsNormalizer(BaseNormalizer):
+class CnsNormalizer(DigitsNormalizer):
     campo = "cns"
+    minimo = {15, 30, 45, 60, 75}
 
-    def normalizar(self, valor: str) -> str:
-        if not valor:
-            return None
-
-        # 1. Extrai apenas os números
-        numeros = re.sub(r"\D", "", valor)
-
-        # 2. Só aceita se tiver exatamente 8
-        return numeros if len(numeros) >= 15 else None
-
-
-class DataConsultaNormalizer(BaseNormalizer):
+class DataConsultaNormalizer(DigitsNormalizer):
     campo = "data_consulta"
+    tamanho=8
     tipos = ["consulta"]
 
-    def normalizar(self, valor: str) -> str:
-        if not valor:
-            return None
 
-        # 1. Extrai apenas os números
-        numeros = re.sub(r"\D", "", valor)
-
-        # 2. Só aceita se tiver exatamente 8
-        return numeros if len(numeros) == 8 else None
-
-
-class DataExameNormalizer(BaseNormalizer):
+class DataExameNormalizer(DigitsNormalizer):
     campo = "data_exame"
+    tamanho=8
     tipos = ["exame"]
 
-    def normalizar(self, valor: str) -> str:
-        if not valor:
-            return None
 
-        # 1. Extrai apenas os números
-        numeros = re.sub(r"\D", "", valor)
-
-        # 2. Só aceita se tiver exatamente 8
-        return numeros if len(numeros) == 8 else None
-
-
-class HorarioNormalizer(BaseNormalizer):
+class HorarioNormalizer(DigitsNormalizer):
     campo = "horario"
-
-    def normalizar(self, valor: str) -> str:
-        if not valor:
-            return None
-
-        # 1. Extrai apenas os números
-        numeros = re.sub(r"\D", "", valor)
-
-        # 2. Só aceita se tiver exatamente 8
-        return numeros if len(numeros) == 4 else None
+    tamanho=4
 
 
-class ChegarAsNormalizer(BaseNormalizer):
+class ChegarAsNormalizer(DigitsNormalizer):
     campo = "chegar_as"
-
-    def normalizar(self, valor: str) -> str:
-        if not valor:
-            return None
-
-        # 1. Extrai apenas os números
-        numeros = re.sub(r"\D", "", valor)
-
-        # 2. Só aceita se tiver exatamente 8
-        return numeros if len(numeros) == 4 else None
+    tamanho=4
 
 
-class ProfissionalNormalizer(BaseNormalizer):
+# ---- Campos de texto ----
+class NomeNormalizer(TextoNormalizer):
+    campo = "nome"
+
+
+class ProfissionalNormalizer(TextoNormalizer):
     campo = "profissional"
     tipos = ["consulta"]
 
-    def normalizar(self, valor: str) -> str:
-        if not valor:
-            return None
 
-        # 1. Substitui "!" por "i"
-        valor = valor.replace("!", "i")
-
-        # 2. Mantém apenas permitido: letras, ç, espaço, apóstrofo, hífen, símbolos
-        permitido = r"[^a-zA-ZçÇ' \-€£¥₩₽]"
-        valor = re.sub(permitido, "", valor)
-
-        # 3. Remove letras soltas
-        valor = re.sub(r"^[A-Za-zçÇ] ", "", valor)       # letra no início
-        valor = re.sub(r" [A-Za-zçÇ]$", "", valor)       # letra no fim
-        valor = re.sub(r" [A-Za-zçÇ] ", " ", valor)      # letra no meio
-
-        # 4. Normaliza espaços
-        valor = re.sub(r"\s+", " ", valor).strip()
-
-        return valor if valor else None
-
-class EspecialidadeNormalizer(BaseNormalizer):
+class EspecialidadeNormalizer(TextoNormalizer):
     campo = "especialidade"
     tipos = ["consulta"]
 
-    def normalizar(self, valor: str) -> str:
-        if not valor:
-            return None
 
-        # 1. Substitui "!" por "i"
-        valor = valor.replace("!", "i")
-
-        # 2. Mantém apenas permitido: letras, ç, espaço, apóstrofo, hífen, símbolos
-        permitido = r"[^a-zA-ZçÇ' \-€£¥₩₽]"
-        valor = re.sub(permitido, "", valor)
-
-        # 3. Remove letras soltas
-        valor = re.sub(r"^[A-Za-zçÇ] ", "", valor)       # letra no início
-        valor = re.sub(r" [A-Za-zçÇ]$", "", valor)       # letra no fim
-        valor = re.sub(r" [A-Za-zçÇ] ", " ", valor)      # letra no meio
-
-        # 4. Normaliza espaços
-        valor = re.sub(r"\s+", " ", valor).strip()
-
-        return valor if valor else None
-
-
-class ExameNormalizer(BaseNormalizer):
+class ExameNormalizer(TextoNormalizer):
     campo = "exame"
     tipos = ["exame"]
 
-    def normalizar(self, valor: str) -> str:
-        if not valor:
-            return None
 
-        # 1. Substitui "!" por "i"
-        valor = valor.replace("!", "i")
-
-        # 2. Mantém apenas permitido: letras, ç, espaço, apóstrofo, hífen, símbolos
-        permitido = r"[^a-zA-ZçÇ' \-€£¥₩₽]"
-        valor = re.sub(permitido, "", valor)
-
-        # 3. Remove letras soltas
-        valor = re.sub(r"^[A-Za-zçÇ] ", "", valor)       # letra no início
-        valor = re.sub(r" [A-Za-zçÇ]$", "", valor)       # letra no fim
-        valor = re.sub(r" [A-Za-zçÇ] ", " ", valor)      # letra no meio
-
-        # 4. Normaliza espaços
-        valor = re.sub(r"\s+", " ", valor).strip()
-
-        return valor if valor else None
-
-
-class LocalNormalizer(BaseNormalizer):
+class LocalNormalizer(TextoNormalizer):
     campo = "local"
-
-    def normalizar(self, valor: str) -> str:
-        if not valor:
-            return None
-
-        # 1. Substitui "!" por "i"
-        valor = valor.replace("!", "i")
-
-        # 2. Mantém apenas permitido: letras, ç, espaço, apóstrofo, hífen, símbolos
-        permitido = r"[^a-zA-ZçÇ' \-€£¥₩₽]"
-        valor = re.sub(permitido, "", valor)
-
-        # 3. Remove letras soltas
-        valor = re.sub(r"^[A-Za-zçÇ] ", "", valor)       # letra no início
-        valor = re.sub(r" [A-Za-zçÇ]$", "", valor)       # letra no fim
-        valor = re.sub(r" [A-Za-zçÇ] ", " ", valor)      # letra no meio
-
-        # 4. Normaliza espaços
-        valor = re.sub(r"\s+", " ", valor).strip()
-
-        return valor if valor else None
-
 

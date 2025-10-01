@@ -1,34 +1,100 @@
-15/09/2025, 14:18:: siresp- comprovante de marcacao::
-sa * secretaria de estado da saude de sao paulo
-comprovante de marcacao de consulta
+12/09/2025, 15:37:: siresp- comprovante de marcacao::
+u secretaria de estado da saude de sao faulo
+2 comprovante de marcacao de e> ame
+codis... 4447764
+nome: aparecida maria barbosa silva
+data de nascimento: 24/05/1951
+cns: 704807502059342,898002705668022
+telefone: (17) 99271-3455 comercial: celular: (17) 99139-4390 recado:
+prontuario: 1630452
+data exame: 30-10-2025
+horario:14:40
+chegar as: 14:30
+exame: mamografia diagnostica
+local: hosp de base de sjrp
+endereco: avenida brigadeiro faria lima, 5544
+vila sao jose
+sao jose do rio preto- sp
+pontc je referencia: proximo ao "rio preto shopping"
+hospital de base- av: brigadeiro faria lima no 5544- entrada portaria sus- subsolo- setor de informacoes
 
-codigo: 4095492
+12/09/2025, 15:39:: siresp- comprovante de marcacao::
+ps secretaria de estado da saude de sao paulo
+sa comprovante de marcacao de exame
+codigo. 38467271
+nome: margarida maria de holanda silva
+data de nascimento: 23/11/1950
+cns: 705001280556256
+telefone: comercial: celular: (11) 95027-6305 recado:
+prontuario:
+data exame: 28-10-2025
+horario:15:10
+chegar as: 15:00
+exame: mamografia diagnostica
+local: hosp de base de sjrp
+endereco: avenida brigadeiro faria lima, 5544
+vila sao jose
+sao jose do rio preto- sp
+ponto ..e referencia: proximo ao "rio preto shopping" o
+hospital de base- av: brigadeiro faria lima no 5544- entrada portaria sus- subsolo- setor de informacoes
 
-nome: adenir francisco de souza
+12/09/2025, 15:39:: siresp- comprovante de marcacao::
+pa secretaria de estado da saude de sao paulo
+a comprovante de marcacao de exame
+codigc.: 4131951
+nome: vania aparecida de oliveira gregorio
+data de nascimento: 28/09/1980
+cns: 270024067830009,702800695133164
+telefone: (17) 3242-7717 comercial: celular: (17) 98183-2661 recado:
+prontuario:
+data exame: 27-10-2025
+horario:15:30
+chegar as: 15:20
+exame: mamografia diagnostica
+local: hosp de base de sjrp
+endereco: avenida brigadeiro faria lima, 5544
+vila sao jose
+sao jose do rio preto- sp
+ponto de referencia: proximo ao "rio preto shopping"
+hospital de base- av: brigadeiro faria lima no 5544- entrada portaria sus- subsolo- setor de informacoes
 
-data de nascimento: 23/12/1961
-
-cns: 2044841 54660006,702508302438630,89800008023077 9
-telefone: comercial: celular: (17) 99186-4549 recado:
-
-prontuario: 100524
-
-data consulta: 22-09-2025
-
-horario:11:40 |
-chegar as: 10:40 .
-
-profissional: rodrigo akira kishi
-
-especialidade: cirurgia vascular
-
+12/09/2025, 15:51:: siresp- comprovante de marcacao::
+se secretaria de estado da saude de sao paulo
+8 comprovante de marcacao de consulta
+codigo: 5948089
+nome: aparecida de fatima zacarias
+data de nascimento: 15/06/1970
+cns: 704201744530381
+telefone: comercial: celular: (17) 99104-1907 recado:
+prontuario: 1867885
+data consulta: 22-10-2025
+horario:13:00
+chegar as: 12:30
+profissional: taisa morete da silva
+especialidade: reumatologia- triagem
 tipo marcacao: primeira consulta
+local: hosp de base de sjrp
+endereco: avenida brigadeiro faria lima, 5544
+vila sao jose
+sao jose do rio preto- sp
+panta da prafaranria: ddavima an pdia ddcta guaddiaiasu
 
-local: ame sj rio preto
-endereco: rua antonio fuscaldo, s/n
-
-jardim fuscaldo
-- sao jose do rio preto- sp
-
-ponto de referencia: em frente a represa municipal ao lado da rr 144
-daire no rima a
+12/09/2025, 16:02:: siresp- comprovante de marcacao::
+*» secretaria de estado da saude de sao paulo
+8 comprovante de marcacao de consulta
+codigo: 40385538
+nome: maite bonaci borges
+data de nascimento: 15/06/2025
+cns: 708506377626776
+telefone: comercial: celular: (17) 99160-6856 recado:
+prontuario:
+data consulta: 27-10-2025
+horario:07:10
+chegar as: 07:00
+profissional: carolina assis pereira vilela
+especialidade: oftalmologia
+tipo marcacao: primeira consulta
+local: hosp de base de sjrp
+endereco: avenida brigadeiro faria lima, 5544
+vila sao jose
+sao jose do rio preto- sp

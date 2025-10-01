@@ -47,3 +47,30 @@ class BaseNormalizer(ABC):
     def normalizar(self, valor: str) -> str:
         """Todo normalizador deve implementar este método"""
         pass
+
+
+class BaseTransformer(ABC):
+    """
+    Base para todos os transformadores de campos.
+    """
+    campo = None
+    tipos = ["consulta", "exame"]
+    registry = []
+
+    def __init_subclass__(cls, **kwargs):
+        """
+        Toda subclasse registrada automaticamente no registry
+        se definir 'campo'.
+        """
+        super().__init_subclass__(**kwargs)
+        if cls.campo:
+            BaseTransformer.registry.append(cls()) 
+
+    @abstractmethod
+    def transformar(self, valor):
+        """Cada transformer implementa este método"""
+        pass
+
+
+
+

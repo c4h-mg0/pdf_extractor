@@ -1,19 +1,241 @@
-17/09/2025, 15:53 e “= siresp- comprovante de marcacao::
-secretaria de estado da saude de sao paulo
-a» comprovante de marcacao de consulta
-codigo: 12000979
-nome: marcos antonio bidoia dos santos
-data de nascimento: 24/06/2004
-cns: 898005833448761
-telefone: comercial: celular: (17) 98150-8033 recado:
-prontuario: 1857703
-data consulta: 23-09-2025
-horario:07:00
-chegar as: 07:00
-profissional: eurides maria de oliveira pozetti
-especialidade: dermatologia- acne
+11/09/2025 07:30:: siresp- comprovante de marcacao::
+gnt , secretaria de estado da saude de sao paulo
+comprovante de marcacao de consulta
+codigo: 9850736
+nome: claudia domingos
+data de nascimento: 30/05/1974
+cns: 700701913506175
+telefone: ( 16) 99993-4411 comercial: celular: (16) 99785-6090 recado:
+prontuario:
+data consulta: 17-1 0-2025
+horario:08:50
+chegar as: 08:30
+profissional: fernando guirado neto
+especialidade: cirurgia vascular
 tipo marcacao: primeira consulta
-local: hosp de base de sjrp
-endereco: avenida brigadeiro faria lima, 5544
-vila sao jose
-sao jose do rio preto- sp
+local: hm mae div amor e provid
+endereco: rua rui barbosa, 2019
+centro
+mirassol- sp
+ponto de referencia:
+a consui ta qceda dealipara ria ma 4
+
+fia i/2025 07:31:: siresp- comprovante de marcacao::
+gia * secretaria de estado da saude de sao paulo
+comprovante de marcacao de consulta
+codigo: 30472530
+nome: jose ferreira de carvalho
+data de nascimento: 08/01/1947
+cns: 704503366730512
+telefone: comercial: celular: (11) 96420-0276 recado:
+prontuario:
+data consulta: 1 7-10-2025
+horario:09:00 |
+chegar as: 08:40
+profissional: fernando guirado neto
+especialidade: cirurgia vascular
+tipo marcacao: primeira consulta
+local: hm mae div amor e provid
+endereco: rua rui barbosa, 2019
+centro
+mirassol- sp
+ponto de referencia: .
+a consulta sera realipara ria alruas no
+
+ti/lsilgzo 07:32 1 siresp- comprovante de marcacao::
+era secretaria de estado da saude de sao paulo o
+comprovante de marcacao de consulta
+codigo: 10069655
+nome: ana paula da silva prates dos santos
+data de nascimento: 26/01/1987
+cns: 706701585041316
+telefone: comercial: celular: (17) 98117-8525 recado:
+prontuario:
+data consulta: 17-1 0-2025
+horario:09:00
+chegar as: 08:40
+profissional: fernando guirado neto o
+especialidade: cirurgia vascular
+tipo marcacao: primeira consulta
+local: hm mae div amor e provid
+endereco: rua rui barbosa, 2019
+centro
+— mirassol-sp |
+ponto de referencia: .
+a consulta sera realizana kia a mias am
+
+jus auco 07:32:: siresp- comprovante de marcacao::
+o! secretaria de estado da saude de sao paulo
+comprovante de marcacao de consulta
+codigo: 7578233
+nome: maria ines batista garcia
+data de nascimento: 03/02/1966
+cns: 7048010259771 345,898000075454892
+telefone: (17) 3253-4015 comercial: celular: (17) 98153-7772 recado:
+prontuario:
+data consulta: 17-1 0-2025 |
+horario:09:10
+chegar as: 08:50
+profissional: fernando guirado neto
+especialidade: cirurgia vascular
+tipo marcacao: primeira consulta
+local: hm mae div amor e provid
+endereco: rua rui barbosa, 2019
+centro
+mirassol- sp
+ponto de referencia: .
+a consulta sera reatizada rea ai rar ad
+
+fivsilulo v/:3i3: siresp- comprovante de marcacao::
+gn , secretaria de estado da saude de sao paulo
+comprovante de marcacao de consulta
+codigo: 18081751
+nome: alaine franciele moreira leonardo
+data de nascimento: 03/03/1992
+cns: 708907703845517
+telefone: (17) 98821-2828 comercial: celular: (17) 98801-3944 recado:
+prontuario:
+data consulta: 29.1 0-2025 |
+horario:13:30
+chegar as: 13:10
+profissional: fernando guirado neto
+especialidade: cirurgia vascular
+tipo marcacao: primeira consulta
+local: hm mae div amor e provid
+endereco: rua rui barbosa, 2019
+centro
+mirassol- sp
+ponto de referencia: .
+a consulta sera realizada na piiriar ara
+
+tiuilauao u/:34 .:: siresp- comprovante de marcacao::
+| so * secretaria de estado da saude de sao paulo
+comprovante de marcacao de consulta
+codigo: 11426742
+nome: jose antonio do carmo
+data de nascimento: 07/10/1966
+cns: 120684398690005,700708940435271
+telefone: (1 7) 99721-7969 comercial: celular: (17) 99713-2207 recado:
+prontuario:
+data consulta: 29-1 0-2025 |
+horario:13:30 |
+chegar as: 13:10
+profissional: fernando guirado neto
+especialidade: cirurgia vascular
+tipo marcacao: primeira consulta
+local: hm mae div amor e provid
+endereco: rua rui barbosa, 2019
+centro
+mirassol- sp
+ponto de referencia: o
+a consulta sera realizada mia alias ar
+
+11/09/2025 07:36:: siresp- comprovante de marcacao::
+era '* secretaria de estado da saude de sao paulo
+comprovante de marcacao de consulta
+codigo: 11724308
+nome: liliane cristina vigilato jose melchor
+data de nascimento: 22/09/1981
+cns: 704707750643231
+telefone: comercial: celular: (17) 99220-2816 recado:
+prontuario:
+data consulta: 29-1 0-2025
+horario:13:40
+chegar as: 13:20
+profissional: fernando guirado neto
+especialidade: cirurgia vascular
+tipo marcacao: primeira consulta
+local: hm mae div amor e provid
+endereco: rua rui barbosa, 2019
+centro
+mirassol- sp
+ponto de referencia: o
+a consulta sera pealipanrna kia ai antas nm
+
+musicdos v7:36:: siresp- comprovante de marcacao::
+a secretaria de estado da saude de sao paulo
+comprovante de marcacao de consulta
+codigo: 4447520
+nome: neide amelia da silva mata
+data de nascimento: 22/12/14 950
+cns: 706801756271123,898001012171932
+telefone: (1 7) 3242-8643 comercial: celular: (17) 98103-5933 recado:
+prontuario:
+data consulta: 29-1 0-2025 o
+horario:13:40 |
+chegar as: 13:20
+profissional: fernando guirado neto
+especialidade: cirurgia vascular
+tipo marcacao: primeira consulta
+local: hm mae div amor e provid
+endereco: rua rui barbosa, 2019
+centro
+mirassol- sp
+ponto de referencia: .
+a consulta sera preai izana ma a nan
+
+fapidiald visa:: siresp- comprovante de marcacao::
+, ei 4 secretaria de estado da saude de sao paulo |
+comprovante de marcacao de consulta
+codigo; 4065005 |
+nome: vanilda celeste ferreira
+data de nascimento: 13/08/1984
+cns: 703608076402836 8980001 01445077
+telefone: (17) 9914-6162 comercial: celular: (17) 99121-6712 recado:
+prontuario:
+data consulta: 29-10-2025
+horario:13:50
+chegar as: 13:30
+profissional: fernando guirado neto
+especialidade: cirurgia vascular
+tipo marcacao: primeira consulta
+local: hm mae div amor e provid
+endereco: rua rui barbosa, 2019
+centro
+“mirassol- sp
+ponto de referencia: o
+a consulta sera realizada na alirualr ata
+
+peiiluao viiis:: siresp- comprovante de marcacao::
+gy | secretaria de estado da saude de sao paulo
+comprovante de marcacao de consulta
+codigo: 4170427
+nome: roberto daniel sagrillo
+data de nascimento: 14/05/1953 | |
+cns: 704605170306425
+telefone: (17) 99146-1882 comercial: (17) 3253-1166 celular: (17) 99135-9127 recado:
+prontuario:
+data consulta: 29-10-2025
+horario:14:00
+chegar as: 13:40
+profissional: fernando guirado neto
+especialidade: cirurgia vascular
+tipo marcacao: primeira consulta
+local: hm mae div amor e provid
+endereco: rua rui barbosa, 2019
+centro
+mirassol- sp
+ponto de referencia: .
+a consulta sera reai izada na aluna, o
+
+paisicilo v/iisi:: siresp- comprovante de marcacao::
+fem secretaria de estado da saude de sao paulo
+comprovante de marcacao de consulta
+codigo: 5304495
+nome: adriana da silva nery
+data de nascimento: 24/07/1 978
+cns: 700205440577028,898002384212925
+telefone: comercial: celular: (17) 98820-2358 recado:
+prontuario:
+data consulta: 29-1 0-2025
+horario:14:00
+chegar as: 13:40
+profissional: fernando guirado neto
+especialidade: cirurgia vascular
+tipo marcacao: primeira consulta
+local: hm mae div amor e provid
+endereco: rua rui barbosa, 2019
+-— centro
+- mirassol- sp
+ponto de referencia: .
+a consulta sera realizada nia alias ar

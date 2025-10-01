@@ -1,8 +1,8 @@
 # src/pipeline/stages.py
 from src.ocr.pdf_ocr import PdfOCR
-from src.interfaces import Step, BaseExtractor, BaseNormalizer
+from src.interfaces import Step, BaseExtractor, BaseNormalizer, BaseTransformer
 from src.parsers.cleaners import *
-from src.pipeline.helpers import identificar_tipo, save_to_file
+from src.pipeline.helpers import identificar_tipo, save_to_file, merge_date_and_time 
 
 
 class RunOcr(Step):
@@ -58,16 +58,73 @@ class NormalizerRegex(Step):
         resultado_total = []
 
         for dados in dados_lista:
-            tipo = dados.get("tipo")
+            # já existe, não precisa recriar
+            tipo = dados["tipo"]
 
-            # aplica normalizadores relevantes
+            # copia os dados originais
+            normalizados = dict(dados)
+
             for normalizer in BaseNormalizer.registry:
-                if normalizer.campo in dados and dados[normalizer.campo] is not None:
-                    dados[normalizer.campo] = normalizer.normalizar(dados[normalizer.campo])
+                if tipo in normalizer.tipos:
+                    valor = dados.get(normalizer.campo)
+                    normalizados[normalizer.campo] = normalizer.normalizar(valor)
 
-            resultado_total.append(dados)
+            # garante que todos os campos daquele tipo apareçam, mesmo se None
+            obrigatorios = [
+                e.campo for e in BaseNormalizer.registry if tipo in e.tipos
+            ]
+            for campo in obrigatorios:
+                if campo not in normalizados:
+                    normalizados[campo] = None
 
+            resultado_total.append(normalizados)
         return resultado_total
+
+
+
+class TransformStep(Step):
+    """
+    Step que aplica os transformers nos registros extraídos,
+    respeitando o tipo do registro.
+    """
+    def processar(self, registros: list[dict]) -> list[dict]:
+        for registro in registros:
+            tipo = registro.get("tipo")
+            for transformer in BaseTransformer.registry:
+                # aplica só se o campo existe + tipo for compatível
+                if (
+                    tipo in transformer.tipos
+                    and transformer.campo in registro
+                    and registro[transformer.campo] is not None
+                ):
+                    registro[transformer.campo] = transformer.transformar(
+                        registro[transformer.campo]
+                    )
+        return registros
+
+
+class MergeDateTimeStep(Step):
+    """
+    Junta campos de data e horário em um timestamp UTC.
+    Remove os campos originais depois de gerar o campo final.
+    """
+    def processar(self, registros: list[dict]) -> list[dict]:
+        for registro in registros:
+            tipo = registro.get("tipo")
+
+            if tipo == "consulta":
+                data = registro.pop("data_consulta", None)
+                hora = registro.pop("horario", None)
+                if data and hora:
+                    registro["data_horario_consulta"] = merge_date_and_time(data, hora)
+
+            elif tipo == "exame":
+                data = registro.pop("data_exame", None)
+                hora = registro.pop("horario", None)
+                if data and hora:
+                    registro["data_horario_exame"] = merge_date_and_time(data, hora)
+
+        return registros
 
 
 class SaveStep(Step):

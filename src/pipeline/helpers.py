@@ -1,6 +1,6 @@
 import os
 import json
-
+from datetime import datetime
 
 # ===================
 # ExtractRegex Helper
@@ -33,3 +33,19 @@ def save_to_file(data, prefix="stage", folder="debug"):
     print(f"[DEBUG] Dump salvo em {out_path}")
     return out_path
 
+
+# ================
+# MergeDateTime Helper
+# ================
+def merge_date_and_time(data_iso: str, hora_str: str) -> str | None:
+    """
+    Junta data ISO ('2025-10-27T00:00:00Z') e hora ('10:25')
+    em um único timestamp UTC ISO.
+    """
+    try:
+        dt_data = datetime.fromisoformat(data_iso.replace("Z", ""))
+        dt_hora = datetime.strptime(hora_str, "%H:%M").time()
+        dt_final = datetime.combine(dt_data.date(), dt_hora)
+        return dt_final.strftime("%Y-%m-%dT%H:%M:%SZ")
+    except Exception:
+        return None
