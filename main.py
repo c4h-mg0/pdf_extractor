@@ -1,6 +1,7 @@
 import os
 import json
 from src.pipeline.processor_pipeline import process_pdf
+from src.pipeline.helpers import consolidar_resultados, consolidar_firestore
 # from src.cleaning.data_cleaner import deduplicate_records
 
 BASE_DIR = "meus_pdfs"
@@ -63,3 +64,5 @@ def process_one_subfolder(subpath, subpasta):
 
 if __name__ == "__main__":
     process_all_folders()
+    consolidar_resultados(BASE_DIR)
+    consolidar_firestore(BASE_DIR)

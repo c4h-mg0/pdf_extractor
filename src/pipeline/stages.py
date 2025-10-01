@@ -3,7 +3,8 @@ from src.ocr.pdf_ocr import PdfOCR
 from src.interfaces import Step, BaseExtractor, BaseNormalizer, BaseTransformer
 from src.parsers.cleaners import *
 from src.pipeline.helpers import identificar_tipo, save_to_file, merge_date_and_time 
-
+import os
+from datetime import datetime, timezone
 
 class RunOcr(Step):
     def __init__(self, dpi=400, lang="por"):
@@ -81,7 +82,6 @@ class NormalizerRegex(Step):
         return resultado_total
 
 
-
 class TransformStep(Step):
     """
     Step que aplica os transformers nos registros extraídos,
@@ -125,6 +125,29 @@ class MergeDateTimeStep(Step):
                     registro["data_horario_exame"] = merge_date_and_time(data, hora)
 
         return registros
+
+
+class MetadataStep(Step):
+    """Adiciona metadados do arquivo PDF em cada registro."""
+    def __init__(self, pdf_path: str):
+        self.pdf_path = pdf_path
+
+    def processar(self, records: list[dict]) -> list[dict]:
+        folder = os.path.basename(os.path.dirname(self.pdf_path))
+        filename = os.path.basename(self.pdf_path)
+        
+        # pega a criação em UTC
+        created = datetime.fromtimestamp(
+            os.path.getctime(self.pdf_path), tz=timezone.utc
+        )
+        # força formato ISO com 'Z'
+        created_str = created.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+        for r in records:
+            r["pasta"] = folder
+            r["arquivo"] = filename
+            r["arquivo_created_utc"] = created_str
+        return records
 
 
 class SaveStep(Step):
