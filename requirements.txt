@@ -1,3 +1,4 @@
 pillow
 pytesseract
 PyMuPDF
+google-cloud-firestore
